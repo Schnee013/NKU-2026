@@ -9,7 +9,7 @@ python -m examples.synthetic_data --output runs/examples/scores
 python -m src.modeling.docking.summarize --dataset runs/examples/scores/docking --output-dir runs/examples/docking-summary
 ```
 
-The invented score pair gives an ASCR18-minus-ASCR3 contrast of −1 kcal/mol. [Tests](../../../tests/README.md) verify complete toy coordinate/contact joins, numerical failures and output protection. This does not execute a docking search or establish ligand preference.
+The invented score pair gives an ASCR18-minus-ASCR3 contrast of −1 kcal/mol. [Tests](../../../tests/README.md) check score calculations, coordinate/contact matching, invalid inputs and output protection.
 
 ## New calculations
 
@@ -22,7 +22,7 @@ python -m src.modeling.docking.analyze_contacts --receptor-pdb /absolute/path/to
 
 The contact runner prepares a Meeko receptor object from the supplied PDB, or reads one with `--receptor-json`, and checks its PDBQT export against the docking receptor. Ligand restoration checks the serialized chemical map, charge, atom identities and coordinates. `--profile mutant-top1` selects the mutation-screen definition.
 
-The matrix runner requires a user-prepared dataset with [construct definitions](inputs/constructs.csv), [search boxes](configs/boxes.tsv), receptors at `inputs/prepared/receptors/af3/pdbqt/<model_rel>.pdbqt` and ligands at `inputs/prepared/ligands/deprotonated-minus1/pdbqt/<ligand>.pdbqt`. Its contract is 35 models × two ligands; it does not predict the receptors:
+The matrix runner requires a user-prepared dataset with [construct definitions](inputs/constructs.csv), [search boxes](configs/boxes.tsv), receptors at `inputs/prepared/receptors/af3/pdbqt/<model_rel>.pdbqt` and ligands at `inputs/prepared/ligands/deprotonated-minus1/pdbqt/<ligand>.pdbqt`. The dataset must contain 35 prepared receptor models and two ligands:
 
 ```sh
 python -m src.modeling.docking.run_matrix --dataset /absolute/path/to/your/dataset --output-dir runs/docking/matrix --dry-run

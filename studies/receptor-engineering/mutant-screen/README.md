@@ -30,7 +30,7 @@ python -m src.modeling.mutant_screen.summarize --study runs/examples/scores/muta
 python -m src.modeling.mutant_screen.geometry --study runs/examples/scores/mutants --output runs/examples/mutant-geometry
 ```
 
-The first two commands use the standard library; geometry requires RDKit. [Examples](../../../examples/README.md#docking-and-mutation-arithmetic) define the invented scores and exact 2 Å coordinate translation. The generated study deliberately has the complete saturation schema required by this summarizer. [Tests](../../../tests/README.md) check score arithmetic, parent links, cross-batch identity, contact denominators and coordinate calculations.
+The first two commands use the standard library; geometry requires RDKit. [Examples](../../../examples/README.md#docking-and-mutation-arithmetic) define the invented scores and exact 2 Å coordinate translation. The generated study supplies the saturation tables required by this summarizer. [Tests](../../../tests/README.md) check score arithmetic, parent links, cross-batch identity, contact denominators and coordinate calculations.
 
 ## Your own data
 

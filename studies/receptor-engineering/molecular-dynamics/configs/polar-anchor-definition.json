@@ -1,5 +1,5 @@
 {
-  "purpose": "Screen polar anchoring persistence, not estimate binding affinity",
+  "purpose": "Screen the persistence of polar anchoring contacts",
   "targets": [
     368,
     189
@@ -23,7 +23,7 @@
     "donor_acceptor_max_A": 3.2,
     "H_acceptor_max_A": 2.4,
     "DHA_min_deg": 150,
-    "note": "Geometric candidate; no direct measurement of bond strength"
+    "note": "Candidate hydrogen bonds defined by donor-acceptor distances and angles"
   },
   "primary_window_ns": [
     50,
@@ -79,7 +79,7 @@
     "target_occupancy_min": 0.7,
     "each_control_occupancy_max": 0.2,
     "two_adjacent_10ns_blocks_min": 0.7,
-    "uninterrupted_lifetime": "Report at 10ps cadence; report any gap-tolerant summary separately, never merge silently"
+    "uninterrupted_lifetime": "Sampled at 10 ps; uninterrupted and gap-tolerant spans are reported separately"
   },
   "comparisons": [
     "native_wt_ascr3_lid_rebuilt_own_pose_v1",
@@ -88,5 +88,5 @@
   ],
   "control_source": "polar-anchors.json",
   "arg368_competitor": "Asp70 OD1/OD2; distinguish ligand capture from persistent Arg368-Asp70 salt bridge",
-  "interpretation": "An engineered starting contact that survives unrestrained MD supports a viable anchoring state. It does not establish spontaneous formation, mutation causality, ascr3/ascr18 affinity ratio, or replication robustness. Loss is retained as a negative outcome; do not reseed/restrain to obtain a positive result."
+  "interpretation": "Contact persistence is evaluated within each trajectory from its engineered starting pose."
 }

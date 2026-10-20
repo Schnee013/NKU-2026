@@ -19,7 +19,7 @@ These tools analyze receptor/partner motion, geometry, contacts, local fits and 
 python -m examples.md_geometry --output runs/examples/md-geometry
 ```
 
-This generates an artificial three-frame trajectory, runs all seven basic drivers and checks known numerical answers. Install the [MD dependencies](../../../environments/md-requirements.txt) before running it. See the [example description](../../../examples/README.md#md-geometry) and [tests](../../../tests/README.md). The toy geometry is not a physical MD simulation.
+This generates an artificial three-frame trajectory, runs all seven basic drivers and checks known numerical answers. Install the [MD dependencies](../../../environments/md-requirements.txt) before running it. See the [example description](../../../examples/README.md#md-geometry) and [tests](../../../tests/README.md).
 
 ## Analyze your own trajectories
 
@@ -76,7 +76,13 @@ python -m src.modeling.md_analysis.analyze_local_mechanism --config studies/rece
 python -m src.modeling.md_analysis.analyze_local_mechanism --config studies/receptor-engineering/molecular-dynamics/configs/mechanism.json --output-root runs/md/local --pair-detail
 ```
 
-Local analysis uses the [fixed backbone fits and ligand heavy-atom selections](METHODS.md#local-fits-and-selection-definitions), with topology bonds defining ligand groups and candidate hydrogen bonds. It writes per-frame metrics, contact events, `anchor_summary.csv`, `proximity_bridges.csv`, `sidechain_rotamers.csv` and metric summaries under `--output-root/<dataset>`. `--pair-detail` measures the configured receptor heavy-atom pairs and Arg368 charged-end geometry, writing atom-pair time series and `pair_summary.csv` under that dataset's `pair_details/`. Output fields and units are listed in [DATA.md](DATA.md). `--case DATASET_ID` selects one dataset. To derive selections from the current initial structures, run with `--prepare` and an independent output root, then pass its `selections/selections.json` through `--selections` for local analysis. The default selections are [configs/selections.json](configs/selections.json). The published eight-system comparison uses the original six-system core and pocket selections unchanged; deriving selections from eight starting structures defines a different comparison.
+Local analysis uses the [fixed backbone fits and ligand heavy-atom selections](METHODS.md#local-fits-and-selection-definitions), with topology bonds defining ligand groups and candidate hydrogen bonds. It writes per-frame metrics, contact events, `anchor_summary.csv`, `proximity_bridges.csv`, `sidechain_rotamers.csv` and metric summaries under `--output-root/<dataset>`. Output fields and units are listed in [DATA.md](DATA.md).
+
+Use `--case DATASET_ID` to select one dataset. Add `--pair-detail` to measure the configured receptor heavy-atom pairs and Arg368 charged-end geometry; this writes atom-pair time series and `pair_summary.csv` under the dataset's `pair_details/` directory.
+
+The default selections are [configs/selections.json](configs/selections.json). To derive selections from the current initial structures, run with `--prepare` and a separate output root, then pass the generated `selections/selections.json` through `--selections` for local analysis.
+
+The published eight-system comparison uses the original six-system core and pocket selections unchanged; deriving selections from eight starting structures defines a different comparison.
 
 ## Polar analyses and external result plotting
 

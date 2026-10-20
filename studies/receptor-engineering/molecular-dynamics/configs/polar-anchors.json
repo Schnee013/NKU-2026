@@ -1,7 +1,7 @@
 {
   "output_root": "runs/md/polar",
   "polar_screen": "studies/receptor-engineering/molecular-dynamics/configs/polar-anchor-definition.json",
-  "polar_screen_sha256": "d1ab8ff368d16ace1343e37cdff629aa9b23715e26ca9cbc6ce44676966f2a58",
+  "polar_screen_sha256": "83706d8b91091dde04fc7524c829ead1a83ce7612c5aa85b086b48f3be5245c8",
   "cases": [
     {
       "id": "v368r_ascr3_arg368_start",

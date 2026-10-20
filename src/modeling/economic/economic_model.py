@@ -27,7 +27,7 @@ def interpolate_piecewise(points: list[list[float]], x: float) -> float:
     """Linearly interpolate y from sorted ``[x, y]`` points.
 
     Values outside the table are clamped to the nearest endpoint rather than
-    extrapolated. That keeps extension-table examples conservative.
+    extrapolated.
     """
 
     if not points:

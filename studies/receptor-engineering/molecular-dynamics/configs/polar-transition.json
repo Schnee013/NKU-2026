@@ -10,7 +10,7 @@
     "raw_v368r_ascr18"
   ],
   "screen_path": "studies/receptor-engineering/molecular-dynamics/configs/polar-screen-definition.json",
-  "screen_sha256": "eca3981c0117ae2403a4289961d092ef29dcb3c6fc11f6c01f001237e351e5db",
+  "screen_sha256": "225ba453e3638cc672b36d913858594c34a8dc69638f2d59a7509f013e6c8926",
   "shared_output": "runs/md/polar-transition/comparison",
   "cases": [
     {

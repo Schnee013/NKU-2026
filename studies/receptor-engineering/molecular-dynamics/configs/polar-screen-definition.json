@@ -1,5 +1,5 @@
 {
-  "purpose": "Exploratory search for persistent direct polar patterns beyond shared Arg345, without new MD",
+  "purpose": "Search existing trajectories for persistent direct polar-contact patterns involving residues beyond Arg345",
   "primary_window_ns": [
     50,
     100
@@ -34,7 +34,7 @@
   },
   "scope": "All 406 receptor residues, all ligand N/O donor/acceptor groups, both hydrogen-bond directions; ARG/LYS/charged HIS and protonated N-terminal cations versus ligand carboxylate.",
   "combinations": "Simultaneous AND across distinct receptor residues, all orders reaching frequency threshold. Multiple atom pairs form a union within a residue/ligand-group/direction/sidechain-or-backbone feature.",
-  "water_scope": "Direct protein-ligand contacts only. Processed inputs exclude solvent; no water-mediated or energetic-strength claim.",
-  "interpretation": "Passing patterns are single-trajectory candidate anchoring states, not mutant causality or affinity rankings. Full and prespecified sliding windows and all failures retained.",
+  "water_scope": "Direct receptor-ligand contacts in processed trajectories that exclude solvent.",
+  "interpretation": "Report qualifying patterns for each trajectory, together with all evaluated windows and patterns below the thresholds.",
   "frozen_at_utc": "2026-10-16T08:32:58.271752+00:00"
 }

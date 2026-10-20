@@ -313,8 +313,7 @@
         "replicate": 1,
         "new_start_target_residue": 368,
         "gen_seed": 202610153
-      },
-      "interpretation_boundary": "single_rep_exploratory_only; different parent/lid/pose; no mutation causality/affinity ranking/mechanistic proof"
+      }
     },
     "v368r_ascr3_arg189_start": {
       "label": "V368R + ascr3 / Arg189 starting anchor",
@@ -389,8 +388,7 @@
         "replicate": 1,
         "new_start_target_residue": 189,
         "gen_seed": 202610159
-      },
-      "interpretation_boundary": "single_rep_exploratory_only; different parent/lid/pose; no mutation causality/affinity ranking/mechanistic proof"
+      }
     }
   }
 }

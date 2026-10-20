@@ -1,7 +1,7 @@
 """Generate invented docking records for testing parsers and score arithmetic.
 
-No prediction, docking or biological experiment is performed. Ligand names and
-batch labels exercise the software schema; the toy coordinates are not ascarosides.
+Ligand names and batch labels exercise the software schema using synthetic
+ethanol coordinates.
 """
 from __future__ import annotations
 
@@ -36,7 +36,7 @@ def sdf_text(shift=0.0):
     body = "".join(f"{x:10.4f}{y:10.4f}{z:10.4f} {symbol:<3s}"
                    " 0  0  0  0  0  0  0  0  0  0  0  0\n"
                    for x, y, z, symbol in atoms)
-    return ("Synthetic ethanol; NOT a project ligand\n  NKU example\n\n"
+    return ("Synthetic ethanol example\n  NKU example\n\n"
             "  3  2  0  0  0  0  0  0  0  0999 V2000\n" + body +
             "  1  2  1  0  0  0  0\n  2  3  1  0  0  0  0\nM  END\n$$$$\n")
 
@@ -72,7 +72,7 @@ def write_docking_dataset(root):
              present_original_residue_ranges="1-1")])
     fasta = root / "inputs/receptors/fasta/DAF-37_Caenorhabditis_elegans_N2_Q18321.fasta"
     fasta.parent.mkdir(parents=True)
-    fasta.write_text(">synthetic one-residue schema fixture; not DAF-37\nA\n")
+    fasta.write_text(">synthetic one-residue alanine sequence\nA\n")
     return root
 
 

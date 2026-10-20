@@ -109,13 +109,13 @@ REFERENCES = (
 ZH_UI = {
     "eyebrow": "经济效益示例",
     "example_scenario": "示例场景",
-    "detected_density": "检测出的线虫密度",
+    "detected_density": "输入线虫密度",
     "untreated_yield_loss": "如不采取防治手段，预计产量损失",
-    "treatment_recommendation": "预设风险等级",
+    "treatment_recommendation": "模型分级",
     "profit_change": "检测分级的条件增量价值",
     "section_profit": "两种收益比较",
     "without_test": "未使用试纸",
-    "with_test": "使用试纸并按建议处理",
+    "with_test": "使用试纸并按预设方案处理",
     "season_profit": "预计单季利润",
     "remaining_loss": "预计剩余产量损失",
     "treatment_cost": "处理成本",
@@ -149,13 +149,13 @@ ZH_UI = {
 EN_UI = {
     "eyebrow": "ECONOMIC BENEFIT EXAMPLE",
     "example_scenario": "Example scenario",
-    "detected_density": "Detected density",
+    "detected_density": "Input density",
     "untreated_yield_loss": "Yield loss without control",
-    "treatment_recommendation": "Preset risk tier",
+    "treatment_recommendation": "Model tier",
     "profit_change": "Conditional value of density-guided testing",
     "section_profit": "Two benefit comparisons",
     "without_test": "Without test strip",
-    "with_test": "With testing and the model-scenario strategy",
+    "with_test": "With testing and the preset strategy",
     "season_profit": "Estimated profit per season",
     "remaining_loss": "Remaining crop loss",
     "treatment_cost": "Treatment cost",
@@ -735,7 +735,7 @@ def build_diagnostic_report(model: Model, result: Result) -> dict[str, Any]:
             },
             "threshold_note": (
                 f"Yield loss may begin above approximately {model.tolerance_density:g} J2/100 cm³ soil. "
-                f"The fixed {model.middle_from_density:g}/{model.high_from_density:g} thresholds form a preset demonstration policy, not an economic optimiser."
+                f"The preset tier thresholds are {model.middle_from_density:g} and {model.high_from_density:g} J2/100 cm³ soil and remain fixed when costs or efficacy change."
             ),
             "uniform_control": {
                 "name": model.without_test.name_en,
@@ -768,7 +768,7 @@ def build_diagnostic_report(model: Model, result: Result) -> dict[str, Any]:
             "maximum_supported_density": model.max_density,
             "plain_language_note": (
                 f"约{model.tolerance_density:g} J2/100 cm³以上可能开始出现损失；"
-                f"本示例考虑文献不确定性后，从{model.middle_from_density:g}开始给出"
+                f"本示例采用预设分级：从{model.middle_from_density:g}开始给出"
                 f"模型处理情景，并在{model.high_from_density:g}以上切换到高等级情景。"
                 "这些阈值是预设演示策略，不会随成本或防效自动优化。"
             ),
@@ -878,9 +878,9 @@ def format_text_report(report: dict[str, Any]) -> str:
         f"标签：示例场景；{s['country']}；{s['crop']}；{s['nematode']}；{s['currency']}/{s['area_unit']}",
         "",
         "一、两种收益比较",
-        f"  检测密度：{report['input']['density']:g} {s['density_unit']}",
+        f"  输入密度：{report['input']['density']:g} {s['density_unit']}",
         f"  如不采取防治手段，预计产量损失：{d['yield_loss_fraction']:.2%}",
-        f"  处理建议：{d['band']}等级；{d['treatment']}",
+        f"  模型分级方案：{d['band']}等级；{d['treatment']}",
         f"  未检测且未采取防治手段的预计利润：{_money(d['net_income_without_test_no_control_per_ha'], report)}",
         f"  未检测但采用统一处理的预计利润：{_money(d['net_income_without_test_uniform_per_ha'], report)}",
         f"  使用试纸后的预计利润：{_money(d['net_income_with_test_per_ha'], report)}",

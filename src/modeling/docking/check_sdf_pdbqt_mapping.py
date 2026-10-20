@@ -614,8 +614,7 @@ def check_mapping(sdf_path: Path, pdbqt_path: Path, map_path: Path, tolerance: f
         "scope": (
             "This report checks atom mapping, element identity, mapped bond order and stereo, "
             "and coordinate tolerance. PDBQT SMILES metadata is included but is not graph-parsed "
-            "without a full SMILES parser. The report does not reorder or repair atoms and does "
-            "not decide docking readiness."
+            "without a full SMILES parser. The report does not reorder or repair atoms."
         ),
     }
 

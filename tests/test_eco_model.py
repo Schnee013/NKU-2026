@@ -272,7 +272,7 @@ class SpainTomatoDemoTests(unittest.TestCase):
         self.assertIn("Southern root-knot nematode", english)
         self.assertIn("Chicken-manure biosolarization", english)
         self.assertIn("Yield loss without control", english)
-        self.assertIn("With testing and the model-scenario strategy", english)
+        self.assertIn("With testing and the preset strategy", english)
         self.assertNotRegex(english, r"[\u4e00-\u9fff]")
         for value in ("+17,028.48 EUR/ha", "+496.26 EUR/ha", "36.45%",
                       "J2/100 cm³ soil", "0.375 L/ha", "20,000 kg/ha"):

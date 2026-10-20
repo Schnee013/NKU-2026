@@ -1,7 +1,7 @@
-"""Static, fixed-scaffold ligand compatibility in actual receptor frames.
+"""Static, fixed-scaffold ligand compatibility in sampled receptor frames.
 
-Uses internal MMFF energy and a steric penalty only. Scores are not binding
-energies; any exported alternate ligand is explicitly a constructed model.
+Scores combine internal MMFF energy and a steric penalty. Exported alternate
+ligands are constructed models in the sampled receptor frame.
 """
 from pathlib import Path
 import json
@@ -195,7 +195,7 @@ def run_compatibility(cfg):
     table(out/'atom_mapping.csv',atom_maps)
     dump(out/'completion.json',dict(status='complete',config_sha256=cfg['_config_sha256'],module_sha256=sha(__file__),
         rdkit_version=rdBase.rdkitVersion,conformer_pools=pools,selected_models=selections,
-        interpretation='Fixed-scaffold steric/internal-geometry compatibility only; no dynamics or binding energy was calculated.'))
+        interpretation='Fixed-scaffold compatibility scores combine internal MMFF energy and a steric-overlap penalty.'))
 
 
 def main():

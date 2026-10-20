@@ -34,9 +34,9 @@ The original comparison design uses truncated Gpr2/Gpr3 and the other three WT c
 
 Recognition recurrence counts models containing the exact residue–interaction feature. A median over available models includes zero for an absent interaction. Unavailable models remain missing. Contact-only VdW, hydrophobic and directional/charge-related interactions must retain their separate meanings.
 
-The descriptive discrimination rule requires preferred-ligand recurrence, a greater preferred-ligand frequency in at least three of five paired models and a median paired difference of at least 0.20. The robust category additionally requires robust preferred-ligand recurrence and at least four positive paired differences. These are descriptive contact-frequency criteria, not energetic or causal effects.
+The descriptive contact-frequency rule requires preferred-ligand recurrence, a greater preferred-ligand frequency in at least three of five paired models and a median paired difference of at least 0.20.
 
-Sequence alignments, topology predictions, profile coverage and structural mappings are external evidence for cross-receptor residue correspondence. Similar contacts or a common low-identity fold-template position alone do not establish homology. Distinguish alignment gaps, construct-deleted positions and unavailable evidence. Docking and contacts can motivate design hypotheses; affinity, mutation effects, cellular selectivity and expression/localization require measurements.
+Sequence alignments, topology predictions, profile coverage and structural mappings are external evidence for cross-receptor residue correspondence. Similar contacts or a common low-identity fold-template position alone do not establish homology. Distinguish alignment gaps, construct-deleted positions and unavailable evidence.
 
 ## Data fields
 

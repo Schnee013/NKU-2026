@@ -48,7 +48,7 @@ def treatment_options(model: Model) -> tuple[tuple[str, Treatment], ...]:
 
 
 def choose_treatment(density: float, model: Model) -> tuple[str, Treatment]:
-    """Apply the preset demonstration thresholds; this is not an optimiser."""
+    """Apply the preset density thresholds to select a treatment tier."""
 
     if density < model.middle_from_density:
         return "低", model.low

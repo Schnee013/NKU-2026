@@ -1,8 +1,8 @@
-"""Generate a toy trajectory and run the seven real MD analysis drivers.
+"""Generate a toy trajectory and run the seven MD analysis programs.
 
 Four stationary alanines and a three-atom artificial partner are placed by
-coordinates. The partner moves 0, 1 and 2 A. This is a geometry test, not a
-physical simulation, protein prediction or evidence about receptor behavior.
+coordinates. The partner moves 0, 1 and 2 A. The three frames provide known
+distances for checking trajectory analysis.
 """
 from __future__ import annotations
 

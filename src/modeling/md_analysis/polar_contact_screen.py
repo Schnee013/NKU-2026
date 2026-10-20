@@ -1,8 +1,8 @@
 """Whole-receptor polar screening for the shared ligand-contact driver.
 
 Uses topology bonds, chemically eligible N/O hydrogen bonds, charged cation
-groups, and the existing exact frequent-itemset implementation. No residue or
-initial-pocket preselection is made. A geometric hydrogen bond is not an energy.
+groups, and the existing exact frequent-itemset implementation. All receptor
+residues and chemically eligible ligand groups are screened.
 """
 from __future__ import annotations
 
@@ -48,8 +48,8 @@ def definitions_for(u, screen):
         return lookup[key]
 
     for d, h, a, direction in hbond_candidates(u, protein, ligand):
-        # Strong N/O geometry is the requested screen; sulfur bonds need a
-        # separate definition and are not silently judged with N/O cutoffs.
+        # These geometric cutoffs apply to N/O bonds; sulfur bonds require
+        # separate criteria.
         if u.atoms[d].name[0] not in 'NO' or u.atoms[a].name[0] not in 'NO':
             continue
         la, pa = (a, d) if direction == 'protein_to_ligand' else (d, a)
@@ -81,7 +81,7 @@ def definitions_for(u, screen):
             for d in donors.indices:
                 for a in carbox.indices:
                     salt_pairs.append((d,a)); salt_feature_ids.append(fi)
-        # Include a protonated N terminus when the topology actually contains it.
+        # Include a protonated N terminus when the topology contains it.
         if int(residue.resid) == int(protein.residues[0].resid):
             nitrogens = residue.atoms.select_atoms('name N')
             if len(nitrogens) == 1 and sum(a.name.startswith('H') for a in nitrogens[0].bonded_atoms) >= 3:

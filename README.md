@@ -35,7 +35,7 @@ With the MD dependencies installed, generate a small artificial trajectory, run 
 python -m examples.md_geometry --output runs/examples/md-geometry
 ```
 
-The [examples guide](examples/README.md) also covers synthetic docking records, mutation comparisons and ODE-generated paired readings. Generated outputs go to new directories under `runs/`; they are excluded from version control. A synthetic example demonstrates software behavior and does not validate a biological claim.
+The [examples guide](examples/README.md) also covers synthetic docking records, mutation comparisons and ODE-generated paired readings. Generated outputs go to new directories under `runs/`; they are excluded from version control.
 
 See [tests](tests/README.md) for executable checks and [reproducibility](REPRODUCIBILITY.md) for each workflow's input requirements. Reproducing a scientific MD result requires the original trajectories, matching topology and analysis settings.
 

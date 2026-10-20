@@ -1,7 +1,7 @@
 """Config-driven follow-up of a polar-contact transition in existing trajectories.
 
-Fits, endpoint-motion attribution and one-intermediate proximity checks are
-descriptive geometry, not evidence of causality or a new dynamics calculation.
+Measures fitted coordinate changes, endpoint-motion contributions and
+one-intermediate proximity.
 """
 from pathlib import Path
 import json
