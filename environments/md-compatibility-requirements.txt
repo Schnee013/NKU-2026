@@ -1,0 +1,3 @@
+# Static fixed-scaffold ligand geometry and the complete MD test collection.
+-r md-requirements.txt
+rdkit==2025.09.5

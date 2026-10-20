@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "training_targets": [
+    0,
+    40,
+    120
+  ],
+  "training_backgrounds": [
+    0,
+    80,
+    200
+  ],
+  "evaluation_targets": [
+    0,
+    9,
+    11,
+    60,
+    79,
+    81
+  ],
+  "evaluation_backgrounds": [
+    40,
+    140
+  ],
+  "target_ratio_denominators": [
+    5,
+    10,
+    20
+  ],
+  "scope": "Deterministic target/background mixtures for ODE signal generation and paired-channel regression."
+}

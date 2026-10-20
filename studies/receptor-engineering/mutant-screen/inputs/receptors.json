@@ -1,0 +1,4446 @@
+{
+  "construct_definition": {
+    "id": "gpr2-docking",
+    "chain": "A",
+    "prediction_residue_count": 406,
+    "docking_residue_count": 370,
+    "retained_original_ranges": [
+      [
+        22,
+        163
+      ],
+      [
+        179,
+        406
+      ]
+    ],
+    "deleted_original_ranges": [
+      [
+        1,
+        21
+      ],
+      [
+        164,
+        178
+      ]
+    ],
+    "renumbered": false,
+    "retained_coordinate_changes_before_alignment": false
+  },
+  "receptors": [
+    {
+      "record_id": "01/run-01/N84A_L90A_R345A/af0/seed1919",
+      "batch": "01",
+      "variant": "N84A_L90A_R345A",
+      "alias": "N84A_L90A_R345A",
+      "af_model": 0,
+      "seed": 1919,
+      "preparation_route": "fixed-backbone alanine substitution",
+      "construct_id": "gpr2-docking",
+      "baseline_record_id": "01/run-01/baseline/af0/seed1919"
+    },
+    {
+      "record_id": "01/run-01/V110A_R181A_W338A_V368A/af0/seed1919",
+      "batch": "01",
+      "variant": "V110A_R181A_W338A_V368A",
+      "alias": "V110A_R181A_W338A_V368A",
+      "af_model": 0,
+      "seed": 1919,
+      "preparation_route": "fixed-backbone alanine substitution",
+      "construct_id": "gpr2-docking",
+      "baseline_record_id": "01/run-01/baseline/af0/seed1919"
+    },
+    {
+      "record_id": "01/run-01/baseline/af0/seed1919",
+      "batch": "01",
+      "variant": "baseline",
+      "alias": "baseline",
+      "af_model": 0,
+      "seed": 1919,
+      "preparation_route": "fixed-backbone alanine substitution",
+      "construct_id": "gpr2-docking",
+      "baseline_record_id": "01/run-01/baseline/af0/seed1919"
+    },
+    {
+      "record_id": "02/run-01/N84A_L90A_R345A/af0/seed1919",
+      "batch": "02",
+      "variant": "N84A_L90A_R345A",
+      "alias": "N84A_L90A_R345A",
+      "af_model": 0,
+      "seed": 1919,
+      "preparation_route": "full-length AF3, deletion and TM alignment",
+      "construct_id": "gpr2-docking",
+      "prediction": {
+        "job_name": "Gpr2_deltaN_N84A_L90A_R345A",
+        "model_seeds": [
+          789264689
+        ],
+        "job_request_path": "inputs/predictions/gpr2_combination_20260909_1620/records/gpr2_deltan_n84a_l90a_r345a/fold_gpr2_deltan_n84a_l90a_r345a_job_request.json",
+        "fasta_paths": [
+          "inputs/predictions/gpr2_combination_20260909/fasta_full_length/Gpr2_full_length_N84A_L90A_R345A.fasta"
+        ]
+      },
+      "baseline_record_id": "02/run-01/baseline/af0/seed1919"
+    },
+    {
+      "record_id": "02/run-01/V110A_R181A_W338A_V368A/af0/seed1919",
+      "batch": "02",
+      "variant": "V110A_R181A_W338A_V368A",
+      "alias": "V110A_R181A_W338A_V368A",
+      "af_model": 0,
+      "seed": 1919,
+      "preparation_route": "full-length AF3, deletion and TM alignment",
+      "construct_id": "gpr2-docking",
+      "prediction": {
+        "job_name": "Gpr2_deltaN_V110A_R181A_W338A_V368A",
+        "model_seeds": [
+          1199080054
+        ],
+        "job_request_path": "inputs/predictions/gpr2_combination_20260909_1620/records/gpr2_deltan_v110a_r181a_w338a_v368a/fold_gpr2_deltan_v110a_r181a_w338a_v368a_job_request.json",
+        "fasta_paths": [
+          "inputs/predictions/gpr2_combination_20260909/fasta_full_length/Gpr2_full_length_V110A_R181A_W338A_V368A.fasta"
+        ]
+      },
+      "baseline_record_id": "02/run-01/baseline/af0/seed1919"
+    },
+    {
+      "record_id": "02/run-01/baseline/af0/seed1919",
+      "batch": "02",
+      "variant": "baseline",
+      "alias": "baseline",
+      "af_model": 0,
+      "seed": 1919,
+      "preparation_route": "full-length AF3, deletion and TM alignment",
+      "construct_id": "gpr2-docking",
+      "prediction": {
+        "job_name": "Gpr2_deltaN_baseline",
+        "model_seeds": [
+          1408681757
+        ],
+        "job_request_path": "inputs/predictions/gpr2_combination_20260909_1620/records/gpr2_deltan_baseline/fold_gpr2_deltan_baseline_job_request.json",
+        "fasta_paths": [
+          "inputs/predictions/gpr2_combination_20260909/fasta_full_length/Gpr2_full_length_baseline.fasta",
+          "inputs/predictions/gpr2_round2_20260911_0054/fasta_full_length/Gpr2_full_length_baseline.fasta"
+        ]
+      },
+      "baseline_record_id": "02/run-01/baseline/af0/seed1919"
+    },
+    {
+      "record_id": "03/run-01/L90A/af0/seed1919",
+      "batch": "03",
+      "variant": "L90A",
+      "alias": "L90A",
+      "af_model": 0,
+      "seed": 1919,
+      "preparation_route": "full-length AF3, deletion and TM alignment",
+      "construct_id": "gpr2-docking",
+      "prediction": {
+        "job_name": "Gpr2_L90A",
+        "model_seeds": [
+          1342968528
+        ],
+        "job_request_path": "inputs/predictions/gpr2_single_20260910_0458/records/gpr2_l90a/fold_gpr2_l90a_job_request.json"
+      },
+      "baseline_record_id": "03/run-01/baseline/af0/seed1919"
+    },
+    {
+      "record_id": "03/run-01/N84A/af0/seed1919",
+      "batch": "03",
+      "variant": "N84A",
+      "alias": "N84A",
+      "af_model": 0,
+      "seed": 1919,
+      "preparation_route": "full-length AF3, deletion and TM alignment",
+      "construct_id": "gpr2-docking",
+      "prediction": {
+        "job_name": "Gpr2_N84A",
+        "model_seeds": [
+          1972067749
+        ],
+        "job_request_path": "inputs/predictions/gpr2_single_20260910_0458/records/gpr2_n84a/fold_gpr2_n84a_job_request.json"
+      },
+      "baseline_record_id": "03/run-01/baseline/af0/seed1919"
+    },
+    {
+      "record_id": "03/run-01/R181A/af0/seed1919",
+      "batch": "03",
+      "variant": "R181A",
+      "alias": "R181A",
+      "af_model": 0,
+      "seed": 1919,
+      "preparation_route": "full-length AF3, deletion and TM alignment",
+      "construct_id": "gpr2-docking",
+      "prediction": {
+        "job_name": "Gpr2_R181A",
+        "model_seeds": [
+          1463665412
+        ],
+        "job_request_path": "inputs/predictions/gpr2_single_20260910_0458/records/gpr2_r181a/fold_gpr2_r181a_job_request.json",
+        "fasta_paths": [
+          "inputs/predictions/gpr2_round2_20260911_0054/fasta_full_length/Gpr2_full_length_R181A.fasta"
+        ]
+      },
+      "baseline_record_id": "03/run-01/baseline/af0/seed1919"
+    },
+    {
+      "record_id": "03/run-01/R345A/af0/seed1919",
+      "batch": "03",
+      "variant": "R345A",
+      "alias": "R345A",
+      "af_model": 0,
+      "seed": 1919,
+      "preparation_route": "full-length AF3, deletion and TM alignment",
+      "construct_id": "gpr2-docking",
+      "prediction": {
+        "job_name": "Gpr2_R345A",
+        "model_seeds": [
+          123921903
+        ],
+        "job_request_path": "inputs/predictions/gpr2_single_20260910_0458/records/gpr2_r345a/fold_gpr2_r345a_job_request.json"
+      },
+      "baseline_record_id": "03/run-01/baseline/af0/seed1919"
+    },
+    {
+      "record_id": "03/run-01/V110A/af0/seed1919",
+      "batch": "03",
+      "variant": "V110A",
+      "alias": "V110A",
+      "af_model": 0,
+      "seed": 1919,
+      "preparation_route": "full-length AF3, deletion and TM alignment",
+      "construct_id": "gpr2-docking",
+      "prediction": {
+        "job_name": "Gpr2_V110A",
+        "model_seeds": [
+          1540529282
+        ],
+        "job_request_path": "inputs/predictions/gpr2_single_20260910_0458/records/gpr2_v110a/fold_gpr2_v110a_job_request.json",
+        "fasta_paths": [
+          "inputs/predictions/gpr2_round2_20260911_0054/fasta_full_length/Gpr2_full_length_V110A.fasta"
+        ]
+      },
+      "baseline_record_id": "03/run-01/baseline/af0/seed1919"
+    },
+    {
+      "record_id": "03/run-01/V368A/af0/seed1919",
+      "batch": "03",
+      "variant": "V368A",
+      "alias": "V368A",
+      "af_model": 0,
+      "seed": 1919,
+      "preparation_route": "full-length AF3, deletion and TM alignment",
+      "construct_id": "gpr2-docking",
+      "prediction": {
+        "job_name": "Gpr2_V368A",
+        "model_seeds": [
+          2100887167
+        ],
+        "job_request_path": "inputs/predictions/gpr2_single_20260910_0458/records/gpr2_v368a/fold_gpr2_v368a_job_request.json",
+        "fasta_paths": [
+          "inputs/predictions/gpr2_round2_20260911_0054/fasta_full_length/Gpr2_full_length_V368A.fasta"
+        ]
+      },
+      "baseline_record_id": "03/run-01/baseline/af0/seed1919"
+    },
+    {
+      "record_id": "03/run-01/W338A/af0/seed1919",
+      "batch": "03",
+      "variant": "W338A",
+      "alias": "W338A",
+      "af_model": 0,
+      "seed": 1919,
+      "preparation_route": "full-length AF3, deletion and TM alignment",
+      "construct_id": "gpr2-docking",
+      "prediction": {
+        "job_name": "Gpr2_W338A",
+        "model_seeds": [
+          1626912218
+        ],
+        "job_request_path": "inputs/predictions/gpr2_single_20260910_0458/records/gpr2_w338a/fold_gpr2_w338a_job_request.json",
+        "fasta_paths": [
+          "inputs/predictions/gpr2_round2_20260911_0054/fasta_full_length/Gpr2_full_length_W338A.fasta"
+        ]
+      },
+      "baseline_record_id": "03/run-01/baseline/af0/seed1919"
+    },
+    {
+      "record_id": "03/run-01/baseline/af0/seed1919",
+      "batch": "03",
+      "variant": "baseline",
+      "alias": "baseline",
+      "af_model": 0,
+      "seed": 1919,
+      "preparation_route": "full-length AF3, deletion and TM alignment",
+      "construct_id": "gpr2-docking",
+      "prediction": {
+        "job_name": "Gpr2_baseline",
+        "model_seeds": [
+          871707450
+        ],
+        "job_request_path": "inputs/predictions/gpr2_single_20260910_0458/records/gpr2_baseline/fold_gpr2_baseline_job_request.json",
+        "fasta_paths": [
+          "inputs/predictions/gpr2_combination_20260909/fasta_full_length/Gpr2_full_length_baseline.fasta",
+          "inputs/predictions/gpr2_round2_20260911_0054/fasta_full_length/Gpr2_full_length_baseline.fasta"
+        ]
+      },
+      "baseline_record_id": "03/run-01/baseline/af0/seed1919"
+    },
+    {
+      "record_id": "04/run-01/G103A/af0/seed1919",
+      "batch": "04",
+      "variant": "G103A",
+      "alias": "G103A",
+      "af_model": 0,
+      "seed": 1919,
+      "preparation_route": "full-length AF3, deletion and TM alignment",
+      "construct_id": "gpr2-docking",
+      "prediction": {
+        "job_name": "G103A",
+        "model_seeds": [
+          1563072604
+        ],
+        "job_request_path": "inputs/predictions/gpr2_round2_20260911_0054/records/g103a/fold_g103a_job_request.json",
+        "fasta_paths": [
+          "inputs/predictions/gpr2_round2_20260911_0054/fasta_full_length/Gpr2_full_length_G103A.fasta"
+        ]
+      },
+      "baseline_record_id": "04/run-01/baseline/af0/seed1919"
+    },
+    {
+      "record_id": "04/run-01/L27A/af0/seed1919",
+      "batch": "04",
+      "variant": "L27A",
+      "alias": "L27A",
+      "af_model": 0,
+      "seed": 1919,
+      "preparation_route": "full-length AF3, deletion and TM alignment",
+      "construct_id": "gpr2-docking",
+      "prediction": {
+        "job_name": "L27A",
+        "model_seeds": [
+          735029171
+        ],
+        "job_request_path": "inputs/predictions/gpr2_round2_20260911_0054/records/l27a/fold_l27a_job_request.json",
+        "fasta_paths": [
+          "inputs/predictions/gpr2_round2_20260911_0054/fasta_full_length/Gpr2_full_length_L27A.fasta"
+        ]
+      },
+      "baseline_record_id": "04/run-01/baseline/af0/seed1919"
+    },
+    {
+      "record_id": "04/run-01/N102A/af0/seed1919",
+      "batch": "04",
+      "variant": "N102A",
+      "alias": "N102A",
+      "af_model": 0,
+      "seed": 1919,
+      "preparation_route": "full-length AF3, deletion and TM alignment",
+      "construct_id": "gpr2-docking",
+      "prediction": {
+        "job_name": "N102A",
+        "model_seeds": [
+          293670979
+        ],
+        "job_request_path": "inputs/predictions/gpr2_round2_20260911_0054/records/n102a/fold_n102a_job_request.json",
+        "fasta_paths": [
+          "inputs/predictions/gpr2_round2_20260911_0054/fasta_full_length/Gpr2_full_length_N102A.fasta"
+        ]
+      },
+      "baseline_record_id": "04/run-01/baseline/af0/seed1919"
+    },
+    {
+      "record_id": "04/run-01/N28A/af0/seed1919",
+      "batch": "04",
+      "variant": "N28A",
+      "alias": "N28A",
+      "af_model": 0,
+      "seed": 1919,
+      "preparation_route": "full-length AF3, deletion and TM alignment",
+      "construct_id": "gpr2-docking",
+      "prediction": {
+        "job_name": "N28A",
+        "model_seeds": [
+          1914412509
+        ],
+        "job_request_path": "inputs/predictions/gpr2_round2_20260911_0054/records/n28a/fold_n28a_job_request.json",
+        "fasta_paths": [
+          "inputs/predictions/gpr2_round2_20260911_0054/fasta_full_length/Gpr2_full_length_N28A.fasta"
+        ]
+      },
+      "baseline_record_id": "04/run-01/baseline/af0/seed1919"
+    },
+    {
+      "record_id": "04/run-01/N84A_V110A_V368A/af0/seed1919",
+      "batch": "04",
+      "variant": "N84A_V110A_V368A",
+      "alias": "N84A_V110A_V368A",
+      "af_model": 0,
+      "seed": 1919,
+      "preparation_route": "full-length AF3, deletion and TM alignment",
+      "construct_id": "gpr2-docking",
+      "prediction": {
+        "job_name": "N84A_V110A_V368A",
+        "model_seeds": [
+          2005302321
+        ],
+        "job_request_path": "inputs/predictions/gpr2_round2_20260911_0054/records/n84a_v110a_v368a/fold_n84a_v110a_v368a_job_request.json",
+        "fasta_paths": [
+          "inputs/predictions/gpr2_round2_20260911_0054/fasta_full_length/Gpr2_full_length_N84A_V110A_V368A.fasta"
+        ]
+      },
+      "baseline_record_id": "04/run-01/baseline/af0/seed1919"
+    },
+    {
+      "record_id": "04/run-01/N84Q/af0/seed1919",
+      "batch": "04",
+      "variant": "N84Q",
+      "alias": "N84Q",
+      "af_model": 0,
+      "seed": 1919,
+      "preparation_route": "full-length AF3, deletion and TM alignment",
+      "construct_id": "gpr2-docking",
+      "prediction": {
+        "job_name": "N84Q",
+        "model_seeds": [
+          1903077122
+        ],
+        "job_request_path": "inputs/predictions/gpr2_round2_20260911_0054/records/n84q/fold_n84q_job_request.json",
+        "fasta_paths": [
+          "inputs/predictions/gpr2_round2_20260911_0054/fasta_full_length/Gpr2_full_length_N84Q.fasta"
+        ]
+      },
+      "baseline_record_id": "04/run-01/baseline/af0/seed1919"
+    },
+    {
+      "record_id": "04/run-01/N84S/af0/seed1919",
+      "batch": "04",
+      "variant": "N84S",
+      "alias": "N84S",
+      "af_model": 0,
+      "seed": 1919,
+      "preparation_route": "full-length AF3, deletion and TM alignment",
+      "construct_id": "gpr2-docking",
+      "prediction": {
+        "job_name": "N84S",
+        "model_seeds": [
+          560824919
+        ],
+        "job_request_path": "inputs/predictions/gpr2_round2_20260911_0054/records/n84s/fold_n84s_job_request.json",
+        "fasta_paths": [
+          "inputs/predictions/gpr2_round2_20260911_0054/fasta_full_length/Gpr2_full_length_N84S.fasta"
+        ]
+      },
+      "baseline_record_id": "04/run-01/baseline/af0/seed1919"
+    },
+    {
+      "record_id": "04/run-01/R181A/af0/seed1919",
+      "batch": "04",
+      "variant": "R181A",
+      "alias": "R181A",
+      "af_model": 0,
+      "seed": 1919,
+      "preparation_route": "full-length AF3, deletion and TM alignment",
+      "construct_id": "gpr2-docking",
+      "prediction": {
+        "job_name": "R181A",
+        "model_seeds": [
+          1406820304
+        ],
+        "job_request_path": "inputs/predictions/gpr2_round2_20260911_0054/records/r181a/fold_r181a_job_request.json",
+        "fasta_paths": [
+          "inputs/predictions/gpr2_round2_20260911_0054/fasta_full_length/Gpr2_full_length_R181A.fasta"
+        ]
+      },
+      "baseline_record_id": "04/run-01/baseline/af0/seed1919"
+    },
+    {
+      "record_id": "04/run-01/S80A/af0/seed1919",
+      "batch": "04",
+      "variant": "S80A",
+      "alias": "S80A",
+      "af_model": 0,
+      "seed": 1919,
+      "preparation_route": "full-length AF3, deletion and TM alignment",
+      "construct_id": "gpr2-docking",
+      "prediction": {
+        "job_name": "S80A",
+        "model_seeds": [
+          590136738
+        ],
+        "job_request_path": "inputs/predictions/gpr2_round2_20260911_0054/records/s80a/fold_s80a_job_request.json",
+        "fasta_paths": [
+          "inputs/predictions/gpr2_round2_20260911_0054/fasta_full_length/Gpr2_full_length_S80A.fasta"
+        ]
+      },
+      "baseline_record_id": "04/run-01/baseline/af0/seed1919"
+    },
+    {
+      "record_id": "04/run-01/T106A/af0/seed1919",
+      "batch": "04",
+      "variant": "T106A",
+      "alias": "T106A",
+      "af_model": 0,
+      "seed": 1919,
+      "preparation_route": "full-length AF3, deletion and TM alignment",
+      "construct_id": "gpr2-docking",
+      "prediction": {
+        "job_name": "T106A",
+        "model_seeds": [
+          1162661196
+        ],
+        "job_request_path": "inputs/predictions/gpr2_round2_20260911_0054/records/t106a/fold_t106a_job_request.json",
+        "fasta_paths": [
+          "inputs/predictions/gpr2_round2_20260911_0054/fasta_full_length/Gpr2_full_length_T106A.fasta"
+        ]
+      },
+      "baseline_record_id": "04/run-01/baseline/af0/seed1919"
+    },
+    {
+      "record_id": "04/run-01/V110A/af0/seed1919",
+      "batch": "04",
+      "variant": "V110A",
+      "alias": "V110A",
+      "af_model": 0,
+      "seed": 1919,
+      "preparation_route": "full-length AF3, deletion and TM alignment",
+      "construct_id": "gpr2-docking",
+      "prediction": {
+        "job_name": "V110A",
+        "model_seeds": [
+          1145943798
+        ],
+        "job_request_path": "inputs/predictions/gpr2_round2_20260911_0054/records/v110a/fold_v110a_job_request.json",
+        "fasta_paths": [
+          "inputs/predictions/gpr2_round2_20260911_0054/fasta_full_length/Gpr2_full_length_V110A.fasta"
+        ]
+      },
+      "baseline_record_id": "04/run-01/baseline/af0/seed1919"
+    },
+    {
+      "record_id": "04/run-01/V110I/af0/seed1919",
+      "batch": "04",
+      "variant": "V110I",
+      "alias": "V110I",
+      "af_model": 0,
+      "seed": 1919,
+      "preparation_route": "full-length AF3, deletion and TM alignment",
+      "construct_id": "gpr2-docking",
+      "prediction": {
+        "job_name": "V110I",
+        "model_seeds": [
+          1529361272
+        ],
+        "job_request_path": "inputs/predictions/gpr2_round2_20260911_0054/records/v110i/fold_v110i_job_request.json",
+        "fasta_paths": [
+          "inputs/predictions/gpr2_round2_20260911_0054/fasta_full_length/Gpr2_full_length_V110I.fasta"
+        ]
+      },
+      "baseline_record_id": "04/run-01/baseline/af0/seed1919"
+    },
+    {
+      "record_id": "04/run-01/V110L/af0/seed1919",
+      "batch": "04",
+      "variant": "V110L",
+      "alias": "V110L",
+      "af_model": 0,
+      "seed": 1919,
+      "preparation_route": "full-length AF3, deletion and TM alignment",
+      "construct_id": "gpr2-docking",
+      "prediction": {
+        "job_name": "V110L",
+        "model_seeds": [
+          1336837226
+        ],
+        "job_request_path": "inputs/predictions/gpr2_round2_20260911_0054/records/v110l/fold_v110l_job_request.json",
+        "fasta_paths": [
+          "inputs/predictions/gpr2_round2_20260911_0054/fasta_full_length/Gpr2_full_length_V110L.fasta"
+        ]
+      },
+      "baseline_record_id": "04/run-01/baseline/af0/seed1919"
+    },
+    {
+      "record_id": "04/run-01/V110T/af0/seed1919",
+      "batch": "04",
+      "variant": "V110T",
+      "alias": "V110T",
+      "af_model": 0,
+      "seed": 1919,
+      "preparation_route": "full-length AF3, deletion and TM alignment",
+      "construct_id": "gpr2-docking",
+      "prediction": {
+        "job_name": "V110T",
+        "model_seeds": [
+          28724094
+        ],
+        "job_request_path": "inputs/predictions/gpr2_round2_20260911_0054/records/v110t/fold_v110t_job_request.json",
+        "fasta_paths": [
+          "inputs/predictions/gpr2_round2_20260911_0054/fasta_full_length/Gpr2_full_length_V110T.fasta"
+        ]
+      },
+      "baseline_record_id": "04/run-01/baseline/af0/seed1919"
+    },
+    {
+      "record_id": "04/run-01/V368A/af0/seed1919",
+      "batch": "04",
+      "variant": "V368A",
+      "alias": "V368A",
+      "af_model": 0,
+      "seed": 1919,
+      "preparation_route": "full-length AF3, deletion and TM alignment",
+      "construct_id": "gpr2-docking",
+      "prediction": {
+        "job_name": "V368A",
+        "model_seeds": [
+          1394394836
+        ],
+        "job_request_path": "inputs/predictions/gpr2_round2_20260911_0054/records/v368a/fold_v368a_job_request.json",
+        "fasta_paths": [
+          "inputs/predictions/gpr2_round2_20260911_0054/fasta_full_length/Gpr2_full_length_V368A.fasta"
+        ]
+      },
+      "baseline_record_id": "04/run-01/baseline/af0/seed1919"
+    },
+    {
+      "record_id": "04/run-01/V368I/af0/seed1919",
+      "batch": "04",
+      "variant": "V368I",
+      "alias": "V368I",
+      "af_model": 0,
+      "seed": 1919,
+      "preparation_route": "full-length AF3, deletion and TM alignment",
+      "construct_id": "gpr2-docking",
+      "prediction": {
+        "job_name": "V368I",
+        "model_seeds": [
+          1065806887
+        ],
+        "job_request_path": "inputs/predictions/gpr2_round2_20260911_0054/records/v368i/fold_v368i_job_request.json",
+        "fasta_paths": [
+          "inputs/predictions/gpr2_round2_20260911_0054/fasta_full_length/Gpr2_full_length_V368I.fasta"
+        ]
+      },
+      "baseline_record_id": "04/run-01/baseline/af0/seed1919"
+    },
+    {
+      "record_id": "04/run-01/V368L/af0/seed1919",
+      "batch": "04",
+      "variant": "V368L",
+      "alias": "V368L",
+      "af_model": 0,
+      "seed": 1919,
+      "preparation_route": "full-length AF3, deletion and TM alignment",
+      "construct_id": "gpr2-docking",
+      "prediction": {
+        "job_name": "V368L",
+        "model_seeds": [
+          896196417
+        ],
+        "job_request_path": "inputs/predictions/gpr2_round2_20260911_0054/records/v368l/fold_v368l_job_request.json",
+        "fasta_paths": [
+          "inputs/predictions/gpr2_round2_20260911_0054/fasta_full_length/Gpr2_full_length_V368L.fasta"
+        ]
+      },
+      "baseline_record_id": "04/run-01/baseline/af0/seed1919"
+    },
+    {
+      "record_id": "04/run-01/W338A/af0/seed1919",
+      "batch": "04",
+      "variant": "W338A",
+      "alias": "W338A",
+      "af_model": 0,
+      "seed": 1919,
+      "preparation_route": "full-length AF3, deletion and TM alignment",
+      "construct_id": "gpr2-docking",
+      "prediction": {
+        "job_name": "W338A",
+        "model_seeds": [
+          2136937292
+        ],
+        "job_request_path": "inputs/predictions/gpr2_round2_20260911_0054/records/w338a/fold_w338a_job_request.json",
+        "fasta_paths": [
+          "inputs/predictions/gpr2_round2_20260911_0054/fasta_full_length/Gpr2_full_length_W338A.fasta"
+        ]
+      },
+      "baseline_record_id": "04/run-01/baseline/af0/seed1919"
+    },
+    {
+      "record_id": "04/run-01/baseline/af0/seed1919",
+      "batch": "04",
+      "variant": "baseline",
+      "alias": "baseline",
+      "af_model": 0,
+      "seed": 1919,
+      "preparation_route": "full-length AF3, deletion and TM alignment",
+      "construct_id": "gpr2-docking",
+      "prediction": {
+        "job_name": "baseline",
+        "model_seeds": [
+          822163725
+        ],
+        "job_request_path": "inputs/predictions/gpr2_round2_20260911_0054/records/baseline/fold_baseline_job_request.json",
+        "fasta_paths": [
+          "inputs/predictions/gpr2_combination_20260909/fasta_full_length/Gpr2_full_length_baseline.fasta",
+          "inputs/predictions/gpr2_round2_20260911_0054/fasta_full_length/Gpr2_full_length_baseline.fasta"
+        ]
+      },
+      "baseline_record_id": "04/run-01/baseline/af0/seed1919"
+    },
+    {
+      "record_id": "05/run-01/baseline/af0/seed1919",
+      "batch": "05",
+      "variant": "baseline",
+      "alias": "05_baseline",
+      "af_model": 0,
+      "seed": 1919,
+      "preparation_route": "full-length AF3, deletion and TM alignment",
+      "preparation": {
+        "alias": "05_baseline",
+        "residues": 370,
+        "heavy_atoms": 2888,
+        "charge_model": "gasteiger",
+        "versions": {
+          "meeko": "0.7.1",
+          "rdkit": "2025.9.5"
+        }
+      },
+      "construct_id": "gpr2-docking",
+      "prediction": {
+        "job_name": "gpr2_b05_fl_baseline",
+        "model_seeds": [
+          1514306872
+        ],
+        "job_request_path": "inputs/predictions/gpr2_batch05_20260916/records/folds_2026_09_16_11_15/gpr2_b05_fl_baseline/fold_gpr2_b05_fl_baseline_job_request.json",
+        "fasta_paths": [
+          "inputs/predictions/gpr2_batch05_20260916/fasta_full_length/baseline.fasta"
+        ]
+      },
+      "baseline_record_id": "05/run-01/baseline/af0/seed1919"
+    },
+    {
+      "record_id": "05/run-01/N84A/af0/seed1919",
+      "batch": "05",
+      "variant": "N84A",
+      "alias": "05_n84a",
+      "af_model": 0,
+      "seed": 1919,
+      "preparation_route": "full-length AF3, deletion and TM alignment",
+      "preparation": {
+        "alias": "05_n84a",
+        "residues": 370,
+        "heavy_atoms": 2885,
+        "charge_model": "gasteiger",
+        "versions": {
+          "meeko": "0.7.1",
+          "rdkit": "2025.9.5"
+        }
+      },
+      "construct_id": "gpr2-docking",
+      "prediction": {
+        "job_name": "gpr2_b05_fl_n84a",
+        "model_seeds": [
+          1390875188
+        ],
+        "job_request_path": "inputs/predictions/gpr2_batch05_20260916/records/folds_2026_09_16_11_15/gpr2_b05_fl_n84a/fold_gpr2_b05_fl_n84a_job_request.json",
+        "fasta_paths": [
+          "inputs/predictions/gpr2_batch05_20260916/fasta_full_length/N84A.fasta"
+        ]
+      },
+      "baseline_record_id": "05/run-01/baseline/af0/seed1919"
+    },
+    {
+      "record_id": "05/run-01/N84C/af0/seed1919",
+      "batch": "05",
+      "variant": "N84C",
+      "alias": "05_n84c",
+      "af_model": 0,
+      "seed": 1919,
+      "preparation_route": "full-length AF3, deletion and TM alignment",
+      "preparation": {
+        "alias": "05_n84c",
+        "residues": 370,
+        "heavy_atoms": 2886,
+        "charge_model": "gasteiger",
+        "versions": {
+          "meeko": "0.7.1",
+          "rdkit": "2025.9.5"
+        }
+      },
+      "construct_id": "gpr2-docking",
+      "prediction": {
+        "job_name": "gpr2_b05_fl_n84c",
+        "model_seeds": [
+          1999548118
+        ],
+        "job_request_path": "inputs/predictions/gpr2_batch05_20260916/records/folds_2026_09_16_11_15/gpr2_b05_fl_n84c/fold_gpr2_b05_fl_n84c_job_request.json",
+        "fasta_paths": [
+          "inputs/predictions/gpr2_batch05_20260916/fasta_full_length/N84C.fasta"
+        ]
+      },
+      "baseline_record_id": "05/run-01/baseline/af0/seed1919"
+    },
+    {
+      "record_id": "05/run-01/N84D/af0/seed1919",
+      "batch": "05",
+      "variant": "N84D",
+      "alias": "05_n84d",
+      "af_model": 0,
+      "seed": 1919,
+      "preparation_route": "full-length AF3, deletion and TM alignment",
+      "preparation": {
+        "alias": "05_n84d",
+        "residues": 370,
+        "heavy_atoms": 2888,
+        "charge_model": "gasteiger",
+        "versions": {
+          "meeko": "0.7.1",
+          "rdkit": "2025.9.5"
+        }
+      },
+      "construct_id": "gpr2-docking",
+      "prediction": {
+        "job_name": "gpr2_b05_fl_n84d",
+        "model_seeds": [
+          693260511
+        ],
+        "job_request_path": "inputs/predictions/gpr2_batch05_20260916/records/folds_2026_09_16_11_15/gpr2_b05_fl_n84d/fold_gpr2_b05_fl_n84d_job_request.json",
+        "fasta_paths": [
+          "inputs/predictions/gpr2_batch05_20260916/fasta_full_length/N84D.fasta"
+        ]
+      },
+      "baseline_record_id": "05/run-01/baseline/af0/seed1919"
+    },
+    {
+      "record_id": "05/run-01/N84E/af0/seed1919",
+      "batch": "05",
+      "variant": "N84E",
+      "alias": "05_n84e",
+      "af_model": 0,
+      "seed": 1919,
+      "preparation_route": "full-length AF3, deletion and TM alignment",
+      "preparation": {
+        "alias": "05_n84e",
+        "residues": 370,
+        "heavy_atoms": 2889,
+        "charge_model": "gasteiger",
+        "versions": {
+          "meeko": "0.7.1",
+          "rdkit": "2025.9.5"
+        }
+      },
+      "construct_id": "gpr2-docking",
+      "prediction": {
+        "job_name": "gpr2_b05_fl_n84e",
+        "model_seeds": [
+          346058862
+        ],
+        "job_request_path": "inputs/predictions/gpr2_batch05_20260916/records/folds_2026_09_16_11_15/gpr2_b05_fl_n84e/fold_gpr2_b05_fl_n84e_job_request.json",
+        "fasta_paths": [
+          "inputs/predictions/gpr2_batch05_20260916/fasta_full_length/N84E.fasta"
+        ]
+      },
+      "baseline_record_id": "05/run-01/baseline/af0/seed1919"
+    },
+    {
+      "record_id": "05/run-01/N84F/af0/seed1919",
+      "batch": "05",
+      "variant": "N84F",
+      "alias": "05_n84f",
+      "af_model": 0,
+      "seed": 1919,
+      "preparation_route": "full-length AF3, deletion and TM alignment",
+      "preparation": {
+        "alias": "05_n84f",
+        "residues": 370,
+        "heavy_atoms": 2891,
+        "charge_model": "gasteiger",
+        "versions": {
+          "meeko": "0.7.1",
+          "rdkit": "2025.9.5"
+        }
+      },
+      "construct_id": "gpr2-docking",
+      "prediction": {
+        "job_name": "gpr2_b05_fl_n84f",
+        "model_seeds": [
+          432300413
+        ],
+        "job_request_path": "inputs/predictions/gpr2_batch05_20260916/records/folds_2026_09_16_11_15/gpr2_b05_fl_n84f/fold_gpr2_b05_fl_n84f_job_request.json",
+        "fasta_paths": [
+          "inputs/predictions/gpr2_batch05_20260916/fasta_full_length/N84F.fasta"
+        ]
+      },
+      "baseline_record_id": "05/run-01/baseline/af0/seed1919"
+    },
+    {
+      "record_id": "05/run-01/N84G/af0/seed1919",
+      "batch": "05",
+      "variant": "N84G",
+      "alias": "05_n84g",
+      "af_model": 0,
+      "seed": 1919,
+      "preparation_route": "full-length AF3, deletion and TM alignment",
+      "preparation": {
+        "alias": "05_n84g",
+        "residues": 370,
+        "heavy_atoms": 2884,
+        "charge_model": "gasteiger",
+        "versions": {
+          "meeko": "0.7.1",
+          "rdkit": "2025.9.5"
+        }
+      },
+      "construct_id": "gpr2-docking",
+      "prediction": {
+        "job_name": "gpr2_b05_fl_n84g",
+        "model_seeds": [
+          474619114
+        ],
+        "job_request_path": "inputs/predictions/gpr2_batch05_20260916/records/folds_2026_09_16_11_15/gpr2_b05_fl_n84g/fold_gpr2_b05_fl_n84g_job_request.json",
+        "fasta_paths": [
+          "inputs/predictions/gpr2_batch05_20260916/fasta_full_length/N84G.fasta"
+        ]
+      },
+      "baseline_record_id": "05/run-01/baseline/af0/seed1919"
+    },
+    {
+      "record_id": "05/run-01/N84H/af0/seed1919",
+      "batch": "05",
+      "variant": "N84H",
+      "alias": "05_n84h",
+      "af_model": 0,
+      "seed": 1919,
+      "preparation_route": "full-length AF3, deletion and TM alignment",
+      "preparation": {
+        "alias": "05_n84h",
+        "residues": 370,
+        "heavy_atoms": 2890,
+        "charge_model": "gasteiger",
+        "versions": {
+          "meeko": "0.7.1",
+          "rdkit": "2025.9.5"
+        }
+      },
+      "construct_id": "gpr2-docking",
+      "prediction": {
+        "job_name": "gpr2_b05_fl_n84h",
+        "model_seeds": [
+          997324364
+        ],
+        "job_request_path": "inputs/predictions/gpr2_batch05_20260916/records/folds_2026_09_16_11_15/gpr2_b05_fl_n84h/fold_gpr2_b05_fl_n84h_job_request.json",
+        "fasta_paths": [
+          "inputs/predictions/gpr2_batch05_20260916/fasta_full_length/N84H.fasta"
+        ]
+      },
+      "baseline_record_id": "05/run-01/baseline/af0/seed1919"
+    },
+    {
+      "record_id": "05/run-01/N84I/af0/seed1919",
+      "batch": "05",
+      "variant": "N84I",
+      "alias": "05_n84i",
+      "af_model": 0,
+      "seed": 1919,
+      "preparation_route": "full-length AF3, deletion and TM alignment",
+      "preparation": {
+        "alias": "05_n84i",
+        "residues": 370,
+        "heavy_atoms": 2888,
+        "charge_model": "gasteiger",
+        "versions": {
+          "meeko": "0.7.1",
+          "rdkit": "2025.9.5"
+        }
+      },
+      "construct_id": "gpr2-docking",
+      "prediction": {
+        "job_name": "gpr2_b05_fl_n84i",
+        "model_seeds": [
+          1368859031
+        ],
+        "job_request_path": "inputs/predictions/gpr2_batch05_20260916/records/folds_2026_09_16_11_15/gpr2_b05_fl_n84i/fold_gpr2_b05_fl_n84i_job_request.json",
+        "fasta_paths": [
+          "inputs/predictions/gpr2_batch05_20260916/fasta_full_length/N84I.fasta"
+        ]
+      },
+      "baseline_record_id": "05/run-01/baseline/af0/seed1919"
+    },
+    {
+      "record_id": "05/run-01/N84K/af0/seed1919",
+      "batch": "05",
+      "variant": "N84K",
+      "alias": "05_n84k",
+      "af_model": 0,
+      "seed": 1919,
+      "preparation_route": "full-length AF3, deletion and TM alignment",
+      "preparation": {
+        "alias": "05_n84k",
+        "residues": 370,
+        "heavy_atoms": 2889,
+        "charge_model": "gasteiger",
+        "versions": {
+          "meeko": "0.7.1",
+          "rdkit": "2025.9.5"
+        }
+      },
+      "construct_id": "gpr2-docking",
+      "prediction": {
+        "job_name": "gpr2_b05_fl_n84k",
+        "model_seeds": [
+          1754962324
+        ],
+        "job_request_path": "inputs/predictions/gpr2_batch05_20260916/records/folds_2026_09_16_11_15/gpr2_b05_fl_n84k/fold_gpr2_b05_fl_n84k_job_request.json",
+        "fasta_paths": [
+          "inputs/predictions/gpr2_batch05_20260916/fasta_full_length/N84K.fasta"
+        ]
+      },
+      "baseline_record_id": "05/run-01/baseline/af0/seed1919"
+    },
+    {
+      "record_id": "05/run-01/N84L/af0/seed1919",
+      "batch": "05",
+      "variant": "N84L",
+      "alias": "05_n84l",
+      "af_model": 0,
+      "seed": 1919,
+      "preparation_route": "full-length AF3, deletion and TM alignment",
+      "preparation": {
+        "alias": "05_n84l",
+        "residues": 370,
+        "heavy_atoms": 2888,
+        "charge_model": "gasteiger",
+        "versions": {
+          "meeko": "0.7.1",
+          "rdkit": "2025.9.5"
+        }
+      },
+      "construct_id": "gpr2-docking",
+      "prediction": {
+        "job_name": "gpr2_b05_fl_n84l",
+        "model_seeds": [
+          1580285694
+        ],
+        "job_request_path": "inputs/predictions/gpr2_batch05_20260916/records/folds_2026_09_16_11_15/gpr2_b05_fl_n84l/fold_gpr2_b05_fl_n84l_job_request.json",
+        "fasta_paths": [
+          "inputs/predictions/gpr2_batch05_20260916/fasta_full_length/N84L.fasta"
+        ]
+      },
+      "baseline_record_id": "05/run-01/baseline/af0/seed1919"
+    },
+    {
+      "record_id": "05/run-01/N84M/af0/seed1919",
+      "batch": "05",
+      "variant": "N84M",
+      "alias": "05_n84m",
+      "af_model": 0,
+      "seed": 1919,
+      "preparation_route": "full-length AF3, deletion and TM alignment",
+      "preparation": {
+        "alias": "05_n84m",
+        "residues": 370,
+        "heavy_atoms": 2888,
+        "charge_model": "gasteiger",
+        "versions": {
+          "meeko": "0.7.1",
+          "rdkit": "2025.9.5"
+        }
+      },
+      "construct_id": "gpr2-docking",
+      "prediction": {
+        "job_name": "gpr2_b05_fl_n84m",
+        "model_seeds": [
+          1210803943
+        ],
+        "job_request_path": "inputs/predictions/gpr2_batch05_20260916/records/folds_2026_09_16_11_15/gpr2_b05_fl_n84m/fold_gpr2_b05_fl_n84m_job_request.json",
+        "fasta_paths": [
+          "inputs/predictions/gpr2_batch05_20260916/fasta_full_length/N84M.fasta"
+        ]
+      },
+      "baseline_record_id": "05/run-01/baseline/af0/seed1919"
+    },
+    {
+      "record_id": "05/run-01/N84P/af0/seed1919",
+      "batch": "05",
+      "variant": "N84P",
+      "alias": "05_n84p",
+      "af_model": 0,
+      "seed": 1919,
+      "preparation_route": "full-length AF3, deletion and TM alignment",
+      "preparation": {
+        "alias": "05_n84p",
+        "residues": 370,
+        "heavy_atoms": 2887,
+        "charge_model": "gasteiger",
+        "versions": {
+          "meeko": "0.7.1",
+          "rdkit": "2025.9.5"
+        }
+      },
+      "construct_id": "gpr2-docking",
+      "prediction": {
+        "job_name": "gpr2_b05_fl_n84p",
+        "model_seeds": [
+          1457272584
+        ],
+        "job_request_path": "inputs/predictions/gpr2_batch05_20260916/records/folds_2026_09_16_11_15/gpr2_b05_fl_n84p/fold_gpr2_b05_fl_n84p_job_request.json",
+        "fasta_paths": [
+          "inputs/predictions/gpr2_batch05_20260916/fasta_full_length/N84P.fasta"
+        ]
+      },
+      "baseline_record_id": "05/run-01/baseline/af0/seed1919"
+    },
+    {
+      "record_id": "05/run-01/N84Q/af0/seed1919",
+      "batch": "05",
+      "variant": "N84Q",
+      "alias": "05_n84q",
+      "af_model": 0,
+      "seed": 1919,
+      "preparation_route": "full-length AF3, deletion and TM alignment",
+      "preparation": {
+        "alias": "05_n84q",
+        "residues": 370,
+        "heavy_atoms": 2889,
+        "charge_model": "gasteiger",
+        "versions": {
+          "meeko": "0.7.1",
+          "rdkit": "2025.9.5"
+        }
+      },
+      "construct_id": "gpr2-docking",
+      "prediction": {
+        "job_name": "gpr2_b05_fl_n84q",
+        "model_seeds": [
+          628102246
+        ],
+        "job_request_path": "inputs/predictions/gpr2_batch05_20260916/records/folds_2026_09_16_11_15/gpr2_b05_fl_n84q/fold_gpr2_b05_fl_n84q_job_request.json",
+        "fasta_paths": [
+          "inputs/predictions/gpr2_batch05_20260916/fasta_full_length/N84Q.fasta"
+        ]
+      },
+      "baseline_record_id": "05/run-01/baseline/af0/seed1919"
+    },
+    {
+      "record_id": "05/run-01/N84R/af0/seed1919",
+      "batch": "05",
+      "variant": "N84R",
+      "alias": "05_n84r",
+      "af_model": 0,
+      "seed": 1919,
+      "preparation_route": "full-length AF3, deletion and TM alignment",
+      "preparation": {
+        "alias": "05_n84r",
+        "residues": 370,
+        "heavy_atoms": 2891,
+        "charge_model": "gasteiger",
+        "versions": {
+          "meeko": "0.7.1",
+          "rdkit": "2025.9.5"
+        }
+      },
+      "construct_id": "gpr2-docking",
+      "prediction": {
+        "job_name": "gpr2_b05_fl_n84r",
+        "model_seeds": [
+          1097044560
+        ],
+        "job_request_path": "inputs/predictions/gpr2_batch05_20260916/records/folds_2026_09_16_11_15/gpr2_b05_fl_n84r/fold_gpr2_b05_fl_n84r_job_request.json",
+        "fasta_paths": [
+          "inputs/predictions/gpr2_batch05_20260916/fasta_full_length/N84R.fasta"
+        ]
+      },
+      "baseline_record_id": "05/run-01/baseline/af0/seed1919"
+    },
+    {
+      "record_id": "05/run-01/N84S/af0/seed1919",
+      "batch": "05",
+      "variant": "N84S",
+      "alias": "05_n84s",
+      "af_model": 0,
+      "seed": 1919,
+      "preparation_route": "full-length AF3, deletion and TM alignment",
+      "preparation": {
+        "alias": "05_n84s",
+        "residues": 370,
+        "heavy_atoms": 2886,
+        "charge_model": "gasteiger",
+        "versions": {
+          "meeko": "0.7.1",
+          "rdkit": "2025.9.5"
+        }
+      },
+      "construct_id": "gpr2-docking",
+      "prediction": {
+        "job_name": "gpr2_b05_fl_n84s",
+        "model_seeds": [
+          1783600445
+        ],
+        "job_request_path": "inputs/predictions/gpr2_batch05_20260916/records/folds_2026_09_16_11_15/gpr2_b05_fl_n84s/fold_gpr2_b05_fl_n84s_job_request.json",
+        "fasta_paths": [
+          "inputs/predictions/gpr2_batch05_20260916/fasta_full_length/N84S.fasta"
+        ]
+      },
+      "baseline_record_id": "05/run-01/baseline/af0/seed1919"
+    },
+    {
+      "record_id": "05/run-01/N84T/af0/seed1919",
+      "batch": "05",
+      "variant": "N84T",
+      "alias": "05_n84t",
+      "af_model": 0,
+      "seed": 1919,
+      "preparation_route": "full-length AF3, deletion and TM alignment",
+      "preparation": {
+        "alias": "05_n84t",
+        "residues": 370,
+        "heavy_atoms": 2887,
+        "charge_model": "gasteiger",
+        "versions": {
+          "meeko": "0.7.1",
+          "rdkit": "2025.9.5"
+        }
+      },
+      "construct_id": "gpr2-docking",
+      "prediction": {
+        "job_name": "gpr2_b05_fl_n84t",
+        "model_seeds": [
+          1489325871
+        ],
+        "job_request_path": "inputs/predictions/gpr2_batch05_20260916/records/folds_2026_09_16_11_15/gpr2_b05_fl_n84t/fold_gpr2_b05_fl_n84t_job_request.json",
+        "fasta_paths": [
+          "inputs/predictions/gpr2_batch05_20260916/fasta_full_length/N84T.fasta"
+        ]
+      },
+      "baseline_record_id": "05/run-01/baseline/af0/seed1919"
+    },
+    {
+      "record_id": "05/run-01/N84V/af0/seed1919",
+      "batch": "05",
+      "variant": "N84V",
+      "alias": "05_n84v",
+      "af_model": 0,
+      "seed": 1919,
+      "preparation_route": "full-length AF3, deletion and TM alignment",
+      "preparation": {
+        "alias": "05_n84v",
+        "residues": 370,
+        "heavy_atoms": 2887,
+        "charge_model": "gasteiger",
+        "versions": {
+          "meeko": "0.7.1",
+          "rdkit": "2025.9.5"
+        }
+      },
+      "construct_id": "gpr2-docking",
+      "prediction": {
+        "job_name": "gpr2_b05_fl_n84v",
+        "model_seeds": [
+          2135582552
+        ],
+        "job_request_path": "inputs/predictions/gpr2_batch05_20260916/records/folds_2026_09_16_11_15/gpr2_b05_fl_n84v/fold_gpr2_b05_fl_n84v_job_request.json",
+        "fasta_paths": [
+          "inputs/predictions/gpr2_batch05_20260916/fasta_full_length/N84V.fasta"
+        ]
+      },
+      "baseline_record_id": "05/run-01/baseline/af0/seed1919"
+    },
+    {
+      "record_id": "05/run-01/N84W/af0/seed1919",
+      "batch": "05",
+      "variant": "N84W",
+      "alias": "05_n84w",
+      "af_model": 0,
+      "seed": 1919,
+      "preparation_route": "full-length AF3, deletion and TM alignment",
+      "preparation": {
+        "alias": "05_n84w",
+        "residues": 370,
+        "heavy_atoms": 2894,
+        "charge_model": "gasteiger",
+        "versions": {
+          "meeko": "0.7.1",
+          "rdkit": "2025.9.5"
+        }
+      },
+      "construct_id": "gpr2-docking",
+      "prediction": {
+        "job_name": "gpr2_b05_fl_n84w",
+        "model_seeds": [
+          1144475906
+        ],
+        "job_request_path": "inputs/predictions/gpr2_batch05_20260916/records/folds_2026_09_16_11_15/gpr2_b05_fl_n84w/fold_gpr2_b05_fl_n84w_job_request.json",
+        "fasta_paths": [
+          "inputs/predictions/gpr2_batch05_20260916/fasta_full_length/N84W.fasta"
+        ]
+      },
+      "baseline_record_id": "05/run-01/baseline/af0/seed1919"
+    },
+    {
+      "record_id": "05/run-01/N84Y/af0/seed1919",
+      "batch": "05",
+      "variant": "N84Y",
+      "alias": "05_n84y",
+      "af_model": 0,
+      "seed": 1919,
+      "preparation_route": "full-length AF3, deletion and TM alignment",
+      "preparation": {
+        "alias": "05_n84y",
+        "residues": 370,
+        "heavy_atoms": 2892,
+        "charge_model": "gasteiger",
+        "versions": {
+          "meeko": "0.7.1",
+          "rdkit": "2025.9.5"
+        }
+      },
+      "construct_id": "gpr2-docking",
+      "prediction": {
+        "job_name": "gpr2_b05_fl_n84y",
+        "model_seeds": [
+          285433527
+        ],
+        "job_request_path": "inputs/predictions/gpr2_batch05_20260916/records/folds_2026_09_16_11_15/gpr2_b05_fl_n84y/fold_gpr2_b05_fl_n84y_job_request.json",
+        "fasta_paths": [
+          "inputs/predictions/gpr2_batch05_20260916/fasta_full_length/N84Y.fasta"
+        ]
+      },
+      "baseline_record_id": "05/run-01/baseline/af0/seed1919"
+    },
+    {
+      "record_id": "05/run-01/V110A/af0/seed1919",
+      "batch": "05",
+      "variant": "V110A",
+      "alias": "05_v110a",
+      "af_model": 0,
+      "seed": 1919,
+      "preparation_route": "full-length AF3, deletion and TM alignment",
+      "preparation": {
+        "alias": "05_v110a",
+        "residues": 370,
+        "heavy_atoms": 2886,
+        "charge_model": "gasteiger",
+        "versions": {
+          "meeko": "0.7.1",
+          "rdkit": "2025.9.5"
+        }
+      },
+      "construct_id": "gpr2-docking",
+      "prediction": {
+        "job_name": "gpr2_b05_fl_v110a",
+        "model_seeds": [
+          1578412361
+        ],
+        "job_request_path": "inputs/predictions/gpr2_batch05_20260916/records/folds_2026_09_16_11_15/gpr2_b05_fl_v110a/fold_gpr2_b05_fl_v110a_job_request.json",
+        "fasta_paths": [
+          "inputs/predictions/gpr2_batch05_20260916/fasta_full_length/V110A.fasta"
+        ]
+      },
+      "baseline_record_id": "05/run-01/baseline/af0/seed1919"
+    },
+    {
+      "record_id": "05/run-01/V110C/af0/seed1919",
+      "batch": "05",
+      "variant": "V110C",
+      "alias": "05_v110c",
+      "af_model": 0,
+      "seed": 1919,
+      "preparation_route": "full-length AF3, deletion and TM alignment",
+      "preparation": {
+        "alias": "05_v110c",
+        "residues": 370,
+        "heavy_atoms": 2887,
+        "charge_model": "gasteiger",
+        "versions": {
+          "meeko": "0.7.1",
+          "rdkit": "2025.9.5"
+        }
+      },
+      "construct_id": "gpr2-docking",
+      "prediction": {
+        "job_name": "gpr2_b05_fl_v110c",
+        "model_seeds": [
+          6387901
+        ],
+        "job_request_path": "inputs/predictions/gpr2_batch05_20260916/records/folds_2026_09_16_11_15/gpr2_b05_fl_v110c/fold_gpr2_b05_fl_v110c_job_request.json",
+        "fasta_paths": [
+          "inputs/predictions/gpr2_batch05_20260916/fasta_full_length/V110C.fasta"
+        ]
+      },
+      "baseline_record_id": "05/run-01/baseline/af0/seed1919"
+    },
+    {
+      "record_id": "05/run-01/V110D/af0/seed1919",
+      "batch": "05",
+      "variant": "V110D",
+      "alias": "05_v110d",
+      "af_model": 0,
+      "seed": 1919,
+      "preparation_route": "full-length AF3, deletion and TM alignment",
+      "preparation": {
+        "alias": "05_v110d",
+        "residues": 370,
+        "heavy_atoms": 2889,
+        "charge_model": "gasteiger",
+        "versions": {
+          "meeko": "0.7.1",
+          "rdkit": "2025.9.5"
+        }
+      },
+      "construct_id": "gpr2-docking",
+      "prediction": {
+        "job_name": "gpr2_b05_fl_v110d",
+        "model_seeds": [
+          513865472
+        ],
+        "job_request_path": "inputs/predictions/gpr2_batch05_20260916/records/folds_2026_09_16_11_15/gpr2_b05_fl_v110d/fold_gpr2_b05_fl_v110d_job_request.json",
+        "fasta_paths": [
+          "inputs/predictions/gpr2_batch05_20260916/fasta_full_length/V110D.fasta"
+        ]
+      },
+      "baseline_record_id": "05/run-01/baseline/af0/seed1919"
+    },
+    {
+      "record_id": "05/run-01/V110E/af0/seed1919",
+      "batch": "05",
+      "variant": "V110E",
+      "alias": "05_v110e",
+      "af_model": 0,
+      "seed": 1919,
+      "preparation_route": "full-length AF3, deletion and TM alignment",
+      "preparation": {
+        "alias": "05_v110e",
+        "residues": 370,
+        "heavy_atoms": 2890,
+        "charge_model": "gasteiger",
+        "versions": {
+          "meeko": "0.7.1",
+          "rdkit": "2025.9.5"
+        }
+      },
+      "construct_id": "gpr2-docking",
+      "prediction": {
+        "job_name": "gpr2_b05_fl_v110e",
+        "model_seeds": [
+          696256525
+        ],
+        "job_request_path": "inputs/predictions/gpr2_batch05_20260916/records/folds_2026_09_16_11_15/gpr2_b05_fl_v110e/fold_gpr2_b05_fl_v110e_job_request.json",
+        "fasta_paths": [
+          "inputs/predictions/gpr2_batch05_20260916/fasta_full_length/V110E.fasta"
+        ]
+      },
+      "baseline_record_id": "05/run-01/baseline/af0/seed1919"
+    },
+    {
+      "record_id": "05/run-01/V110F/af0/seed1919",
+      "batch": "05",
+      "variant": "V110F",
+      "alias": "05_v110f",
+      "af_model": 0,
+      "seed": 1919,
+      "preparation_route": "full-length AF3, deletion and TM alignment",
+      "preparation": {
+        "alias": "05_v110f",
+        "residues": 370,
+        "heavy_atoms": 2892,
+        "charge_model": "gasteiger",
+        "versions": {
+          "meeko": "0.7.1",
+          "rdkit": "2025.9.5"
+        }
+      },
+      "construct_id": "gpr2-docking",
+      "prediction": {
+        "job_name": "gpr2_b05_fl_v110f",
+        "model_seeds": [
+          942850601
+        ],
+        "job_request_path": "inputs/predictions/gpr2_batch05_20260916/records/folds_2026_09_16_11_15/gpr2_b05_fl_v110f/fold_gpr2_b05_fl_v110f_job_request.json",
+        "fasta_paths": [
+          "inputs/predictions/gpr2_batch05_20260916/fasta_full_length/V110F.fasta"
+        ]
+      },
+      "baseline_record_id": "05/run-01/baseline/af0/seed1919"
+    },
+    {
+      "record_id": "05/run-01/V110G/af0/seed1919",
+      "batch": "05",
+      "variant": "V110G",
+      "alias": "05_v110g",
+      "af_model": 0,
+      "seed": 1919,
+      "preparation_route": "full-length AF3, deletion and TM alignment",
+      "preparation": {
+        "alias": "05_v110g",
+        "residues": 370,
+        "heavy_atoms": 2885,
+        "charge_model": "gasteiger",
+        "versions": {
+          "meeko": "0.7.1",
+          "rdkit": "2025.9.5"
+        }
+      },
+      "construct_id": "gpr2-docking",
+      "prediction": {
+        "job_name": "gpr2_b05_fl_v110g",
+        "model_seeds": [
+          2147015766
+        ],
+        "job_request_path": "inputs/predictions/gpr2_batch05_20260916/records/folds_2026_09_16_11_15/gpr2_b05_fl_v110g/fold_gpr2_b05_fl_v110g_job_request.json",
+        "fasta_paths": [
+          "inputs/predictions/gpr2_batch05_20260916/fasta_full_length/V110G.fasta"
+        ]
+      },
+      "baseline_record_id": "05/run-01/baseline/af0/seed1919"
+    },
+    {
+      "record_id": "05/run-01/V110H/af0/seed1919",
+      "batch": "05",
+      "variant": "V110H",
+      "alias": "05_v110h",
+      "af_model": 0,
+      "seed": 1919,
+      "preparation_route": "full-length AF3, deletion and TM alignment",
+      "preparation": {
+        "alias": "05_v110h",
+        "residues": 370,
+        "heavy_atoms": 2891,
+        "charge_model": "gasteiger",
+        "versions": {
+          "meeko": "0.7.1",
+          "rdkit": "2025.9.5"
+        }
+      },
+      "construct_id": "gpr2-docking",
+      "prediction": {
+        "job_name": "gpr2_b05_fl_v110h",
+        "model_seeds": [
+          318808318
+        ],
+        "job_request_path": "inputs/predictions/gpr2_batch05_20260916/records/folds_2026_09_16_11_15/gpr2_b05_fl_v110h/fold_gpr2_b05_fl_v110h_job_request.json",
+        "fasta_paths": [
+          "inputs/predictions/gpr2_batch05_20260916/fasta_full_length/V110H.fasta"
+        ]
+      },
+      "baseline_record_id": "05/run-01/baseline/af0/seed1919"
+    },
+    {
+      "record_id": "05/run-01/V110I/af0/seed1919",
+      "batch": "05",
+      "variant": "V110I",
+      "alias": "05_v110i",
+      "af_model": 0,
+      "seed": 1919,
+      "preparation_route": "full-length AF3, deletion and TM alignment",
+      "preparation": {
+        "alias": "05_v110i",
+        "residues": 370,
+        "heavy_atoms": 2889,
+        "charge_model": "gasteiger",
+        "versions": {
+          "meeko": "0.7.1",
+          "rdkit": "2025.9.5"
+        }
+      },
+      "construct_id": "gpr2-docking",
+      "prediction": {
+        "job_name": "gpr2_b05_fl_v110i",
+        "model_seeds": [
+          386003800
+        ],
+        "job_request_path": "inputs/predictions/gpr2_batch05_20260916/records/folds_2026_09_16_11_15/gpr2_b05_fl_v110i/fold_gpr2_b05_fl_v110i_job_request.json",
+        "fasta_paths": [
+          "inputs/predictions/gpr2_batch05_20260916/fasta_full_length/V110I.fasta"
+        ]
+      },
+      "baseline_record_id": "05/run-01/baseline/af0/seed1919"
+    },
+    {
+      "record_id": "05/run-01/V110K/af0/seed1919",
+      "batch": "05",
+      "variant": "V110K",
+      "alias": "05_v110k",
+      "af_model": 0,
+      "seed": 1919,
+      "preparation_route": "full-length AF3, deletion and TM alignment",
+      "preparation": {
+        "alias": "05_v110k",
+        "residues": 370,
+        "heavy_atoms": 2890,
+        "charge_model": "gasteiger",
+        "versions": {
+          "meeko": "0.7.1",
+          "rdkit": "2025.9.5"
+        }
+      },
+      "construct_id": "gpr2-docking",
+      "prediction": {
+        "job_name": "gpr2_b05_fl_v110k",
+        "model_seeds": [
+          333003281
+        ],
+        "job_request_path": "inputs/predictions/gpr2_batch05_20260916/records/folds_2026_09_16_11_15/gpr2_b05_fl_v110k/fold_gpr2_b05_fl_v110k_job_request.json",
+        "fasta_paths": [
+          "inputs/predictions/gpr2_batch05_20260916/fasta_full_length/V110K.fasta"
+        ]
+      },
+      "baseline_record_id": "05/run-01/baseline/af0/seed1919"
+    },
+    {
+      "record_id": "05/run-01/V110L/af0/seed1919",
+      "batch": "05",
+      "variant": "V110L",
+      "alias": "05_v110l",
+      "af_model": 0,
+      "seed": 1919,
+      "preparation_route": "full-length AF3, deletion and TM alignment",
+      "preparation": {
+        "alias": "05_v110l",
+        "residues": 370,
+        "heavy_atoms": 2889,
+        "charge_model": "gasteiger",
+        "versions": {
+          "meeko": "0.7.1",
+          "rdkit": "2025.9.5"
+        }
+      },
+      "construct_id": "gpr2-docking",
+      "prediction": {
+        "job_name": "gpr2_b05_fl_v110l",
+        "model_seeds": [
+          746170444
+        ],
+        "job_request_path": "inputs/predictions/gpr2_batch05_20260916/records/folds_2026_09_16_11_15/gpr2_b05_fl_v110l/fold_gpr2_b05_fl_v110l_job_request.json",
+        "fasta_paths": [
+          "inputs/predictions/gpr2_batch05_20260916/fasta_full_length/V110L.fasta"
+        ]
+      },
+      "baseline_record_id": "05/run-01/baseline/af0/seed1919"
+    },
+    {
+      "record_id": "05/run-01/V110M/af0/seed1919",
+      "batch": "05",
+      "variant": "V110M",
+      "alias": "05_v110m",
+      "af_model": 0,
+      "seed": 1919,
+      "preparation_route": "full-length AF3, deletion and TM alignment",
+      "preparation": {
+        "alias": "05_v110m",
+        "residues": 370,
+        "heavy_atoms": 2889,
+        "charge_model": "gasteiger",
+        "versions": {
+          "meeko": "0.7.1",
+          "rdkit": "2025.9.5"
+        }
+      },
+      "construct_id": "gpr2-docking",
+      "prediction": {
+        "job_name": "gpr2_b05_fl_v110m",
+        "model_seeds": [
+          595639346
+        ],
+        "job_request_path": "inputs/predictions/gpr2_batch05_20260916/records/folds_2026_09_16_11_16/gpr2_b05_fl_v110m/fold_gpr2_b05_fl_v110m_job_request.json",
+        "fasta_paths": [
+          "inputs/predictions/gpr2_batch05_20260916/fasta_full_length/V110M.fasta"
+        ]
+      },
+      "baseline_record_id": "05/run-01/baseline/af0/seed1919"
+    },
+    {
+      "record_id": "05/run-01/V110N/af0/seed1919",
+      "batch": "05",
+      "variant": "V110N",
+      "alias": "05_v110n",
+      "af_model": 0,
+      "seed": 1919,
+      "preparation_route": "full-length AF3, deletion and TM alignment",
+      "preparation": {
+        "alias": "05_v110n",
+        "residues": 370,
+        "heavy_atoms": 2889,
+        "charge_model": "gasteiger",
+        "versions": {
+          "meeko": "0.7.1",
+          "rdkit": "2025.9.5"
+        }
+      },
+      "construct_id": "gpr2-docking",
+      "prediction": {
+        "job_name": "gpr2_b05_fl_v110n",
+        "model_seeds": [
+          1835826332
+        ],
+        "job_request_path": "inputs/predictions/gpr2_batch05_20260916/records/folds_2026_09_16_11_16/gpr2_b05_fl_v110n/fold_gpr2_b05_fl_v110n_job_request.json",
+        "fasta_paths": [
+          "inputs/predictions/gpr2_batch05_20260916/fasta_full_length/V110N.fasta"
+        ]
+      },
+      "baseline_record_id": "05/run-01/baseline/af0/seed1919"
+    },
+    {
+      "record_id": "05/run-01/V110P/af0/seed1919",
+      "batch": "05",
+      "variant": "V110P",
+      "alias": "05_v110p",
+      "af_model": 0,
+      "seed": 1919,
+      "preparation_route": "full-length AF3, deletion and TM alignment",
+      "preparation": {
+        "alias": "05_v110p",
+        "residues": 370,
+        "heavy_atoms": 2888,
+        "charge_model": "gasteiger",
+        "versions": {
+          "meeko": "0.7.1",
+          "rdkit": "2025.9.5"
+        }
+      },
+      "construct_id": "gpr2-docking",
+      "prediction": {
+        "job_name": "gpr2_b05_fl_v110p",
+        "model_seeds": [
+          1203204898
+        ],
+        "job_request_path": "inputs/predictions/gpr2_batch05_20260916/records/folds_2026_09_16_11_16/gpr2_b05_fl_v110p/fold_gpr2_b05_fl_v110p_job_request.json",
+        "fasta_paths": [
+          "inputs/predictions/gpr2_batch05_20260916/fasta_full_length/V110P.fasta"
+        ]
+      },
+      "baseline_record_id": "05/run-01/baseline/af0/seed1919"
+    },
+    {
+      "record_id": "05/run-01/V110Q/af0/seed1919",
+      "batch": "05",
+      "variant": "V110Q",
+      "alias": "05_v110q",
+      "af_model": 0,
+      "seed": 1919,
+      "preparation_route": "full-length AF3, deletion and TM alignment",
+      "preparation": {
+        "alias": "05_v110q",
+        "residues": 370,
+        "heavy_atoms": 2890,
+        "charge_model": "gasteiger",
+        "versions": {
+          "meeko": "0.7.1",
+          "rdkit": "2025.9.5"
+        }
+      },
+      "construct_id": "gpr2-docking",
+      "prediction": {
+        "job_name": "gpr2_b05_fl_v110q",
+        "model_seeds": [
+          613741334
+        ],
+        "job_request_path": "inputs/predictions/gpr2_batch05_20260916/records/folds_2026_09_16_11_16/gpr2_b05_fl_v110q/fold_gpr2_b05_fl_v110q_job_request.json",
+        "fasta_paths": [
+          "inputs/predictions/gpr2_batch05_20260916/fasta_full_length/V110Q.fasta"
+        ]
+      },
+      "baseline_record_id": "05/run-01/baseline/af0/seed1919"
+    },
+    {
+      "record_id": "05/run-01/V110R/af0/seed1919",
+      "batch": "05",
+      "variant": "V110R",
+      "alias": "05_v110r",
+      "af_model": 0,
+      "seed": 1919,
+      "preparation_route": "full-length AF3, deletion and TM alignment",
+      "preparation": {
+        "alias": "05_v110r",
+        "residues": 370,
+        "heavy_atoms": 2892,
+        "charge_model": "gasteiger",
+        "versions": {
+          "meeko": "0.7.1",
+          "rdkit": "2025.9.5"
+        }
+      },
+      "construct_id": "gpr2-docking",
+      "prediction": {
+        "job_name": "gpr2_b05_fl_v110r",
+        "model_seeds": [
+          365798258
+        ],
+        "job_request_path": "inputs/predictions/gpr2_batch05_20260916/records/folds_2026_09_16_11_16/gpr2_b05_fl_v110r/fold_gpr2_b05_fl_v110r_job_request.json",
+        "fasta_paths": [
+          "inputs/predictions/gpr2_batch05_20260916/fasta_full_length/V110R.fasta"
+        ]
+      },
+      "baseline_record_id": "05/run-01/baseline/af0/seed1919"
+    },
+    {
+      "record_id": "05/run-01/V110S/af0/seed1919",
+      "batch": "05",
+      "variant": "V110S",
+      "alias": "05_v110s",
+      "af_model": 0,
+      "seed": 1919,
+      "preparation_route": "full-length AF3, deletion and TM alignment",
+      "preparation": {
+        "alias": "05_v110s",
+        "residues": 370,
+        "heavy_atoms": 2887,
+        "charge_model": "gasteiger",
+        "versions": {
+          "meeko": "0.7.1",
+          "rdkit": "2025.9.5"
+        }
+      },
+      "construct_id": "gpr2-docking",
+      "prediction": {
+        "job_name": "gpr2_b05_fl_v110s",
+        "model_seeds": [
+          1145569805
+        ],
+        "job_request_path": "inputs/predictions/gpr2_batch05_20260916/records/folds_2026_09_16_11_16/gpr2_b05_fl_v110s/fold_gpr2_b05_fl_v110s_job_request.json",
+        "fasta_paths": [
+          "inputs/predictions/gpr2_batch05_20260916/fasta_full_length/V110S.fasta"
+        ]
+      },
+      "baseline_record_id": "05/run-01/baseline/af0/seed1919"
+    },
+    {
+      "record_id": "05/run-01/V110T/af0/seed1919",
+      "batch": "05",
+      "variant": "V110T",
+      "alias": "05_v110t",
+      "af_model": 0,
+      "seed": 1919,
+      "preparation_route": "full-length AF3, deletion and TM alignment",
+      "preparation": {
+        "alias": "05_v110t",
+        "residues": 370,
+        "heavy_atoms": 2888,
+        "charge_model": "gasteiger",
+        "versions": {
+          "meeko": "0.7.1",
+          "rdkit": "2025.9.5"
+        }
+      },
+      "construct_id": "gpr2-docking",
+      "prediction": {
+        "job_name": "gpr2_b05_fl_v110t",
+        "model_seeds": [
+          1015161690
+        ],
+        "job_request_path": "inputs/predictions/gpr2_batch05_20260916/records/folds_2026_09_16_11_16/gpr2_b05_fl_v110t/fold_gpr2_b05_fl_v110t_job_request.json",
+        "fasta_paths": [
+          "inputs/predictions/gpr2_batch05_20260916/fasta_full_length/V110T.fasta"
+        ]
+      },
+      "baseline_record_id": "05/run-01/baseline/af0/seed1919"
+    },
+    {
+      "record_id": "05/run-01/V110W/af0/seed1919",
+      "batch": "05",
+      "variant": "V110W",
+      "alias": "05_v110w",
+      "af_model": 0,
+      "seed": 1919,
+      "preparation_route": "full-length AF3, deletion and TM alignment",
+      "preparation": {
+        "alias": "05_v110w",
+        "residues": 370,
+        "heavy_atoms": 2895,
+        "charge_model": "gasteiger",
+        "versions": {
+          "meeko": "0.7.1",
+          "rdkit": "2025.9.5"
+        }
+      },
+      "construct_id": "gpr2-docking",
+      "prediction": {
+        "job_name": "gpr2_b05_fl_v110w",
+        "model_seeds": [
+          1359164738
+        ],
+        "job_request_path": "inputs/predictions/gpr2_batch05_20260916/records/folds_2026_09_16_11_16/gpr2_b05_fl_v110w/fold_gpr2_b05_fl_v110w_job_request.json",
+        "fasta_paths": [
+          "inputs/predictions/gpr2_batch05_20260916/fasta_full_length/V110W.fasta"
+        ]
+      },
+      "baseline_record_id": "05/run-01/baseline/af0/seed1919"
+    },
+    {
+      "record_id": "05/run-01/V110Y/af0/seed1919",
+      "batch": "05",
+      "variant": "V110Y",
+      "alias": "05_v110y",
+      "af_model": 0,
+      "seed": 1919,
+      "preparation_route": "full-length AF3, deletion and TM alignment",
+      "preparation": {
+        "alias": "05_v110y",
+        "residues": 370,
+        "heavy_atoms": 2893,
+        "charge_model": "gasteiger",
+        "versions": {
+          "meeko": "0.7.1",
+          "rdkit": "2025.9.5"
+        }
+      },
+      "construct_id": "gpr2-docking",
+      "prediction": {
+        "job_name": "gpr2_b05_fl_v110y",
+        "model_seeds": [
+          2001458998
+        ],
+        "job_request_path": "inputs/predictions/gpr2_batch05_20260916/records/folds_2026_09_16_11_16/gpr2_b05_fl_v110y/fold_gpr2_b05_fl_v110y_job_request.json",
+        "fasta_paths": [
+          "inputs/predictions/gpr2_batch05_20260916/fasta_full_length/V110Y.fasta"
+        ]
+      },
+      "baseline_record_id": "05/run-01/baseline/af0/seed1919"
+    },
+    {
+      "record_id": "05/run-01/V368A/af0/seed1919",
+      "batch": "05",
+      "variant": "V368A",
+      "alias": "05_v368a",
+      "af_model": 0,
+      "seed": 1919,
+      "preparation_route": "full-length AF3, deletion and TM alignment",
+      "preparation": {
+        "alias": "05_v368a",
+        "residues": 370,
+        "heavy_atoms": 2886,
+        "charge_model": "gasteiger",
+        "versions": {
+          "meeko": "0.7.1",
+          "rdkit": "2025.9.5"
+        }
+      },
+      "construct_id": "gpr2-docking",
+      "prediction": {
+        "job_name": "gpr2_b05_fl_v368a",
+        "model_seeds": [
+          1397389301
+        ],
+        "job_request_path": "inputs/predictions/gpr2_batch05_20260916/records/folds_2026_09_16_11_16/gpr2_b05_fl_v368a/fold_gpr2_b05_fl_v368a_job_request.json",
+        "fasta_paths": [
+          "inputs/predictions/gpr2_batch05_20260916/fasta_full_length/V368A.fasta"
+        ]
+      },
+      "baseline_record_id": "05/run-01/baseline/af0/seed1919"
+    },
+    {
+      "record_id": "05/run-01/V368C/af0/seed1919",
+      "batch": "05",
+      "variant": "V368C",
+      "alias": "05_v368c",
+      "af_model": 0,
+      "seed": 1919,
+      "preparation_route": "full-length AF3, deletion and TM alignment",
+      "preparation": {
+        "alias": "05_v368c",
+        "residues": 370,
+        "heavy_atoms": 2887,
+        "charge_model": "gasteiger",
+        "versions": {
+          "meeko": "0.7.1",
+          "rdkit": "2025.9.5"
+        }
+      },
+      "construct_id": "gpr2-docking",
+      "prediction": {
+        "job_name": "gpr2_b05_fl_v368c",
+        "model_seeds": [
+          2030409888
+        ],
+        "job_request_path": "inputs/predictions/gpr2_batch05_20260916/records/folds_2026_09_16_11_16/gpr2_b05_fl_v368c/fold_gpr2_b05_fl_v368c_job_request.json",
+        "fasta_paths": [
+          "inputs/predictions/gpr2_batch05_20260916/fasta_full_length/V368C.fasta"
+        ]
+      },
+      "baseline_record_id": "05/run-01/baseline/af0/seed1919"
+    },
+    {
+      "record_id": "05/run-01/V368D/af0/seed1919",
+      "batch": "05",
+      "variant": "V368D",
+      "alias": "05_v368d",
+      "af_model": 0,
+      "seed": 1919,
+      "preparation_route": "full-length AF3, deletion and TM alignment",
+      "preparation": {
+        "alias": "05_v368d",
+        "residues": 370,
+        "heavy_atoms": 2889,
+        "charge_model": "gasteiger",
+        "versions": {
+          "meeko": "0.7.1",
+          "rdkit": "2025.9.5"
+        }
+      },
+      "construct_id": "gpr2-docking",
+      "prediction": {
+        "job_name": "gpr2_b05_fl_v368d",
+        "model_seeds": [
+          1763869614
+        ],
+        "job_request_path": "inputs/predictions/gpr2_batch05_20260916/records/folds_2026_09_16_11_16/gpr2_b05_fl_v368d/fold_gpr2_b05_fl_v368d_job_request.json",
+        "fasta_paths": [
+          "inputs/predictions/gpr2_batch05_20260916/fasta_full_length/V368D.fasta"
+        ]
+      },
+      "baseline_record_id": "05/run-01/baseline/af0/seed1919"
+    },
+    {
+      "record_id": "05/run-01/V368E/af0/seed1919",
+      "batch": "05",
+      "variant": "V368E",
+      "alias": "05_v368e",
+      "af_model": 0,
+      "seed": 1919,
+      "preparation_route": "full-length AF3, deletion and TM alignment",
+      "preparation": {
+        "alias": "05_v368e",
+        "residues": 370,
+        "heavy_atoms": 2890,
+        "charge_model": "gasteiger",
+        "versions": {
+          "meeko": "0.7.1",
+          "rdkit": "2025.9.5"
+        }
+      },
+      "construct_id": "gpr2-docking",
+      "prediction": {
+        "job_name": "gpr2_b05_fl_v368e",
+        "model_seeds": [
+          2053259866
+        ],
+        "job_request_path": "inputs/predictions/gpr2_batch05_20260916/records/folds_2026_09_16_11_16/gpr2_b05_fl_v368e/fold_gpr2_b05_fl_v368e_job_request.json",
+        "fasta_paths": [
+          "inputs/predictions/gpr2_batch05_20260916/fasta_full_length/V368E.fasta"
+        ]
+      },
+      "baseline_record_id": "05/run-01/baseline/af0/seed1919"
+    },
+    {
+      "record_id": "05/run-01/V368F/af0/seed1919",
+      "batch": "05",
+      "variant": "V368F",
+      "alias": "05_v368f",
+      "af_model": 0,
+      "seed": 1919,
+      "preparation_route": "full-length AF3, deletion and TM alignment",
+      "preparation": {
+        "alias": "05_v368f",
+        "residues": 370,
+        "heavy_atoms": 2892,
+        "charge_model": "gasteiger",
+        "versions": {
+          "meeko": "0.7.1",
+          "rdkit": "2025.9.5"
+        }
+      },
+      "construct_id": "gpr2-docking",
+      "prediction": {
+        "job_name": "gpr2_b05_fl_v368f",
+        "model_seeds": [
+          1032118492
+        ],
+        "job_request_path": "inputs/predictions/gpr2_batch05_20260916/records/folds_2026_09_16_11_16/gpr2_b05_fl_v368f/fold_gpr2_b05_fl_v368f_job_request.json",
+        "fasta_paths": [
+          "inputs/predictions/gpr2_batch05_20260916/fasta_full_length/V368F.fasta"
+        ]
+      },
+      "baseline_record_id": "05/run-01/baseline/af0/seed1919"
+    },
+    {
+      "record_id": "05/run-01/V368G/af0/seed1919",
+      "batch": "05",
+      "variant": "V368G",
+      "alias": "05_v368g",
+      "af_model": 0,
+      "seed": 1919,
+      "preparation_route": "full-length AF3, deletion and TM alignment",
+      "preparation": {
+        "alias": "05_v368g",
+        "residues": 370,
+        "heavy_atoms": 2885,
+        "charge_model": "gasteiger",
+        "versions": {
+          "meeko": "0.7.1",
+          "rdkit": "2025.9.5"
+        }
+      },
+      "construct_id": "gpr2-docking",
+      "prediction": {
+        "job_name": "gpr2_b05_fl_v368g",
+        "model_seeds": [
+          1710161152
+        ],
+        "job_request_path": "inputs/predictions/gpr2_batch05_20260916/records/folds_2026_09_16_11_16/gpr2_b05_fl_v368g/fold_gpr2_b05_fl_v368g_job_request.json",
+        "fasta_paths": [
+          "inputs/predictions/gpr2_batch05_20260916/fasta_full_length/V368G.fasta"
+        ]
+      },
+      "baseline_record_id": "05/run-01/baseline/af0/seed1919"
+    },
+    {
+      "record_id": "05/run-01/V368H/af0/seed1919",
+      "batch": "05",
+      "variant": "V368H",
+      "alias": "05_v368h",
+      "af_model": 0,
+      "seed": 1919,
+      "preparation_route": "full-length AF3, deletion and TM alignment",
+      "preparation": {
+        "alias": "05_v368h",
+        "residues": 370,
+        "heavy_atoms": 2891,
+        "charge_model": "gasteiger",
+        "versions": {
+          "meeko": "0.7.1",
+          "rdkit": "2025.9.5"
+        }
+      },
+      "construct_id": "gpr2-docking",
+      "prediction": {
+        "job_name": "gpr2_b05_fl_v368h",
+        "model_seeds": [
+          1691822980
+        ],
+        "job_request_path": "inputs/predictions/gpr2_batch05_20260916/records/folds_2026_09_16_11_16/gpr2_b05_fl_v368h/fold_gpr2_b05_fl_v368h_job_request.json",
+        "fasta_paths": [
+          "inputs/predictions/gpr2_batch05_20260916/fasta_full_length/V368H.fasta"
+        ]
+      },
+      "baseline_record_id": "05/run-01/baseline/af0/seed1919"
+    },
+    {
+      "record_id": "05/run-01/V368I/af0/seed1919",
+      "batch": "05",
+      "variant": "V368I",
+      "alias": "05_v368i",
+      "af_model": 0,
+      "seed": 1919,
+      "preparation_route": "full-length AF3, deletion and TM alignment",
+      "preparation": {
+        "alias": "05_v368i",
+        "residues": 370,
+        "heavy_atoms": 2889,
+        "charge_model": "gasteiger",
+        "versions": {
+          "meeko": "0.7.1",
+          "rdkit": "2025.9.5"
+        }
+      },
+      "construct_id": "gpr2-docking",
+      "prediction": {
+        "job_name": "gpr2_b05_fl_v368i",
+        "model_seeds": [
+          2106695561
+        ],
+        "job_request_path": "inputs/predictions/gpr2_batch05_20260916/records/folds_2026_09_16_11_16/gpr2_b05_fl_v368i/fold_gpr2_b05_fl_v368i_job_request.json",
+        "fasta_paths": [
+          "inputs/predictions/gpr2_batch05_20260916/fasta_full_length/V368I.fasta"
+        ]
+      },
+      "baseline_record_id": "05/run-01/baseline/af0/seed1919"
+    },
+    {
+      "record_id": "05/run-01/V368K/af0/seed1919",
+      "batch": "05",
+      "variant": "V368K",
+      "alias": "05_v368k",
+      "af_model": 0,
+      "seed": 1919,
+      "preparation_route": "full-length AF3, deletion and TM alignment",
+      "preparation": {
+        "alias": "05_v368k",
+        "residues": 370,
+        "heavy_atoms": 2890,
+        "charge_model": "gasteiger",
+        "versions": {
+          "meeko": "0.7.1",
+          "rdkit": "2025.9.5"
+        }
+      },
+      "construct_id": "gpr2-docking",
+      "prediction": {
+        "job_name": "gpr2_b05_fl_v368k",
+        "model_seeds": [
+          1037833902
+        ],
+        "job_request_path": "inputs/predictions/gpr2_batch05_20260916/records/folds_2026_09_16_11_16/gpr2_b05_fl_v368k/fold_gpr2_b05_fl_v368k_job_request.json",
+        "fasta_paths": [
+          "inputs/predictions/gpr2_batch05_20260916/fasta_full_length/V368K.fasta"
+        ]
+      },
+      "baseline_record_id": "05/run-01/baseline/af0/seed1919"
+    },
+    {
+      "record_id": "05/run-01/V368L/af0/seed1919",
+      "batch": "05",
+      "variant": "V368L",
+      "alias": "05_v368l",
+      "af_model": 0,
+      "seed": 1919,
+      "preparation_route": "full-length AF3, deletion and TM alignment",
+      "preparation": {
+        "alias": "05_v368l",
+        "residues": 370,
+        "heavy_atoms": 2889,
+        "charge_model": "gasteiger",
+        "versions": {
+          "meeko": "0.7.1",
+          "rdkit": "2025.9.5"
+        }
+      },
+      "construct_id": "gpr2-docking",
+      "prediction": {
+        "job_name": "gpr2_b05_fl_v368l",
+        "model_seeds": [
+          1471912913
+        ],
+        "job_request_path": "inputs/predictions/gpr2_batch05_20260916/records/folds_2026_09_16_11_16/gpr2_b05_fl_v368l/fold_gpr2_b05_fl_v368l_job_request.json",
+        "fasta_paths": [
+          "inputs/predictions/gpr2_batch05_20260916/fasta_full_length/V368L.fasta"
+        ]
+      },
+      "baseline_record_id": "05/run-01/baseline/af0/seed1919"
+    },
+    {
+      "record_id": "05/run-01/V368M/af0/seed1919",
+      "batch": "05",
+      "variant": "V368M",
+      "alias": "05_v368m",
+      "af_model": 0,
+      "seed": 1919,
+      "preparation_route": "full-length AF3, deletion and TM alignment",
+      "preparation": {
+        "alias": "05_v368m",
+        "residues": 370,
+        "heavy_atoms": 2889,
+        "charge_model": "gasteiger",
+        "versions": {
+          "meeko": "0.7.1",
+          "rdkit": "2025.9.5"
+        }
+      },
+      "construct_id": "gpr2-docking",
+      "prediction": {
+        "job_name": "gpr2_b05_fl_v368m",
+        "model_seeds": [
+          1033176943
+        ],
+        "job_request_path": "inputs/predictions/gpr2_batch05_20260916/records/folds_2026_09_16_11_16/gpr2_b05_fl_v368m/fold_gpr2_b05_fl_v368m_job_request.json",
+        "fasta_paths": [
+          "inputs/predictions/gpr2_batch05_20260916/fasta_full_length/V368M.fasta"
+        ]
+      },
+      "baseline_record_id": "05/run-01/baseline/af0/seed1919"
+    },
+    {
+      "record_id": "05/run-01/V368N/af0/seed1919",
+      "batch": "05",
+      "variant": "V368N",
+      "alias": "05_v368n",
+      "af_model": 0,
+      "seed": 1919,
+      "preparation_route": "full-length AF3, deletion and TM alignment",
+      "preparation": {
+        "alias": "05_v368n",
+        "residues": 370,
+        "heavy_atoms": 2889,
+        "charge_model": "gasteiger",
+        "versions": {
+          "meeko": "0.7.1",
+          "rdkit": "2025.9.5"
+        }
+      },
+      "construct_id": "gpr2-docking",
+      "prediction": {
+        "job_name": "gpr2_b05_fl_v368n",
+        "model_seeds": [
+          337741049
+        ],
+        "job_request_path": "inputs/predictions/gpr2_batch05_20260916/records/folds_2026_09_16_11_16/gpr2_b05_fl_v368n/fold_gpr2_b05_fl_v368n_job_request.json",
+        "fasta_paths": [
+          "inputs/predictions/gpr2_batch05_20260916/fasta_full_length/V368N.fasta"
+        ]
+      },
+      "baseline_record_id": "05/run-01/baseline/af0/seed1919"
+    },
+    {
+      "record_id": "05/run-01/V368P/af0/seed1919",
+      "batch": "05",
+      "variant": "V368P",
+      "alias": "05_v368p",
+      "af_model": 0,
+      "seed": 1919,
+      "preparation_route": "full-length AF3, deletion and TM alignment",
+      "preparation": {
+        "alias": "05_v368p",
+        "residues": 370,
+        "heavy_atoms": 2888,
+        "charge_model": "gasteiger",
+        "versions": {
+          "meeko": "0.7.1",
+          "rdkit": "2025.9.5"
+        }
+      },
+      "construct_id": "gpr2-docking",
+      "prediction": {
+        "job_name": "gpr2_b05_fl_v368p",
+        "model_seeds": [
+          1328142596
+        ],
+        "job_request_path": "inputs/predictions/gpr2_batch05_20260916/records/folds_2026_09_16_11_16/gpr2_b05_fl_v368p/fold_gpr2_b05_fl_v368p_job_request.json",
+        "fasta_paths": [
+          "inputs/predictions/gpr2_batch05_20260916/fasta_full_length/V368P.fasta"
+        ]
+      },
+      "baseline_record_id": "05/run-01/baseline/af0/seed1919"
+    },
+    {
+      "record_id": "05/run-01/V368Q/af0/seed1919",
+      "batch": "05",
+      "variant": "V368Q",
+      "alias": "05_v368q",
+      "af_model": 0,
+      "seed": 1919,
+      "preparation_route": "full-length AF3, deletion and TM alignment",
+      "preparation": {
+        "alias": "05_v368q",
+        "residues": 370,
+        "heavy_atoms": 2890,
+        "charge_model": "gasteiger",
+        "versions": {
+          "meeko": "0.7.1",
+          "rdkit": "2025.9.5"
+        }
+      },
+      "construct_id": "gpr2-docking",
+      "prediction": {
+        "job_name": "gpr2_b05_fl_v368q",
+        "model_seeds": [
+          979947128
+        ],
+        "job_request_path": "inputs/predictions/gpr2_batch05_20260916/records/folds_2026_09_16_11_16/gpr2_b05_fl_v368q/fold_gpr2_b05_fl_v368q_job_request.json",
+        "fasta_paths": [
+          "inputs/predictions/gpr2_batch05_20260916/fasta_full_length/V368Q.fasta"
+        ]
+      },
+      "baseline_record_id": "05/run-01/baseline/af0/seed1919"
+    },
+    {
+      "record_id": "05/run-01/V368R/af0/seed1919",
+      "batch": "05",
+      "variant": "V368R",
+      "alias": "05_v368r",
+      "af_model": 0,
+      "seed": 1919,
+      "preparation_route": "full-length AF3, deletion and TM alignment",
+      "preparation": {
+        "alias": "05_v368r",
+        "residues": 370,
+        "heavy_atoms": 2892,
+        "charge_model": "gasteiger",
+        "versions": {
+          "meeko": "0.7.1",
+          "rdkit": "2025.9.5"
+        }
+      },
+      "construct_id": "gpr2-docking",
+      "prediction": {
+        "job_name": "gpr2_b05_fl_v368r",
+        "model_seeds": [
+          1258400991
+        ],
+        "job_request_path": "inputs/predictions/gpr2_batch05_20260916/records/folds_2026_09_16_11_16/gpr2_b05_fl_v368r/fold_gpr2_b05_fl_v368r_job_request.json",
+        "fasta_paths": [
+          "inputs/predictions/gpr2_batch05_20260916/fasta_full_length/V368R.fasta"
+        ]
+      },
+      "baseline_record_id": "05/run-01/baseline/af0/seed1919"
+    },
+    {
+      "record_id": "05/run-01/V368S/af0/seed1919",
+      "batch": "05",
+      "variant": "V368S",
+      "alias": "05_v368s",
+      "af_model": 0,
+      "seed": 1919,
+      "preparation_route": "full-length AF3, deletion and TM alignment",
+      "preparation": {
+        "alias": "05_v368s",
+        "residues": 370,
+        "heavy_atoms": 2887,
+        "charge_model": "gasteiger",
+        "versions": {
+          "meeko": "0.7.1",
+          "rdkit": "2025.9.5"
+        }
+      },
+      "construct_id": "gpr2-docking",
+      "prediction": {
+        "job_name": "gpr2_b05_fl_v368s",
+        "model_seeds": [
+          1743916456
+        ],
+        "job_request_path": "inputs/predictions/gpr2_batch05_20260916/records/folds_2026_09_16_11_16/gpr2_b05_fl_v368s/fold_gpr2_b05_fl_v368s_job_request.json",
+        "fasta_paths": [
+          "inputs/predictions/gpr2_batch05_20260916/fasta_full_length/V368S.fasta"
+        ]
+      },
+      "baseline_record_id": "05/run-01/baseline/af0/seed1919"
+    },
+    {
+      "record_id": "05/run-01/V368T/af0/seed1919",
+      "batch": "05",
+      "variant": "V368T",
+      "alias": "05_v368t",
+      "af_model": 0,
+      "seed": 1919,
+      "preparation_route": "full-length AF3, deletion and TM alignment",
+      "preparation": {
+        "alias": "05_v368t",
+        "residues": 370,
+        "heavy_atoms": 2888,
+        "charge_model": "gasteiger",
+        "versions": {
+          "meeko": "0.7.1",
+          "rdkit": "2025.9.5"
+        }
+      },
+      "construct_id": "gpr2-docking",
+      "prediction": {
+        "job_name": "gpr2_b05_fl_v368t",
+        "model_seeds": [
+          214626700
+        ],
+        "job_request_path": "inputs/predictions/gpr2_batch05_20260916/records/folds_2026_09_16_11_16/gpr2_b05_fl_v368t/fold_gpr2_b05_fl_v368t_job_request.json",
+        "fasta_paths": [
+          "inputs/predictions/gpr2_batch05_20260916/fasta_full_length/V368T.fasta"
+        ]
+      },
+      "baseline_record_id": "05/run-01/baseline/af0/seed1919"
+    },
+    {
+      "record_id": "05/run-01/V368W/af0/seed1919",
+      "batch": "05",
+      "variant": "V368W",
+      "alias": "05_v368w",
+      "af_model": 0,
+      "seed": 1919,
+      "preparation_route": "full-length AF3, deletion and TM alignment",
+      "preparation": {
+        "alias": "05_v368w",
+        "residues": 370,
+        "heavy_atoms": 2895,
+        "charge_model": "gasteiger",
+        "versions": {
+          "meeko": "0.7.1",
+          "rdkit": "2025.9.5"
+        }
+      },
+      "construct_id": "gpr2-docking",
+      "prediction": {
+        "job_name": "gpr2_b05_fl_v368w",
+        "model_seeds": [
+          1531160380
+        ],
+        "job_request_path": "inputs/predictions/gpr2_batch05_20260916/records/folds_2026_09_16_11_16/gpr2_b05_fl_v368w/fold_gpr2_b05_fl_v368w_job_request.json",
+        "fasta_paths": [
+          "inputs/predictions/gpr2_batch05_20260916/fasta_full_length/V368W.fasta"
+        ]
+      },
+      "baseline_record_id": "05/run-01/baseline/af0/seed1919"
+    },
+    {
+      "record_id": "05/run-01/V368Y/af0/seed1919",
+      "batch": "05",
+      "variant": "V368Y",
+      "alias": "05_v368y",
+      "af_model": 0,
+      "seed": 1919,
+      "preparation_route": "full-length AF3, deletion and TM alignment",
+      "preparation": {
+        "alias": "05_v368y",
+        "residues": 370,
+        "heavy_atoms": 2893,
+        "charge_model": "gasteiger",
+        "versions": {
+          "meeko": "0.7.1",
+          "rdkit": "2025.9.5"
+        }
+      },
+      "construct_id": "gpr2-docking",
+      "prediction": {
+        "job_name": "gpr2_b05_fl_v368y",
+        "model_seeds": [
+          746599878
+        ],
+        "job_request_path": "inputs/predictions/gpr2_batch05_20260916/records/folds_2026_09_16_11_16/gpr2_b05_fl_v368y/fold_gpr2_b05_fl_v368y_job_request.json",
+        "fasta_paths": [
+          "inputs/predictions/gpr2_batch05_20260916/fasta_full_length/V368Y.fasta"
+        ]
+      },
+      "baseline_record_id": "05/run-01/baseline/af0/seed1919"
+    },
+    {
+      "record_id": "06/run-01/baseline/af0/seed1919",
+      "batch": "06",
+      "variant": "baseline",
+      "alias": "06_baseline",
+      "af_model": 0,
+      "seed": 1919,
+      "preparation_route": "full-length AF3, deletion and TM alignment",
+      "preparation": {
+        "alias": "06_baseline",
+        "residues": 370,
+        "heavy_atoms": 2888,
+        "charge_model": "gasteiger",
+        "versions": {
+          "meeko": "0.7.1",
+          "rdkit": "2025.9.5"
+        }
+      },
+      "construct_id": "gpr2-docking",
+      "prediction": {
+        "job_name": "06_baseline",
+        "model_seeds": [
+          268524334
+        ],
+        "job_request_path": "inputs/predictions/gpr2_batch06_20260917/records/folds_2026_09_17_10_20/06_baseline/fold_06_baseline_job_request.json"
+      },
+      "baseline_record_id": "06/run-01/baseline/af0/seed1919"
+    },
+    {
+      "record_id": "06/run-01/R181K/af0/seed1919",
+      "batch": "06",
+      "variant": "R181K",
+      "alias": "06_r181k",
+      "af_model": 0,
+      "seed": 1919,
+      "preparation_route": "full-length AF3, deletion and TM alignment",
+      "preparation": {
+        "alias": "06_r181k",
+        "residues": 370,
+        "heavy_atoms": 2886,
+        "charge_model": "gasteiger",
+        "versions": {
+          "meeko": "0.7.1",
+          "rdkit": "2025.9.5"
+        }
+      },
+      "construct_id": "gpr2-docking",
+      "prediction": {
+        "job_name": "06_r181k",
+        "model_seeds": [
+          385543418
+        ],
+        "job_request_path": "inputs/predictions/gpr2_batch06_20260917/records/folds_2026_09_17_10_20/06_r181k/fold_06_r181k_job_request.json"
+      },
+      "baseline_record_id": "06/run-01/baseline/af0/seed1919"
+    },
+    {
+      "record_id": "06/run-01/R181Q/af0/seed1919",
+      "batch": "06",
+      "variant": "R181Q",
+      "alias": "06_r181q",
+      "af_model": 0,
+      "seed": 1919,
+      "preparation_route": "full-length AF3, deletion and TM alignment",
+      "preparation": {
+        "alias": "06_r181q",
+        "residues": 370,
+        "heavy_atoms": 2886,
+        "charge_model": "gasteiger",
+        "versions": {
+          "meeko": "0.7.1",
+          "rdkit": "2025.9.5"
+        }
+      },
+      "construct_id": "gpr2-docking",
+      "prediction": {
+        "job_name": "06_r181q",
+        "model_seeds": [
+          559906097
+        ],
+        "job_request_path": "inputs/predictions/gpr2_batch06_20260917/records/folds_2026_09_17_10_20/06_r181q/fold_06_r181q_job_request.json"
+      },
+      "baseline_record_id": "06/run-01/baseline/af0/seed1919"
+    },
+    {
+      "record_id": "06/run-01/T106S/af0/seed1919",
+      "batch": "06",
+      "variant": "T106S",
+      "alias": "06_t106s",
+      "af_model": 0,
+      "seed": 1919,
+      "preparation_route": "full-length AF3, deletion and TM alignment",
+      "preparation": {
+        "alias": "06_t106s",
+        "residues": 370,
+        "heavy_atoms": 2887,
+        "charge_model": "gasteiger",
+        "versions": {
+          "meeko": "0.7.1",
+          "rdkit": "2025.9.5"
+        }
+      },
+      "construct_id": "gpr2-docking",
+      "prediction": {
+        "job_name": "06_t106s",
+        "model_seeds": [
+          196117439
+        ],
+        "job_request_path": "inputs/predictions/gpr2_batch06_20260917/records/folds_2026_09_17_10_20/06_t106s/fold_06_t106s_job_request.json"
+      },
+      "baseline_record_id": "06/run-01/baseline/af0/seed1919"
+    },
+    {
+      "record_id": "06/run-01/T106V/af0/seed1919",
+      "batch": "06",
+      "variant": "T106V",
+      "alias": "06_t106v",
+      "af_model": 0,
+      "seed": 1919,
+      "preparation_route": "full-length AF3, deletion and TM alignment",
+      "preparation": {
+        "alias": "06_t106v",
+        "residues": 370,
+        "heavy_atoms": 2888,
+        "charge_model": "gasteiger",
+        "versions": {
+          "meeko": "0.7.1",
+          "rdkit": "2025.9.5"
+        }
+      },
+      "construct_id": "gpr2-docking",
+      "prediction": {
+        "job_name": "06_t106v",
+        "model_seeds": [
+          515286873
+        ],
+        "job_request_path": "inputs/predictions/gpr2_batch06_20260917/records/folds_2026_09_17_10_20/06_t106v/fold_06_t106v_job_request.json"
+      },
+      "baseline_record_id": "06/run-01/baseline/af0/seed1919"
+    },
+    {
+      "record_id": "06/run-01/W338F/af0/seed1919",
+      "batch": "06",
+      "variant": "W338F",
+      "alias": "06_w338f",
+      "af_model": 0,
+      "seed": 1919,
+      "preparation_route": "full-length AF3, deletion and TM alignment",
+      "preparation": {
+        "alias": "06_w338f",
+        "residues": 370,
+        "heavy_atoms": 2885,
+        "charge_model": "gasteiger",
+        "versions": {
+          "meeko": "0.7.1",
+          "rdkit": "2025.9.5"
+        }
+      },
+      "construct_id": "gpr2-docking",
+      "prediction": {
+        "job_name": "06_w338f",
+        "model_seeds": [
+          850686484
+        ],
+        "job_request_path": "inputs/predictions/gpr2_batch06_20260917/records/folds_2026_09_17_10_20/06_w338f/fold_06_w338f_job_request.json"
+      },
+      "baseline_record_id": "06/run-01/baseline/af0/seed1919"
+    },
+    {
+      "record_id": "06/run-01/W338L/af0/seed1919",
+      "batch": "06",
+      "variant": "W338L",
+      "alias": "06_w338l",
+      "af_model": 0,
+      "seed": 1919,
+      "preparation_route": "full-length AF3, deletion and TM alignment",
+      "preparation": {
+        "alias": "06_w338l",
+        "residues": 370,
+        "heavy_atoms": 2882,
+        "charge_model": "gasteiger",
+        "versions": {
+          "meeko": "0.7.1",
+          "rdkit": "2025.9.5"
+        }
+      },
+      "construct_id": "gpr2-docking",
+      "prediction": {
+        "job_name": "06_w338l",
+        "model_seeds": [
+          130995718
+        ],
+        "job_request_path": "inputs/predictions/gpr2_batch06_20260917/records/folds_2026_09_17_10_20/06_w338l/fold_06_w338l_job_request.json"
+      },
+      "baseline_record_id": "06/run-01/baseline/af0/seed1919"
+    },
+    {
+      "record_id": "07/run-01/baseline/af0/seed1919",
+      "batch": "07",
+      "variant": "baseline",
+      "alias": "07_baseline",
+      "af_model": 0,
+      "seed": 1919,
+      "preparation_route": "full-length AF3, deletion and TM alignment",
+      "preparation": {
+        "alias": "07_baseline",
+        "residues": 370,
+        "heavy_atoms": 2888,
+        "charge_model": "gasteiger",
+        "versions": {
+          "meeko": "0.7.1",
+          "rdkit": "2025.9.5"
+        }
+      },
+      "construct_id": "gpr2-docking",
+      "prediction": {
+        "job_name": "07_baseline",
+        "model_seeds": [
+          2010128744
+        ],
+        "job_request_path": "inputs/predictions/gpr2_batch07_20260918/records/folds_2026_09_18_02_12/07_baseline/fold_07_baseline_job_request.json"
+      },
+      "baseline_record_id": "07/run-01/baseline/af0/seed1919"
+    },
+    {
+      "record_id": "07/run-01/W338A/af0/seed1919",
+      "batch": "07",
+      "variant": "W338A",
+      "alias": "07_w338a",
+      "af_model": 0,
+      "seed": 1919,
+      "preparation_route": "full-length AF3, deletion and TM alignment",
+      "preparation": {
+        "alias": "07_w338a",
+        "residues": 370,
+        "heavy_atoms": 2879,
+        "charge_model": "gasteiger",
+        "versions": {
+          "meeko": "0.7.1",
+          "rdkit": "2025.9.5"
+        }
+      },
+      "construct_id": "gpr2-docking",
+      "prediction": {
+        "job_name": "07_w338a",
+        "model_seeds": [
+          2127945896
+        ],
+        "job_request_path": "inputs/predictions/gpr2_batch07_20260918/records/folds_2026_09_18_02_12/07_w338a/fold_07_w338a_job_request.json"
+      },
+      "baseline_record_id": "07/run-01/baseline/af0/seed1919"
+    },
+    {
+      "record_id": "07/run-01/W338C/af1/seed1919",
+      "batch": "07",
+      "variant": "W338C",
+      "alias": "07_w338c",
+      "af_model": 1,
+      "seed": 1919,
+      "preparation_route": "full-length AF3, deletion and TM alignment",
+      "preparation": {
+        "alias": "07_w338c",
+        "residues": 370,
+        "heavy_atoms": 2880,
+        "charge_model": "gasteiger",
+        "versions": {
+          "meeko": "0.7.1",
+          "rdkit": "2025.9.5"
+        },
+        "af_model": 1
+      },
+      "model_selection": {
+        "af_model": 1,
+        "reason": "Geometry-based model selection using nonadjacent heavy-atom overlap and the ARG181 / ARG345 side-chain arrangement."
+      },
+      "construct_id": "gpr2-docking",
+      "prediction": {
+        "job_name": "07_w338c",
+        "model_seeds": [
+          1500464617
+        ],
+        "job_request_path": "inputs/predictions/gpr2_batch07_20260918/records/folds_2026_09_18_02_12/07_w338c/fold_07_w338c_job_request.json"
+      },
+      "baseline_record_id": "07/run-01/baseline/af0/seed1919"
+    },
+    {
+      "record_id": "07/run-01/W338D/af0/seed1919",
+      "batch": "07",
+      "variant": "W338D",
+      "alias": "07_w338d",
+      "af_model": 0,
+      "seed": 1919,
+      "preparation_route": "full-length AF3, deletion and TM alignment",
+      "preparation": {
+        "alias": "07_w338d",
+        "residues": 370,
+        "heavy_atoms": 2882,
+        "charge_model": "gasteiger",
+        "versions": {
+          "meeko": "0.7.1",
+          "rdkit": "2025.9.5"
+        }
+      },
+      "construct_id": "gpr2-docking",
+      "prediction": {
+        "job_name": "07_w338d",
+        "model_seeds": [
+          146789086
+        ],
+        "job_request_path": "inputs/predictions/gpr2_batch07_20260918/records/folds_2026_09_18_02_12/07_w338d/fold_07_w338d_job_request.json"
+      },
+      "baseline_record_id": "07/run-01/baseline/af0/seed1919"
+    },
+    {
+      "record_id": "07/run-01/W338E/af0/seed1919",
+      "batch": "07",
+      "variant": "W338E",
+      "alias": "07_w338e",
+      "af_model": 0,
+      "seed": 1919,
+      "preparation_route": "full-length AF3, deletion and TM alignment",
+      "preparation": {
+        "alias": "07_w338e",
+        "residues": 370,
+        "heavy_atoms": 2883,
+        "charge_model": "gasteiger",
+        "versions": {
+          "meeko": "0.7.1",
+          "rdkit": "2025.9.5"
+        }
+      },
+      "construct_id": "gpr2-docking",
+      "prediction": {
+        "job_name": "07_w338e",
+        "model_seeds": [
+          1071465605
+        ],
+        "job_request_path": "inputs/predictions/gpr2_batch07_20260918/records/folds_2026_09_18_02_12/07_w338e/fold_07_w338e_job_request.json"
+      },
+      "baseline_record_id": "07/run-01/baseline/af0/seed1919"
+    },
+    {
+      "record_id": "07/run-01/W338F/af0/seed1919",
+      "batch": "07",
+      "variant": "W338F",
+      "alias": "07_w338f",
+      "af_model": 0,
+      "seed": 1919,
+      "preparation_route": "full-length AF3, deletion and TM alignment",
+      "preparation": {
+        "alias": "07_w338f",
+        "residues": 370,
+        "heavy_atoms": 2885,
+        "charge_model": "gasteiger",
+        "versions": {
+          "meeko": "0.7.1",
+          "rdkit": "2025.9.5"
+        }
+      },
+      "construct_id": "gpr2-docking",
+      "prediction": {
+        "job_name": "07_w338f",
+        "model_seeds": [
+          1318764937
+        ],
+        "job_request_path": "inputs/predictions/gpr2_batch07_20260918/records/folds_2026_09_18_02_12/07_w338f/fold_07_w338f_job_request.json"
+      },
+      "baseline_record_id": "07/run-01/baseline/af0/seed1919"
+    },
+    {
+      "record_id": "07/run-01/W338G/af0/seed1919",
+      "batch": "07",
+      "variant": "W338G",
+      "alias": "07_w338g",
+      "af_model": 0,
+      "seed": 1919,
+      "preparation_route": "full-length AF3, deletion and TM alignment",
+      "preparation": {
+        "alias": "07_w338g",
+        "residues": 370,
+        "heavy_atoms": 2878,
+        "charge_model": "gasteiger",
+        "versions": {
+          "meeko": "0.7.1",
+          "rdkit": "2025.9.5"
+        }
+      },
+      "construct_id": "gpr2-docking",
+      "prediction": {
+        "job_name": "07_w338g",
+        "model_seeds": [
+          1455261501
+        ],
+        "job_request_path": "inputs/predictions/gpr2_batch07_20260918/records/folds_2026_09_18_02_12/07_w338g/fold_07_w338g_job_request.json"
+      },
+      "baseline_record_id": "07/run-01/baseline/af0/seed1919"
+    },
+    {
+      "record_id": "07/run-01/W338H/af0/seed1919",
+      "batch": "07",
+      "variant": "W338H",
+      "alias": "07_w338h",
+      "af_model": 0,
+      "seed": 1919,
+      "preparation_route": "full-length AF3, deletion and TM alignment",
+      "preparation": {
+        "alias": "07_w338h",
+        "residues": 370,
+        "heavy_atoms": 2884,
+        "charge_model": "gasteiger",
+        "versions": {
+          "meeko": "0.7.1",
+          "rdkit": "2025.9.5"
+        }
+      },
+      "construct_id": "gpr2-docking",
+      "prediction": {
+        "job_name": "07_w338h",
+        "model_seeds": [
+          1476722190
+        ],
+        "job_request_path": "inputs/predictions/gpr2_batch07_20260918/records/folds_2026_09_18_02_12/07_w338h/fold_07_w338h_job_request.json"
+      },
+      "baseline_record_id": "07/run-01/baseline/af0/seed1919"
+    },
+    {
+      "record_id": "07/run-01/W338I/af0/seed1919",
+      "batch": "07",
+      "variant": "W338I",
+      "alias": "07_w338i",
+      "af_model": 0,
+      "seed": 1919,
+      "preparation_route": "full-length AF3, deletion and TM alignment",
+      "preparation": {
+        "alias": "07_w338i",
+        "residues": 370,
+        "heavy_atoms": 2882,
+        "charge_model": "gasteiger",
+        "versions": {
+          "meeko": "0.7.1",
+          "rdkit": "2025.9.5"
+        }
+      },
+      "construct_id": "gpr2-docking",
+      "prediction": {
+        "job_name": "07_w338i",
+        "model_seeds": [
+          1228042350
+        ],
+        "job_request_path": "inputs/predictions/gpr2_batch07_20260918/records/folds_2026_09_18_02_12/07_w338i/fold_07_w338i_job_request.json"
+      },
+      "baseline_record_id": "07/run-01/baseline/af0/seed1919"
+    },
+    {
+      "record_id": "07/run-01/W338K/af0/seed1919",
+      "batch": "07",
+      "variant": "W338K",
+      "alias": "07_w338k",
+      "af_model": 0,
+      "seed": 1919,
+      "preparation_route": "full-length AF3, deletion and TM alignment",
+      "preparation": {
+        "alias": "07_w338k",
+        "residues": 370,
+        "heavy_atoms": 2883,
+        "charge_model": "gasteiger",
+        "versions": {
+          "meeko": "0.7.1",
+          "rdkit": "2025.9.5"
+        }
+      },
+      "construct_id": "gpr2-docking",
+      "prediction": {
+        "job_name": "07_w338k",
+        "model_seeds": [
+          323594037
+        ],
+        "job_request_path": "inputs/predictions/gpr2_batch07_20260918/records/folds_2026_09_18_02_12/07_w338k/fold_07_w338k_job_request.json"
+      },
+      "baseline_record_id": "07/run-01/baseline/af0/seed1919"
+    },
+    {
+      "record_id": "07/run-01/W338L/af0/seed1919",
+      "batch": "07",
+      "variant": "W338L",
+      "alias": "07_w338l",
+      "af_model": 0,
+      "seed": 1919,
+      "preparation_route": "full-length AF3, deletion and TM alignment",
+      "preparation": {
+        "alias": "07_w338l",
+        "residues": 370,
+        "heavy_atoms": 2882,
+        "charge_model": "gasteiger",
+        "versions": {
+          "meeko": "0.7.1",
+          "rdkit": "2025.9.5"
+        }
+      },
+      "construct_id": "gpr2-docking",
+      "prediction": {
+        "job_name": "07_w338l",
+        "model_seeds": [
+          2009467347
+        ],
+        "job_request_path": "inputs/predictions/gpr2_batch07_20260918/records/folds_2026_09_18_02_12/07_w338l/fold_07_w338l_job_request.json"
+      },
+      "baseline_record_id": "07/run-01/baseline/af0/seed1919"
+    },
+    {
+      "record_id": "07/run-01/W338M/af0/seed1919",
+      "batch": "07",
+      "variant": "W338M",
+      "alias": "07_w338m",
+      "af_model": 0,
+      "seed": 1919,
+      "preparation_route": "full-length AF3, deletion and TM alignment",
+      "preparation": {
+        "alias": "07_w338m",
+        "residues": 370,
+        "heavy_atoms": 2882,
+        "charge_model": "gasteiger",
+        "versions": {
+          "meeko": "0.7.1",
+          "rdkit": "2025.9.5"
+        }
+      },
+      "construct_id": "gpr2-docking",
+      "prediction": {
+        "job_name": "07_w338m",
+        "model_seeds": [
+          508028395
+        ],
+        "job_request_path": "inputs/predictions/gpr2_batch07_20260918/records/folds_2026_09_18_02_12/07_w338m/fold_07_w338m_job_request.json"
+      },
+      "baseline_record_id": "07/run-01/baseline/af0/seed1919"
+    },
+    {
+      "record_id": "07/run-01/W338N/af0/seed1919",
+      "batch": "07",
+      "variant": "W338N",
+      "alias": "07_w338n",
+      "af_model": 0,
+      "seed": 1919,
+      "preparation_route": "full-length AF3, deletion and TM alignment",
+      "preparation": {
+        "alias": "07_w338n",
+        "residues": 370,
+        "heavy_atoms": 2882,
+        "charge_model": "gasteiger",
+        "versions": {
+          "meeko": "0.7.1",
+          "rdkit": "2025.9.5"
+        }
+      },
+      "construct_id": "gpr2-docking",
+      "prediction": {
+        "job_name": "07_w338n",
+        "model_seeds": [
+          922032500
+        ],
+        "job_request_path": "inputs/predictions/gpr2_batch07_20260918/records/folds_2026_09_18_02_12/07_w338n/fold_07_w338n_job_request.json"
+      },
+      "baseline_record_id": "07/run-01/baseline/af0/seed1919"
+    },
+    {
+      "record_id": "07/run-01/W338P/af0/seed1919",
+      "batch": "07",
+      "variant": "W338P",
+      "alias": "07_w338p",
+      "af_model": 0,
+      "seed": 1919,
+      "preparation_route": "full-length AF3, deletion and TM alignment",
+      "preparation": {
+        "alias": "07_w338p",
+        "residues": 370,
+        "heavy_atoms": 2881,
+        "charge_model": "gasteiger",
+        "versions": {
+          "meeko": "0.7.1",
+          "rdkit": "2025.9.5"
+        }
+      },
+      "construct_id": "gpr2-docking",
+      "prediction": {
+        "job_name": "07_w338p",
+        "model_seeds": [
+          1722835186
+        ],
+        "job_request_path": "inputs/predictions/gpr2_batch07_20260918/records/folds_2026_09_18_02_12/07_w338p/fold_07_w338p_job_request.json"
+      },
+      "baseline_record_id": "07/run-01/baseline/af0/seed1919"
+    },
+    {
+      "record_id": "07/run-01/W338Q/af0/seed1919",
+      "batch": "07",
+      "variant": "W338Q",
+      "alias": "07_w338q",
+      "af_model": 0,
+      "seed": 1919,
+      "preparation_route": "full-length AF3, deletion and TM alignment",
+      "preparation": {
+        "alias": "07_w338q",
+        "residues": 370,
+        "heavy_atoms": 2883,
+        "charge_model": "gasteiger",
+        "versions": {
+          "meeko": "0.7.1",
+          "rdkit": "2025.9.5"
+        }
+      },
+      "construct_id": "gpr2-docking",
+      "prediction": {
+        "job_name": "07_w338q",
+        "model_seeds": [
+          1472727264
+        ],
+        "job_request_path": "inputs/predictions/gpr2_batch07_20260918/records/folds_2026_09_18_02_12/07_w338q/fold_07_w338q_job_request.json"
+      },
+      "baseline_record_id": "07/run-01/baseline/af0/seed1919"
+    },
+    {
+      "record_id": "07/run-01/W338R/af0/seed1919",
+      "batch": "07",
+      "variant": "W338R",
+      "alias": "07_w338r",
+      "af_model": 0,
+      "seed": 1919,
+      "preparation_route": "full-length AF3, deletion and TM alignment",
+      "preparation": {
+        "alias": "07_w338r",
+        "residues": 370,
+        "heavy_atoms": 2885,
+        "charge_model": "gasteiger",
+        "versions": {
+          "meeko": "0.7.1",
+          "rdkit": "2025.9.5"
+        }
+      },
+      "construct_id": "gpr2-docking",
+      "prediction": {
+        "job_name": "07_w338r",
+        "model_seeds": [
+          1723444293
+        ],
+        "job_request_path": "inputs/predictions/gpr2_batch07_20260918/records/folds_2026_09_18_02_12/07_w338r/fold_07_w338r_job_request.json"
+      },
+      "baseline_record_id": "07/run-01/baseline/af0/seed1919"
+    },
+    {
+      "record_id": "07/run-01/W338S/af0/seed1919",
+      "batch": "07",
+      "variant": "W338S",
+      "alias": "07_w338s",
+      "af_model": 0,
+      "seed": 1919,
+      "preparation_route": "full-length AF3, deletion and TM alignment",
+      "preparation": {
+        "alias": "07_w338s",
+        "residues": 370,
+        "heavy_atoms": 2880,
+        "charge_model": "gasteiger",
+        "versions": {
+          "meeko": "0.7.1",
+          "rdkit": "2025.9.5"
+        }
+      },
+      "construct_id": "gpr2-docking",
+      "prediction": {
+        "job_name": "07_w338s",
+        "model_seeds": [
+          1660429224
+        ],
+        "job_request_path": "inputs/predictions/gpr2_batch07_20260918/records/folds_2026_09_18_02_12/07_w338s/fold_07_w338s_job_request.json"
+      },
+      "baseline_record_id": "07/run-01/baseline/af0/seed1919"
+    },
+    {
+      "record_id": "07/run-01/W338T/af0/seed1919",
+      "batch": "07",
+      "variant": "W338T",
+      "alias": "07_w338t",
+      "af_model": 0,
+      "seed": 1919,
+      "preparation_route": "full-length AF3, deletion and TM alignment",
+      "preparation": {
+        "alias": "07_w338t",
+        "residues": 370,
+        "heavy_atoms": 2881,
+        "charge_model": "gasteiger",
+        "versions": {
+          "meeko": "0.7.1",
+          "rdkit": "2025.9.5"
+        }
+      },
+      "construct_id": "gpr2-docking",
+      "prediction": {
+        "job_name": "07_w338t",
+        "model_seeds": [
+          822715669
+        ],
+        "job_request_path": "inputs/predictions/gpr2_batch07_20260918/records/folds_2026_09_18_02_12/07_w338t/fold_07_w338t_job_request.json"
+      },
+      "baseline_record_id": "07/run-01/baseline/af0/seed1919"
+    },
+    {
+      "record_id": "07/run-01/W338V/af0/seed1919",
+      "batch": "07",
+      "variant": "W338V",
+      "alias": "07_w338v",
+      "af_model": 0,
+      "seed": 1919,
+      "preparation_route": "full-length AF3, deletion and TM alignment",
+      "preparation": {
+        "alias": "07_w338v",
+        "residues": 370,
+        "heavy_atoms": 2881,
+        "charge_model": "gasteiger",
+        "versions": {
+          "meeko": "0.7.1",
+          "rdkit": "2025.9.5"
+        }
+      },
+      "construct_id": "gpr2-docking",
+      "prediction": {
+        "job_name": "07_w338v",
+        "model_seeds": [
+          851873368
+        ],
+        "job_request_path": "inputs/predictions/gpr2_batch07_20260918/records/folds_2026_09_18_02_12/07_w338v/fold_07_w338v_job_request.json"
+      },
+      "baseline_record_id": "07/run-01/baseline/af0/seed1919"
+    },
+    {
+      "record_id": "07/run-01/W338Y/af0/seed1919",
+      "batch": "07",
+      "variant": "W338Y",
+      "alias": "07_w338y",
+      "af_model": 0,
+      "seed": 1919,
+      "preparation_route": "full-length AF3, deletion and TM alignment",
+      "preparation": {
+        "alias": "07_w338y",
+        "residues": 370,
+        "heavy_atoms": 2886,
+        "charge_model": "gasteiger",
+        "versions": {
+          "meeko": "0.7.1",
+          "rdkit": "2025.9.5"
+        }
+      },
+      "construct_id": "gpr2-docking",
+      "prediction": {
+        "job_name": "07_w338y",
+        "model_seeds": [
+          996211998
+        ],
+        "job_request_path": "inputs/predictions/gpr2_batch07_20260918/records/folds_2026_09_18_02_12/07_w338y/fold_07_w338y_job_request.json"
+      },
+      "baseline_record_id": "07/run-01/baseline/af0/seed1919"
+    },
+    {
+      "record_id": "08/run-01/N84L_V110M/af0/seed1919",
+      "batch": "08",
+      "variant": "N84L_V110M",
+      "alias": "08_n84l_v110m",
+      "af_model": 0,
+      "seed": 1919,
+      "preparation_route": "full-length AF3, deletion and TM alignment",
+      "preparation": {
+        "alias": "08_n84l_v110m",
+        "residues": 370,
+        "heavy_atoms": 2889,
+        "charge_model": "gasteiger",
+        "versions": {
+          "meeko": "0.7.1",
+          "rdkit": "2025.9.5"
+        },
+        "af_model": 0
+      },
+      "model_selection": {
+        "af_model": 0,
+        "reason": "default model_0"
+      },
+      "construct_id": "gpr2-docking",
+      "prediction": {
+        "job_name": "08_n84l_v110m",
+        "model_seeds": [
+          1804659539
+        ],
+        "job_request_path": "inputs/predictions/08-af3-double-mutants/records/folds_2026_09_18_08_05/08_n84l_v110m/fold_08_n84l_v110m_job_request.json"
+      },
+      "baseline_record_id": "05/run-01/baseline/af0/seed1919",
+      "module": "B",
+      "role": "core",
+      "mutations": [
+        {
+          "position": 84,
+          "from": "N",
+          "to": "L"
+        },
+        {
+          "position": 110,
+          "from": "V",
+          "to": "M"
+        }
+      ],
+      "parent_record_ids": {
+        "N84L": "05/run-01/N84L/af0/seed1919",
+        "V110M": "05/run-01/V110M/af0/seed1919"
+      },
+      "epsilon_wt_record_ids": {
+        "05": "05/run-01/baseline/af0/seed1919",
+        "07": "07/run-01/baseline/af0/seed1919"
+      }
+    },
+    {
+      "record_id": "08/run-01/N84L_V368Q/af0/seed1919",
+      "batch": "08",
+      "variant": "N84L_V368Q",
+      "alias": "08_n84l_v368q",
+      "af_model": 0,
+      "seed": 1919,
+      "preparation_route": "full-length AF3, deletion and TM alignment",
+      "preparation": {
+        "alias": "08_n84l_v368q",
+        "residues": 370,
+        "heavy_atoms": 2890,
+        "charge_model": "gasteiger",
+        "versions": {
+          "meeko": "0.7.1",
+          "rdkit": "2025.9.5"
+        },
+        "af_model": 0
+      },
+      "model_selection": {
+        "af_model": 0,
+        "reason": "default model_0"
+      },
+      "construct_id": "gpr2-docking",
+      "prediction": {
+        "job_name": "08_n84l_v368q",
+        "model_seeds": [
+          880101320
+        ],
+        "job_request_path": "inputs/predictions/08-af3-double-mutants/records/folds_2026_09_18_08_05/08_n84l_v368q/fold_08_n84l_v368q_job_request.json"
+      },
+      "baseline_record_id": "05/run-01/baseline/af0/seed1919",
+      "module": "A",
+      "role": "core",
+      "mutations": [
+        {
+          "position": 84,
+          "from": "N",
+          "to": "L"
+        },
+        {
+          "position": 368,
+          "from": "V",
+          "to": "Q"
+        }
+      ],
+      "parent_record_ids": {
+        "N84L": "05/run-01/N84L/af0/seed1919",
+        "V368Q": "05/run-01/V368Q/af0/seed1919"
+      },
+      "epsilon_wt_record_ids": {
+        "05": "05/run-01/baseline/af0/seed1919",
+        "07": "07/run-01/baseline/af0/seed1919"
+      }
+    },
+    {
+      "record_id": "08/run-01/N84L_V368R/af0/seed1919",
+      "batch": "08",
+      "variant": "N84L_V368R",
+      "alias": "08_n84l_v368r",
+      "af_model": 0,
+      "seed": 1919,
+      "preparation_route": "full-length AF3, deletion and TM alignment",
+      "preparation": {
+        "alias": "08_n84l_v368r",
+        "residues": 370,
+        "heavy_atoms": 2892,
+        "charge_model": "gasteiger",
+        "versions": {
+          "meeko": "0.7.1",
+          "rdkit": "2025.9.5"
+        },
+        "af_model": 0
+      },
+      "model_selection": {
+        "af_model": 0,
+        "reason": "default model_0"
+      },
+      "construct_id": "gpr2-docking",
+      "prediction": {
+        "job_name": "08_n84l_v368r",
+        "model_seeds": [
+          847988589
+        ],
+        "job_request_path": "inputs/predictions/08-af3-double-mutants/records/folds_2026_09_18_08_05/08_n84l_v368r/fold_08_n84l_v368r_job_request.json"
+      },
+      "baseline_record_id": "05/run-01/baseline/af0/seed1919",
+      "module": "A",
+      "role": "core",
+      "mutations": [
+        {
+          "position": 84,
+          "from": "N",
+          "to": "L"
+        },
+        {
+          "position": 368,
+          "from": "V",
+          "to": "R"
+        }
+      ],
+      "parent_record_ids": {
+        "N84L": "05/run-01/N84L/af0/seed1919",
+        "V368R": "05/run-01/V368R/af0/seed1919"
+      },
+      "epsilon_wt_record_ids": {
+        "05": "05/run-01/baseline/af0/seed1919",
+        "07": "07/run-01/baseline/af0/seed1919"
+      }
+    },
+    {
+      "record_id": "08/run-01/N84T_V110C/af0/seed1919",
+      "batch": "08",
+      "variant": "N84T_V110C",
+      "alias": "08_n84t_v110c",
+      "af_model": 0,
+      "seed": 1919,
+      "preparation_route": "full-length AF3, deletion and TM alignment",
+      "preparation": {
+        "alias": "08_n84t_v110c",
+        "residues": 370,
+        "heavy_atoms": 2886,
+        "charge_model": "gasteiger",
+        "versions": {
+          "meeko": "0.7.1",
+          "rdkit": "2025.9.5"
+        },
+        "af_model": 0
+      },
+      "model_selection": {
+        "af_model": 0,
+        "reason": "default model_0"
+      },
+      "construct_id": "gpr2-docking",
+      "prediction": {
+        "job_name": "08_n84t_v110c",
+        "model_seeds": [
+          518122785
+        ],
+        "job_request_path": "inputs/predictions/08-af3-double-mutants/records/folds_2026_09_18_08_05/08_n84t_v110c/fold_08_n84t_v110c_job_request.json"
+      },
+      "baseline_record_id": "05/run-01/baseline/af0/seed1919",
+      "module": "C",
+      "role": "core",
+      "mutations": [
+        {
+          "position": 84,
+          "from": "N",
+          "to": "T"
+        },
+        {
+          "position": 110,
+          "from": "V",
+          "to": "C"
+        }
+      ],
+      "parent_record_ids": {
+        "N84T": "05/run-01/N84T/af0/seed1919",
+        "V110C": "05/run-01/V110C/af0/seed1919"
+      },
+      "epsilon_wt_record_ids": {
+        "05": "05/run-01/baseline/af0/seed1919",
+        "07": "07/run-01/baseline/af0/seed1919"
+      }
+    },
+    {
+      "record_id": "08/run-01/N84T_V110S/af0/seed1919",
+      "batch": "08",
+      "variant": "N84T_V110S",
+      "alias": "08_n84t_v110s",
+      "af_model": 0,
+      "seed": 1919,
+      "preparation_route": "full-length AF3, deletion and TM alignment",
+      "preparation": {
+        "alias": "08_n84t_v110s",
+        "residues": 370,
+        "heavy_atoms": 2886,
+        "charge_model": "gasteiger",
+        "versions": {
+          "meeko": "0.7.1",
+          "rdkit": "2025.9.5"
+        },
+        "af_model": 0
+      },
+      "model_selection": {
+        "af_model": 0,
+        "reason": "default model_0"
+      },
+      "construct_id": "gpr2-docking",
+      "prediction": {
+        "job_name": "08_n84t_v110s",
+        "model_seeds": [
+          386924480
+        ],
+        "job_request_path": "inputs/predictions/08-af3-double-mutants/records/folds_2026_09_18_08_05/08_n84t_v110s/fold_08_n84t_v110s_job_request.json"
+      },
+      "baseline_record_id": "05/run-01/baseline/af0/seed1919",
+      "module": "C",
+      "role": "core",
+      "mutations": [
+        {
+          "position": 84,
+          "from": "N",
+          "to": "T"
+        },
+        {
+          "position": 110,
+          "from": "V",
+          "to": "S"
+        }
+      ],
+      "parent_record_ids": {
+        "N84T": "05/run-01/N84T/af0/seed1919",
+        "V110S": "05/run-01/V110S/af0/seed1919"
+      },
+      "epsilon_wt_record_ids": {
+        "05": "05/run-01/baseline/af0/seed1919",
+        "07": "07/run-01/baseline/af0/seed1919"
+      }
+    },
+    {
+      "record_id": "08/run-01/N84V_V110C/af0/seed1919",
+      "batch": "08",
+      "variant": "N84V_V110C",
+      "alias": "08_n84v_v110c",
+      "af_model": 0,
+      "seed": 1919,
+      "preparation_route": "full-length AF3, deletion and TM alignment",
+      "preparation": {
+        "alias": "08_n84v_v110c",
+        "residues": 370,
+        "heavy_atoms": 2886,
+        "charge_model": "gasteiger",
+        "versions": {
+          "meeko": "0.7.1",
+          "rdkit": "2025.9.5"
+        },
+        "af_model": 0
+      },
+      "model_selection": {
+        "af_model": 0,
+        "reason": "default model_0"
+      },
+      "construct_id": "gpr2-docking",
+      "prediction": {
+        "job_name": "08_n84v_v110c",
+        "model_seeds": [
+          1975560500
+        ],
+        "job_request_path": "inputs/predictions/08-af3-double-mutants/records/folds_2026_09_18_08_05/08_n84v_v110c/fold_08_n84v_v110c_job_request.json"
+      },
+      "baseline_record_id": "05/run-01/baseline/af0/seed1919",
+      "module": "C",
+      "role": "core",
+      "mutations": [
+        {
+          "position": 84,
+          "from": "N",
+          "to": "V"
+        },
+        {
+          "position": 110,
+          "from": "V",
+          "to": "C"
+        }
+      ],
+      "parent_record_ids": {
+        "N84V": "05/run-01/N84V/af0/seed1919",
+        "V110C": "05/run-01/V110C/af0/seed1919"
+      },
+      "epsilon_wt_record_ids": {
+        "05": "05/run-01/baseline/af0/seed1919",
+        "07": "07/run-01/baseline/af0/seed1919"
+      }
+    },
+    {
+      "record_id": "08/run-01/N84V_V110S/af0/seed1919",
+      "batch": "08",
+      "variant": "N84V_V110S",
+      "alias": "08_n84v_v110s",
+      "af_model": 0,
+      "seed": 1919,
+      "preparation_route": "full-length AF3, deletion and TM alignment",
+      "preparation": {
+        "alias": "08_n84v_v110s",
+        "residues": 370,
+        "heavy_atoms": 2886,
+        "charge_model": "gasteiger",
+        "versions": {
+          "meeko": "0.7.1",
+          "rdkit": "2025.9.5"
+        },
+        "af_model": 0
+      },
+      "model_selection": {
+        "af_model": 0,
+        "reason": "default model_0"
+      },
+      "construct_id": "gpr2-docking",
+      "prediction": {
+        "job_name": "08_n84v_v110s",
+        "model_seeds": [
+          179181714
+        ],
+        "job_request_path": "inputs/predictions/08-af3-double-mutants/records/folds_2026_09_18_08_05/08_n84v_v110s/fold_08_n84v_v110s_job_request.json"
+      },
+      "baseline_record_id": "05/run-01/baseline/af0/seed1919",
+      "module": "C",
+      "role": "core",
+      "mutations": [
+        {
+          "position": 84,
+          "from": "N",
+          "to": "V"
+        },
+        {
+          "position": 110,
+          "from": "V",
+          "to": "S"
+        }
+      ],
+      "parent_record_ids": {
+        "N84V": "05/run-01/N84V/af0/seed1919",
+        "V110S": "05/run-01/V110S/af0/seed1919"
+      },
+      "epsilon_wt_record_ids": {
+        "05": "05/run-01/baseline/af0/seed1919",
+        "07": "07/run-01/baseline/af0/seed1919"
+      }
+    },
+    {
+      "record_id": "08/run-01/N84V_V368N/af0/seed1919",
+      "batch": "08",
+      "variant": "N84V_V368N",
+      "alias": "08_n84v_v368n",
+      "af_model": 0,
+      "seed": 1919,
+      "preparation_route": "full-length AF3, deletion and TM alignment",
+      "preparation": {
+        "alias": "08_n84v_v368n",
+        "residues": 370,
+        "heavy_atoms": 2888,
+        "charge_model": "gasteiger",
+        "versions": {
+          "meeko": "0.7.1",
+          "rdkit": "2025.9.5"
+        },
+        "af_model": 0
+      },
+      "model_selection": {
+        "af_model": 0,
+        "reason": "default model_0"
+      },
+      "construct_id": "gpr2-docking",
+      "prediction": {
+        "job_name": "08_n84v_v368n",
+        "model_seeds": [
+          1193064332
+        ],
+        "job_request_path": "inputs/predictions/08-af3-double-mutants/records/folds_2026_09_18_08_05/08_n84v_v368n/fold_08_n84v_v368n_job_request.json"
+      },
+      "baseline_record_id": "05/run-01/baseline/af0/seed1919",
+      "module": "E",
+      "role": "core",
+      "mutations": [
+        {
+          "position": 84,
+          "from": "N",
+          "to": "V"
+        },
+        {
+          "position": 368,
+          "from": "V",
+          "to": "N"
+        }
+      ],
+      "parent_record_ids": {
+        "N84V": "05/run-01/N84V/af0/seed1919",
+        "V368N": "05/run-01/V368N/af0/seed1919"
+      },
+      "epsilon_wt_record_ids": {
+        "05": "05/run-01/baseline/af0/seed1919",
+        "07": "07/run-01/baseline/af0/seed1919"
+      }
+    },
+    {
+      "record_id": "08/run-01/N84Y_V368N/af0/seed1919",
+      "batch": "08",
+      "variant": "N84Y_V368N",
+      "alias": "08_n84y_v368n",
+      "af_model": 0,
+      "seed": 1919,
+      "preparation_route": "full-length AF3, deletion and TM alignment",
+      "preparation": {
+        "alias": "08_n84y_v368n",
+        "residues": 370,
+        "heavy_atoms": 2893,
+        "charge_model": "gasteiger",
+        "versions": {
+          "meeko": "0.7.1",
+          "rdkit": "2025.9.5"
+        },
+        "af_model": 0
+      },
+      "model_selection": {
+        "af_model": 0,
+        "reason": "default model_0"
+      },
+      "construct_id": "gpr2-docking",
+      "prediction": {
+        "job_name": "08_n84y_v368n",
+        "model_seeds": [
+          1599037515
+        ],
+        "job_request_path": "inputs/predictions/08-af3-double-mutants/records/folds_2026_09_18_08_05/08_n84y_v368n/fold_08_n84y_v368n_job_request.json"
+      },
+      "baseline_record_id": "05/run-01/baseline/af0/seed1919",
+      "module": "E",
+      "role": "core",
+      "mutations": [
+        {
+          "position": 84,
+          "from": "N",
+          "to": "Y"
+        },
+        {
+          "position": 368,
+          "from": "V",
+          "to": "N"
+        }
+      ],
+      "parent_record_ids": {
+        "N84Y": "05/run-01/N84Y/af0/seed1919",
+        "V368N": "05/run-01/V368N/af0/seed1919"
+      },
+      "epsilon_wt_record_ids": {
+        "05": "05/run-01/baseline/af0/seed1919",
+        "07": "07/run-01/baseline/af0/seed1919"
+      }
+    },
+    {
+      "record_id": "08/run-01/N84Y_V368Q/af0/seed1919",
+      "batch": "08",
+      "variant": "N84Y_V368Q",
+      "alias": "08_n84y_v368q",
+      "af_model": 0,
+      "seed": 1919,
+      "preparation_route": "full-length AF3, deletion and TM alignment",
+      "preparation": {
+        "alias": "08_n84y_v368q",
+        "residues": 370,
+        "heavy_atoms": 2894,
+        "charge_model": "gasteiger",
+        "versions": {
+          "meeko": "0.7.1",
+          "rdkit": "2025.9.5"
+        },
+        "af_model": 0
+      },
+      "model_selection": {
+        "af_model": 0,
+        "reason": "default model_0"
+      },
+      "construct_id": "gpr2-docking",
+      "prediction": {
+        "job_name": "08_n84y_v368q",
+        "model_seeds": [
+          1112063003
+        ],
+        "job_request_path": "inputs/predictions/08-af3-double-mutants/records/folds_2026_09_18_08_05/08_n84y_v368q/fold_08_n84y_v368q_job_request.json"
+      },
+      "baseline_record_id": "05/run-01/baseline/af0/seed1919",
+      "module": "A",
+      "role": "core",
+      "mutations": [
+        {
+          "position": 84,
+          "from": "N",
+          "to": "Y"
+        },
+        {
+          "position": 368,
+          "from": "V",
+          "to": "Q"
+        }
+      ],
+      "parent_record_ids": {
+        "N84Y": "05/run-01/N84Y/af0/seed1919",
+        "V368Q": "05/run-01/V368Q/af0/seed1919"
+      },
+      "epsilon_wt_record_ids": {
+        "05": "05/run-01/baseline/af0/seed1919",
+        "07": "07/run-01/baseline/af0/seed1919"
+      }
+    },
+    {
+      "record_id": "08/run-01/N84Y_V368R/af0/seed1919",
+      "batch": "08",
+      "variant": "N84Y_V368R",
+      "alias": "08_n84y_v368r",
+      "af_model": 0,
+      "seed": 1919,
+      "preparation_route": "full-length AF3, deletion and TM alignment",
+      "preparation": {
+        "alias": "08_n84y_v368r",
+        "residues": 370,
+        "heavy_atoms": 2896,
+        "charge_model": "gasteiger",
+        "versions": {
+          "meeko": "0.7.1",
+          "rdkit": "2025.9.5"
+        },
+        "af_model": 0
+      },
+      "model_selection": {
+        "af_model": 0,
+        "reason": "default model_0"
+      },
+      "construct_id": "gpr2-docking",
+      "prediction": {
+        "job_name": "08_n84y_v368r",
+        "model_seeds": [
+          683891523
+        ],
+        "job_request_path": "inputs/predictions/08-af3-double-mutants/records/folds_2026_09_18_08_05/08_n84y_v368r/fold_08_n84y_v368r_job_request.json"
+      },
+      "baseline_record_id": "05/run-01/baseline/af0/seed1919",
+      "module": "A",
+      "role": "core",
+      "mutations": [
+        {
+          "position": 84,
+          "from": "N",
+          "to": "Y"
+        },
+        {
+          "position": 368,
+          "from": "V",
+          "to": "R"
+        }
+      ],
+      "parent_record_ids": {
+        "N84Y": "05/run-01/N84Y/af0/seed1919",
+        "V368R": "05/run-01/V368R/af0/seed1919"
+      },
+      "epsilon_wt_record_ids": {
+        "05": "05/run-01/baseline/af0/seed1919",
+        "07": "07/run-01/baseline/af0/seed1919"
+      }
+    },
+    {
+      "record_id": "08/run-01/V110C_W338F/af0/seed1919",
+      "batch": "08",
+      "variant": "V110C_W338F",
+      "alias": "08_v110c_w338f",
+      "af_model": 0,
+      "seed": 1919,
+      "preparation_route": "full-length AF3, deletion and TM alignment",
+      "preparation": {
+        "alias": "08_v110c_w338f",
+        "residues": 370,
+        "heavy_atoms": 2884,
+        "charge_model": "gasteiger",
+        "versions": {
+          "meeko": "0.7.1",
+          "rdkit": "2025.9.5"
+        },
+        "af_model": 0
+      },
+      "model_selection": {
+        "af_model": 0,
+        "reason": "default model_0"
+      },
+      "construct_id": "gpr2-docking",
+      "prediction": {
+        "job_name": "08_v110c_w338f",
+        "model_seeds": [
+          567289294
+        ],
+        "job_request_path": "inputs/predictions/08-af3-double-mutants/records/folds_2026_09_18_08_05/08_v110c_w338f/fold_08_v110c_w338f_job_request.json"
+      },
+      "baseline_record_id": "05/run-01/baseline/af0/seed1919",
+      "module": "D",
+      "role": "core",
+      "mutations": [
+        {
+          "position": 110,
+          "from": "V",
+          "to": "C"
+        },
+        {
+          "position": 338,
+          "from": "W",
+          "to": "F"
+        }
+      ],
+      "parent_record_ids": {
+        "V110C": "05/run-01/V110C/af0/seed1919",
+        "W338F": "07/run-01/W338F/af0/seed1919"
+      },
+      "epsilon_wt_record_ids": {
+        "05": "05/run-01/baseline/af0/seed1919",
+        "07": "07/run-01/baseline/af0/seed1919"
+      }
+    },
+    {
+      "record_id": "08/run-01/V110C_W338H/af0/seed1919",
+      "batch": "08",
+      "variant": "V110C_W338H",
+      "alias": "08_v110c_w338h",
+      "af_model": 0,
+      "seed": 1919,
+      "preparation_route": "full-length AF3, deletion and TM alignment",
+      "preparation": {
+        "alias": "08_v110c_w338h",
+        "residues": 370,
+        "heavy_atoms": 2883,
+        "charge_model": "gasteiger",
+        "versions": {
+          "meeko": "0.7.1",
+          "rdkit": "2025.9.5"
+        },
+        "af_model": 0
+      },
+      "model_selection": {
+        "af_model": 0,
+        "reason": "default model_0"
+      },
+      "construct_id": "gpr2-docking",
+      "prediction": {
+        "job_name": "08_v110c_w338h",
+        "model_seeds": [
+          1839054473
+        ],
+        "job_request_path": "inputs/predictions/08-af3-double-mutants/records/folds_2026_09_18_08_05/08_v110c_w338h/fold_08_v110c_w338h_job_request.json"
+      },
+      "baseline_record_id": "05/run-01/baseline/af0/seed1919",
+      "module": "D",
+      "role": "core",
+      "mutations": [
+        {
+          "position": 110,
+          "from": "V",
+          "to": "C"
+        },
+        {
+          "position": 338,
+          "from": "W",
+          "to": "H"
+        }
+      ],
+      "parent_record_ids": {
+        "V110C": "05/run-01/V110C/af0/seed1919",
+        "W338H": "07/run-01/W338H/af0/seed1919"
+      },
+      "epsilon_wt_record_ids": {
+        "05": "05/run-01/baseline/af0/seed1919",
+        "07": "07/run-01/baseline/af0/seed1919"
+      }
+    },
+    {
+      "record_id": "08/run-01/V110C_W338L/af0/seed1919",
+      "batch": "08",
+      "variant": "V110C_W338L",
+      "alias": "08_v110c_w338l",
+      "af_model": 0,
+      "seed": 1919,
+      "preparation_route": "full-length AF3, deletion and TM alignment",
+      "preparation": {
+        "alias": "08_v110c_w338l",
+        "residues": 370,
+        "heavy_atoms": 2881,
+        "charge_model": "gasteiger",
+        "versions": {
+          "meeko": "0.7.1",
+          "rdkit": "2025.9.5"
+        },
+        "af_model": 0
+      },
+      "model_selection": {
+        "af_model": 0,
+        "reason": "default model_0"
+      },
+      "construct_id": "gpr2-docking",
+      "prediction": {
+        "job_name": "08_v110c_w338l",
+        "model_seeds": [
+          1676404774
+        ],
+        "job_request_path": "inputs/predictions/08-af3-double-mutants/records/folds_2026_09_18_08_05/08_v110c_w338l/fold_08_v110c_w338l_job_request.json"
+      },
+      "baseline_record_id": "05/run-01/baseline/af0/seed1919",
+      "module": "F",
+      "role": "exploratory",
+      "mutations": [
+        {
+          "position": 110,
+          "from": "V",
+          "to": "C"
+        },
+        {
+          "position": 338,
+          "from": "W",
+          "to": "L"
+        }
+      ],
+      "parent_record_ids": {
+        "V110C": "05/run-01/V110C/af0/seed1919",
+        "W338L": "07/run-01/W338L/af0/seed1919"
+      },
+      "epsilon_wt_record_ids": {
+        "05": "05/run-01/baseline/af0/seed1919",
+        "07": "07/run-01/baseline/af0/seed1919"
+      }
+    },
+    {
+      "record_id": "08/run-01/V110M_W338Q/af0/seed1919",
+      "batch": "08",
+      "variant": "V110M_W338Q",
+      "alias": "08_v110m_w338q",
+      "af_model": 0,
+      "seed": 1919,
+      "preparation_route": "full-length AF3, deletion and TM alignment",
+      "preparation": {
+        "alias": "08_v110m_w338q",
+        "residues": 370,
+        "heavy_atoms": 2884,
+        "charge_model": "gasteiger",
+        "versions": {
+          "meeko": "0.7.1",
+          "rdkit": "2025.9.5"
+        },
+        "af_model": 0
+      },
+      "model_selection": {
+        "af_model": 0,
+        "reason": "default model_0"
+      },
+      "construct_id": "gpr2-docking",
+      "prediction": {
+        "job_name": "08_v110m_w338q",
+        "model_seeds": [
+          342862897
+        ],
+        "job_request_path": "inputs/predictions/08-af3-double-mutants/records/folds_2026_09_18_08_05/08_v110m_w338q/fold_08_v110m_w338q_job_request.json"
+      },
+      "baseline_record_id": "05/run-01/baseline/af0/seed1919",
+      "module": "B",
+      "role": "core",
+      "mutations": [
+        {
+          "position": 110,
+          "from": "V",
+          "to": "M"
+        },
+        {
+          "position": 338,
+          "from": "W",
+          "to": "Q"
+        }
+      ],
+      "parent_record_ids": {
+        "V110M": "05/run-01/V110M/af0/seed1919",
+        "W338Q": "07/run-01/W338Q/af0/seed1919"
+      },
+      "epsilon_wt_record_ids": {
+        "05": "05/run-01/baseline/af0/seed1919",
+        "07": "07/run-01/baseline/af0/seed1919"
+      }
+    },
+    {
+      "record_id": "08/run-01/V110S_W338F/af0/seed1919",
+      "batch": "08",
+      "variant": "V110S_W338F",
+      "alias": "08_v110s_w338f",
+      "af_model": 0,
+      "seed": 1919,
+      "preparation_route": "full-length AF3, deletion and TM alignment",
+      "preparation": {
+        "alias": "08_v110s_w338f",
+        "residues": 370,
+        "heavy_atoms": 2884,
+        "charge_model": "gasteiger",
+        "versions": {
+          "meeko": "0.7.1",
+          "rdkit": "2025.9.5"
+        },
+        "af_model": 0
+      },
+      "model_selection": {
+        "af_model": 0,
+        "reason": "default model_0"
+      },
+      "construct_id": "gpr2-docking",
+      "prediction": {
+        "job_name": "08_v110s_w338f",
+        "model_seeds": [
+          1852542664
+        ],
+        "job_request_path": "inputs/predictions/08-af3-double-mutants/records/folds_2026_09_18_08_05/08_v110s_w338f/fold_08_v110s_w338f_job_request.json"
+      },
+      "baseline_record_id": "05/run-01/baseline/af0/seed1919",
+      "module": "D",
+      "role": "core",
+      "mutations": [
+        {
+          "position": 110,
+          "from": "V",
+          "to": "S"
+        },
+        {
+          "position": 338,
+          "from": "W",
+          "to": "F"
+        }
+      ],
+      "parent_record_ids": {
+        "V110S": "05/run-01/V110S/af0/seed1919",
+        "W338F": "07/run-01/W338F/af0/seed1919"
+      },
+      "epsilon_wt_record_ids": {
+        "05": "05/run-01/baseline/af0/seed1919",
+        "07": "07/run-01/baseline/af0/seed1919"
+      }
+    },
+    {
+      "record_id": "08/run-01/V110S_W338H/af0/seed1919",
+      "batch": "08",
+      "variant": "V110S_W338H",
+      "alias": "08_v110s_w338h",
+      "af_model": 0,
+      "seed": 1919,
+      "preparation_route": "full-length AF3, deletion and TM alignment",
+      "preparation": {
+        "alias": "08_v110s_w338h",
+        "residues": 370,
+        "heavy_atoms": 2883,
+        "charge_model": "gasteiger",
+        "versions": {
+          "meeko": "0.7.1",
+          "rdkit": "2025.9.5"
+        },
+        "af_model": 0
+      },
+      "model_selection": {
+        "af_model": 0,
+        "reason": "default model_0"
+      },
+      "construct_id": "gpr2-docking",
+      "prediction": {
+        "job_name": "08_v110s_w338h",
+        "model_seeds": [
+          667944966
+        ],
+        "job_request_path": "inputs/predictions/08-af3-double-mutants/records/folds_2026_09_18_08_05/08_v110s_w338h/fold_08_v110s_w338h_job_request.json"
+      },
+      "baseline_record_id": "05/run-01/baseline/af0/seed1919",
+      "module": "D",
+      "role": "core",
+      "mutations": [
+        {
+          "position": 110,
+          "from": "V",
+          "to": "S"
+        },
+        {
+          "position": 338,
+          "from": "W",
+          "to": "H"
+        }
+      ],
+      "parent_record_ids": {
+        "V110S": "05/run-01/V110S/af0/seed1919",
+        "W338H": "07/run-01/W338H/af0/seed1919"
+      },
+      "epsilon_wt_record_ids": {
+        "05": "05/run-01/baseline/af0/seed1919",
+        "07": "07/run-01/baseline/af0/seed1919"
+      }
+    },
+    {
+      "record_id": "08/run-01/V110S_W338L/af0/seed1919",
+      "batch": "08",
+      "variant": "V110S_W338L",
+      "alias": "08_v110s_w338l",
+      "af_model": 0,
+      "seed": 1919,
+      "preparation_route": "full-length AF3, deletion and TM alignment",
+      "preparation": {
+        "alias": "08_v110s_w338l",
+        "residues": 370,
+        "heavy_atoms": 2881,
+        "charge_model": "gasteiger",
+        "versions": {
+          "meeko": "0.7.1",
+          "rdkit": "2025.9.5"
+        },
+        "af_model": 0
+      },
+      "model_selection": {
+        "af_model": 0,
+        "reason": "default model_0"
+      },
+      "construct_id": "gpr2-docking",
+      "prediction": {
+        "job_name": "08_v110s_w338l",
+        "model_seeds": [
+          1433957307
+        ],
+        "job_request_path": "inputs/predictions/08-af3-double-mutants/records/folds_2026_09_18_08_05/08_v110s_w338l/fold_08_v110s_w338l_job_request.json"
+      },
+      "baseline_record_id": "05/run-01/baseline/af0/seed1919",
+      "module": "F",
+      "role": "exploratory",
+      "mutations": [
+        {
+          "position": 110,
+          "from": "V",
+          "to": "S"
+        },
+        {
+          "position": 338,
+          "from": "W",
+          "to": "L"
+        }
+      ],
+      "parent_record_ids": {
+        "V110S": "05/run-01/V110S/af0/seed1919",
+        "W338L": "07/run-01/W338L/af0/seed1919"
+      },
+      "epsilon_wt_record_ids": {
+        "05": "05/run-01/baseline/af0/seed1919",
+        "07": "07/run-01/baseline/af0/seed1919"
+      }
+    }
+  ],
+  "comparison_sets": {
+    "single_record_ids": [
+      "04/run-01/G103A/af0/seed1919",
+      "04/run-01/L27A/af0/seed1919",
+      "04/run-01/N102A/af0/seed1919",
+      "04/run-01/N28A/af0/seed1919",
+      "04/run-01/N84Q/af0/seed1919",
+      "04/run-01/N84S/af0/seed1919",
+      "04/run-01/R181A/af0/seed1919",
+      "04/run-01/S80A/af0/seed1919",
+      "04/run-01/T106A/af0/seed1919",
+      "04/run-01/V110A/af0/seed1919",
+      "04/run-01/V110I/af0/seed1919",
+      "04/run-01/V110L/af0/seed1919",
+      "04/run-01/V110T/af0/seed1919",
+      "04/run-01/V368A/af0/seed1919",
+      "04/run-01/V368I/af0/seed1919",
+      "04/run-01/V368L/af0/seed1919",
+      "04/run-01/W338A/af0/seed1919",
+      "05/run-01/N84A/af0/seed1919",
+      "05/run-01/N84C/af0/seed1919",
+      "05/run-01/N84D/af0/seed1919",
+      "05/run-01/N84E/af0/seed1919",
+      "05/run-01/N84F/af0/seed1919",
+      "05/run-01/N84G/af0/seed1919",
+      "05/run-01/N84H/af0/seed1919",
+      "05/run-01/N84I/af0/seed1919",
+      "05/run-01/N84K/af0/seed1919",
+      "05/run-01/N84L/af0/seed1919",
+      "05/run-01/N84M/af0/seed1919",
+      "05/run-01/N84P/af0/seed1919",
+      "05/run-01/N84Q/af0/seed1919",
+      "05/run-01/N84R/af0/seed1919",
+      "05/run-01/N84S/af0/seed1919",
+      "05/run-01/N84T/af0/seed1919",
+      "05/run-01/N84V/af0/seed1919",
+      "05/run-01/N84W/af0/seed1919",
+      "05/run-01/N84Y/af0/seed1919",
+      "05/run-01/V110A/af0/seed1919",
+      "05/run-01/V110C/af0/seed1919",
+      "05/run-01/V110D/af0/seed1919",
+      "05/run-01/V110E/af0/seed1919",
+      "05/run-01/V110F/af0/seed1919",
+      "05/run-01/V110G/af0/seed1919",
+      "05/run-01/V110H/af0/seed1919",
+      "05/run-01/V110I/af0/seed1919",
+      "05/run-01/V110K/af0/seed1919",
+      "05/run-01/V110L/af0/seed1919",
+      "05/run-01/V110M/af0/seed1919",
+      "05/run-01/V110N/af0/seed1919",
+      "05/run-01/V110P/af0/seed1919",
+      "05/run-01/V110Q/af0/seed1919",
+      "05/run-01/V110R/af0/seed1919",
+      "05/run-01/V110S/af0/seed1919",
+      "05/run-01/V110T/af0/seed1919",
+      "05/run-01/V110W/af0/seed1919",
+      "05/run-01/V110Y/af0/seed1919",
+      "05/run-01/V368A/af0/seed1919",
+      "05/run-01/V368C/af0/seed1919",
+      "05/run-01/V368D/af0/seed1919",
+      "05/run-01/V368E/af0/seed1919",
+      "05/run-01/V368F/af0/seed1919",
+      "05/run-01/V368G/af0/seed1919",
+      "05/run-01/V368H/af0/seed1919",
+      "05/run-01/V368I/af0/seed1919",
+      "05/run-01/V368K/af0/seed1919",
+      "05/run-01/V368L/af0/seed1919",
+      "05/run-01/V368M/af0/seed1919",
+      "05/run-01/V368N/af0/seed1919",
+      "05/run-01/V368P/af0/seed1919",
+      "05/run-01/V368Q/af0/seed1919",
+      "05/run-01/V368R/af0/seed1919",
+      "05/run-01/V368S/af0/seed1919",
+      "05/run-01/V368T/af0/seed1919",
+      "05/run-01/V368W/af0/seed1919",
+      "05/run-01/V368Y/af0/seed1919",
+      "06/run-01/R181K/af0/seed1919",
+      "06/run-01/R181Q/af0/seed1919",
+      "06/run-01/T106S/af0/seed1919",
+      "06/run-01/T106V/af0/seed1919",
+      "06/run-01/W338F/af0/seed1919",
+      "06/run-01/W338L/af0/seed1919",
+      "07/run-01/W338A/af0/seed1919",
+      "07/run-01/W338C/af1/seed1919",
+      "07/run-01/W338D/af0/seed1919",
+      "07/run-01/W338E/af0/seed1919",
+      "07/run-01/W338F/af0/seed1919",
+      "07/run-01/W338G/af0/seed1919",
+      "07/run-01/W338H/af0/seed1919",
+      "07/run-01/W338I/af0/seed1919",
+      "07/run-01/W338K/af0/seed1919",
+      "07/run-01/W338L/af0/seed1919",
+      "07/run-01/W338M/af0/seed1919",
+      "07/run-01/W338N/af0/seed1919",
+      "07/run-01/W338P/af0/seed1919",
+      "07/run-01/W338Q/af0/seed1919",
+      "07/run-01/W338R/af0/seed1919",
+      "07/run-01/W338S/af0/seed1919",
+      "07/run-01/W338T/af0/seed1919",
+      "07/run-01/W338V/af0/seed1919",
+      "07/run-01/W338Y/af0/seed1919"
+    ],
+    "single_wt_record_ids": {
+      "04": "04/run-01/baseline/af0/seed1919",
+      "05": "05/run-01/baseline/af0/seed1919",
+      "06": "06/run-01/baseline/af0/seed1919",
+      "07": "07/run-01/baseline/af0/seed1919"
+    },
+    "saturation_record_ids": [
+      "05/run-01/N84A/af0/seed1919",
+      "05/run-01/N84C/af0/seed1919",
+      "05/run-01/N84D/af0/seed1919",
+      "05/run-01/N84E/af0/seed1919",
+      "05/run-01/N84F/af0/seed1919",
+      "05/run-01/N84G/af0/seed1919",
+      "05/run-01/N84H/af0/seed1919",
+      "05/run-01/N84I/af0/seed1919",
+      "05/run-01/N84K/af0/seed1919",
+      "05/run-01/N84L/af0/seed1919",
+      "05/run-01/N84M/af0/seed1919",
+      "05/run-01/N84P/af0/seed1919",
+      "05/run-01/N84Q/af0/seed1919",
+      "05/run-01/N84R/af0/seed1919",
+      "05/run-01/N84S/af0/seed1919",
+      "05/run-01/N84T/af0/seed1919",
+      "05/run-01/N84V/af0/seed1919",
+      "05/run-01/N84W/af0/seed1919",
+      "05/run-01/N84Y/af0/seed1919",
+      "05/run-01/V110A/af0/seed1919",
+      "05/run-01/V110C/af0/seed1919",
+      "05/run-01/V110D/af0/seed1919",
+      "05/run-01/V110E/af0/seed1919",
+      "05/run-01/V110F/af0/seed1919",
+      "05/run-01/V110G/af0/seed1919",
+      "05/run-01/V110H/af0/seed1919",
+      "05/run-01/V110I/af0/seed1919",
+      "05/run-01/V110K/af0/seed1919",
+      "05/run-01/V110L/af0/seed1919",
+      "05/run-01/V110M/af0/seed1919",
+      "05/run-01/V110N/af0/seed1919",
+      "05/run-01/V110P/af0/seed1919",
+      "05/run-01/V110Q/af0/seed1919",
+      "05/run-01/V110R/af0/seed1919",
+      "05/run-01/V110S/af0/seed1919",
+      "05/run-01/V110T/af0/seed1919",
+      "05/run-01/V110W/af0/seed1919",
+      "05/run-01/V110Y/af0/seed1919",
+      "05/run-01/V368A/af0/seed1919",
+      "05/run-01/V368C/af0/seed1919",
+      "05/run-01/V368D/af0/seed1919",
+      "05/run-01/V368E/af0/seed1919",
+      "05/run-01/V368F/af0/seed1919",
+      "05/run-01/V368G/af0/seed1919",
+      "05/run-01/V368H/af0/seed1919",
+      "05/run-01/V368I/af0/seed1919",
+      "05/run-01/V368K/af0/seed1919",
+      "05/run-01/V368L/af0/seed1919",
+      "05/run-01/V368M/af0/seed1919",
+      "05/run-01/V368N/af0/seed1919",
+      "05/run-01/V368P/af0/seed1919",
+      "05/run-01/V368Q/af0/seed1919",
+      "05/run-01/V368R/af0/seed1919",
+      "05/run-01/V368S/af0/seed1919",
+      "05/run-01/V368T/af0/seed1919",
+      "05/run-01/V368W/af0/seed1919",
+      "05/run-01/V368Y/af0/seed1919",
+      "07/run-01/W338A/af0/seed1919",
+      "07/run-01/W338C/af1/seed1919",
+      "07/run-01/W338D/af0/seed1919",
+      "07/run-01/W338E/af0/seed1919",
+      "07/run-01/W338F/af0/seed1919",
+      "07/run-01/W338G/af0/seed1919",
+      "07/run-01/W338H/af0/seed1919",
+      "07/run-01/W338I/af0/seed1919",
+      "07/run-01/W338K/af0/seed1919",
+      "07/run-01/W338L/af0/seed1919",
+      "07/run-01/W338M/af0/seed1919",
+      "07/run-01/W338N/af0/seed1919",
+      "07/run-01/W338P/af0/seed1919",
+      "07/run-01/W338Q/af0/seed1919",
+      "07/run-01/W338R/af0/seed1919",
+      "07/run-01/W338S/af0/seed1919",
+      "07/run-01/W338T/af0/seed1919",
+      "07/run-01/W338V/af0/seed1919",
+      "07/run-01/W338Y/af0/seed1919"
+    ],
+    "combination_record_ids": [
+      "04/run-01/N84A_V110A_V368A/af0/seed1919",
+      "08/run-01/N84Y_V368R/af0/seed1919",
+      "08/run-01/N84Y_V368Q/af0/seed1919",
+      "08/run-01/N84L_V368R/af0/seed1919",
+      "08/run-01/N84L_V368Q/af0/seed1919",
+      "08/run-01/N84L_V110M/af0/seed1919",
+      "08/run-01/V110M_W338Q/af0/seed1919",
+      "08/run-01/N84V_V110C/af0/seed1919",
+      "08/run-01/N84V_V110S/af0/seed1919",
+      "08/run-01/N84T_V110C/af0/seed1919",
+      "08/run-01/N84T_V110S/af0/seed1919",
+      "08/run-01/V110C_W338F/af0/seed1919",
+      "08/run-01/V110C_W338H/af0/seed1919",
+      "08/run-01/V110S_W338F/af0/seed1919",
+      "08/run-01/V110S_W338H/af0/seed1919",
+      "08/run-01/N84Y_V368N/af0/seed1919",
+      "08/run-01/N84V_V368N/af0/seed1919",
+      "08/run-01/V110C_W338L/af0/seed1919",
+      "08/run-01/V110S_W338L/af0/seed1919"
+    ]
+  }
+}

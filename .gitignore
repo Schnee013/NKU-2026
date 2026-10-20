@@ -1,0 +1,34 @@
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+.mypy_cache/
+runs/
+*.xtc
+*.trr
+*.tng
+*.cpt
+*.edr
+*.log
+
+# User-supplied receptor inputs
+/studies/receptor-engineering/mutant-screen/inputs/prediction-structures/
+/studies/receptor-engineering/mutant-screen/inputs/receptor-objects/
+/studies/receptor-engineering/mutant-screen/inputs/structures/
+/studies/receptor-engineering/receptor-comparison/inputs/receptors/af3/
+/studies/receptor-engineering/receptor-comparison/inputs/receptors/af2/
+/studies/receptor-engineering/receptor-comparison/inputs/receptors/prediction-context/
+/studies/receptor-engineering/receptor-comparison/inputs/prepared/receptors/
+/studies/receptor-engineering/receptor-comparison/inputs/receptors/alignments/
+/studies/receptor-engineering/receptor-comparison/inputs/receptors/topology/
+
+# Generated study results
+/studies/**/results/
+/studies/**/reference/
+/studies/**/figures/
+/studies/**/*.tar.gz
+/studies/receptor-engineering/molecular-dynamics/structures/
+/studies/receptor-engineering/molecular-dynamics/configs/starting-poses/
+/studies/receptor-engineering/mutant-screen/inputs/predictions/**/*summary_confidences*.json
+/studies/gprotein-coupling/alignment/
+/studies/signal-model/dual-channel/inputs/*.csv

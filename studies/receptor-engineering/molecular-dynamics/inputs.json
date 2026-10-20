@@ -1,0 +1,187 @@
+[
+  {
+    "dataset_id": "native_wt_ascr18",
+    "label": "WT + ascr18 (native lid)",
+    "genotype": "wt",
+    "ligand": "ascr18",
+    "replicate": 1,
+    "production_ns": 100,
+    "protein_residues": 406,
+    "full_atoms": 145776,
+    "processed_atoms": 6454,
+    "ligand_atoms": 54,
+    "ligand_heavy_atoms": 23,
+    "lid": "native",
+    "sidechain_repair": "Trp174",
+    "protein_atoms": 6400,
+    "protein_charge_e": 14.0,
+    "receptor_prediction": {
+      "method": "AlphaFold 3",
+      "execution": "local",
+      "environment_path": "../../../environments/alphafold3.md"
+    }
+  },
+  {
+    "dataset_id": "raw_n84v_ascr18",
+    "label": "N84V + ascr18 (raw lid)",
+    "genotype": "n84v",
+    "ligand": "ascr18",
+    "replicate": 1,
+    "production_ns": 100,
+    "protein_residues": 406,
+    "full_atoms": 146032,
+    "processed_atoms": 6456,
+    "ligand_atoms": 54,
+    "ligand_heavy_atoms": 23,
+    "lid": "raw",
+    "protein_atoms": 6402,
+    "protein_charge_e": 14.0,
+    "receptor_prediction": {
+      "method": "AlphaFold 3",
+      "execution": "local",
+      "environment_path": "../../../environments/alphafold3.md"
+    }
+  },
+  {
+    "dataset_id": "raw_n84v_ascr3",
+    "label": "N84V + ascr3 (raw lid)",
+    "genotype": "n84v",
+    "ligand": "ascr3",
+    "replicate": 1,
+    "production_ns": 100,
+    "protein_residues": 406,
+    "full_atoms": 146021,
+    "processed_atoms": 6448,
+    "ligand_atoms": 46,
+    "ligand_heavy_atoms": 21,
+    "lid": "raw",
+    "protein_atoms": 6402,
+    "protein_charge_e": 14.0,
+    "receptor_prediction": {
+      "method": "AlphaFold 3",
+      "execution": "local",
+      "environment_path": "../../../environments/alphafold3.md"
+    }
+  },
+  {
+    "dataset_id": "raw_v368r_ascr18",
+    "label": "V368R + ascr18 (raw lid)",
+    "genotype": "v368r",
+    "ligand": "ascr18",
+    "replicate": 1,
+    "production_ns": 100,
+    "protein_residues": 406,
+    "full_atoms": 145979,
+    "processed_atoms": 6462,
+    "ligand_atoms": 54,
+    "ligand_heavy_atoms": 23,
+    "lid": "raw",
+    "protein_atoms": 6408,
+    "protein_charge_e": 15.0,
+    "receptor_prediction": {
+      "method": "AlphaFold 3",
+      "execution": "local",
+      "environment_path": "../../../environments/alphafold3.md"
+    }
+  },
+  {
+    "dataset_id": "v368r_ascr3_lid_rebuilt_own_pose_v1",
+    "label": "V368R + ascr3 (rebuilt own lid)",
+    "genotype": "v368r",
+    "ligand": "ascr3",
+    "replicate": 1,
+    "production_ns": 100,
+    "protein_residues": 406,
+    "full_atoms": 145905,
+    "processed_atoms": 6454,
+    "ligand_atoms": 46,
+    "ligand_heavy_atoms": 21,
+    "lid": "lid_rebuilt_own_pose_v1",
+    "protein_atoms": 6408,
+    "protein_charge_e": 15.0,
+    "receptor_prediction": {
+      "method": "AlphaFold 3",
+      "execution": "local",
+      "environment_path": "../../../environments/alphafold3.md"
+    }
+  },
+  {
+    "dataset_id": "native_wt_ascr3_lid_rebuilt_own_pose_v1",
+    "label": "WT + ascr3 (rebuilt own lid)",
+    "genotype": "wt",
+    "ligand": "ascr3",
+    "replicate": 1,
+    "production_ns": 100,
+    "protein_residues": 406,
+    "full_atoms": 145681,
+    "processed_atoms": 6446,
+    "ligand_atoms": 46,
+    "ligand_heavy_atoms": 21,
+    "lid": "lid_rebuilt_own_pose_v1",
+    "protein_atoms": 6400,
+    "protein_charge_e": 14.0,
+    "receptor_prediction": {
+      "method": "AlphaFold 3",
+      "execution": "local",
+      "environment_path": "../../../environments/alphafold3.md"
+    }
+  },
+  {
+    "dataset_id": "v368r_ascr3_arg368_start",
+    "label": "V368R + ascr3 (Arg368-directed start)",
+    "genotype": "v368r",
+    "ligand": "ascr3",
+    "replicate": 1,
+    "production_ns": 100,
+    "protein_residues": 406,
+    "full_atoms": 145881,
+    "processed_atoms": 6454,
+    "ligand_atoms": 46,
+    "ligand_heavy_atoms": 21,
+    "lid": "lid_rebuilt_own_pose_v1",
+    "protein_atoms": 6408,
+    "protein_charge_e": 15.0,
+    "receptor_prediction": {
+      "method": "AlphaFold 3",
+      "execution": "local",
+      "environment_path": "../../../environments/alphafold3.md"
+    },
+    "source_original_case": "v368r_ascr3_lid_rebuilt_own_pose_v1",
+    "starting_anchor_residue": 368,
+    "changed_protein_residues": [
+      368
+    ],
+    "preparation": "Alternative ligand pose in the original V368R own-lid equilibrated receptor; fresh velocities and re-equilibration",
+    "production_segments": 12,
+    "stored_raw_frames": 10001,
+    "starting_pose_config": "configs/starting-poses/v368r_ascr3_arg368_start.json"
+  },
+  {
+    "dataset_id": "v368r_ascr3_arg189_start",
+    "label": "V368R + ascr3 (Arg189-directed start)",
+    "genotype": "v368r",
+    "ligand": "ascr3",
+    "replicate": 1,
+    "production_ns": 100,
+    "protein_residues": 406,
+    "full_atoms": 145881,
+    "processed_atoms": 6454,
+    "ligand_atoms": 46,
+    "ligand_heavy_atoms": 21,
+    "lid": "lid_rebuilt_own_pose_v1",
+    "protein_atoms": 6408,
+    "protein_charge_e": 15.0,
+    "receptor_prediction": {
+      "method": "AlphaFold 3",
+      "execution": "local",
+      "environment_path": "../../../environments/alphafold3.md"
+    },
+    "source_original_case": "v368r_ascr3_lid_rebuilt_own_pose_v1",
+    "starting_anchor_residue": 189,
+    "changed_protein_residues": [],
+    "preparation": "Alternative ligand pose in the original V368R own-lid equilibrated receptor; fresh velocities and re-equilibration",
+    "production_segments": 12,
+    "stored_raw_frames": 10001,
+    "starting_pose_config": "configs/starting-poses/v368r_ascr3_arg189_start.json"
+  }
+]

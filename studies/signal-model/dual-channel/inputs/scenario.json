@@ -1,0 +1,89 @@
+{
+  "schema_version": "assumed-paired-matrix-v4-mi-1-to-10",
+  "purpose": "Simulated Mi 1:10 and Ce 10:1 mixtures with equal per-worm two-ligand total release",
+  "protocol": {
+    "target_species": "Meloidogyne incognita",
+    "target_stage": "J2",
+    "background_species": "Caenorhabditis elegans",
+    "background_strain": "N2",
+    "background_stage": "L4 hermaphrodite",
+    "soil_volume_cm3": 100,
+    "effective_collection_volume_mL": 1,
+    "collection_duration_h": 1,
+    "recovery_fraction": 1,
+    "sensor_sample_dilution_factor": 1,
+    "sensor_read_time_h": 8,
+    "temperature_C": null,
+    "pigment": "betaxanthin equivalent; exact composition unconfirmed",
+    "wavelength_nm": 480,
+    "effective_path_length_cm": 1,
+    "epsilon_L_mol_cm": 48000,
+    "blank_pigment_equivalent_uM": 0.5,
+    "replicates_per_condition": 1,
+    "noise": "none; deterministic design points, not independent experimental replicates",
+    "stage_role": "Stage labels define intended density units; release rates use equal two-ligand total, not a cross-stage empirical comparison"
+  },
+  "release_rates_fmol_per_worm_h": {
+    "target_ascr3": {
+      "value": 0.09090909090909091
+    },
+    "target_ascr18": {
+      "value": 0.9090909090909091
+    },
+    "background_ascr3": {
+      "value": 0.9090909090909091
+    },
+    "background_ascr18": {
+      "value": 0.09090909090909091
+    }
+  },
+  "release_assumptions": {
+    "status": "assumed",
+    "unit": "fmol per worm per hour",
+    "absolute_scale": "Each release rate is common Q times an assumed composition fraction; no absolute release measurement anchors Q.",
+    "source": {
+      "citation": "Manosalva et al. (2015)",
+      "url": "https://www.nature.com/articles/ncomms8795"
+    },
+    "target": {
+      "species": "Meloidogyne incognita",
+      "stage": "J2",
+      "applies_to": [
+        "target_ascr3",
+        "target_ascr18"
+      ],
+      "source_location": "Supplementary Fig. 1 and Table 1",
+      "source_support": "Qualitative ascaroside profiles include ascr18 secretion in plant-parasitic nematodes; the target ascr3:ascr18 composition of 1:10 is assumed.",
+      "ascr3_condition": "Meloidogyne incognita ascr3 secretion is unconfirmed."
+    },
+    "background": {
+      "species": "Caenorhabditis elegans",
+      "strain": "N2",
+      "stage": "L4 hermaphrodite",
+      "applies_to": [
+        "background_ascr3",
+        "background_ascr18"
+      ],
+      "source_location": "Supplementary Fig. 1",
+      "source_support": "Caenorhabditis elegans produces both ligands; the ascr3:ascr18 composition of 10:1 is assumed."
+    }
+  },
+  "equations": {
+    "amount_to_nM": "(q_target*N_target+q_background*N_background)*collection_h*recovery_fraction/(1000*volume_mL*dilution_factor)",
+    "A480": "48000*1*pigment_uM*1e-6",
+    "blank_corrected_A480": "A480 - 0.024",
+    "ascr3_nM": "Q*(T/11 + 10*B/11)/1000",
+    "ascr18_nM": "Q*(10*T/11 + B/11)/1000"
+  },
+  "normalization": {
+    "scope": "ascr3+ascr18 only; not all ascarosides",
+    "common_Q_fmol_per_worm_h": 1.0,
+    "Q_status": "arbitrary common simulation scale; not a measured rate",
+    "target_ascr3_fraction": 0.09090909090909091,
+    "target_ascr18_fraction": 0.9090909090909091,
+    "background_ascr3_fraction": 0.9090909090909091,
+    "background_ascr18_fraction": 0.09090909090909091,
+    "fraction_status": "assumed ratios, not quantified literature spectra",
+    "rule": "equal per worm per hour, not equal per sample; concentration retains worm abundance"
+  }
+}

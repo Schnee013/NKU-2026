@@ -1,0 +1,21 @@
+define = -DPOSRES -DPOSRES_FC_BB=4000 -DPOSRES_FC_SC=2000 -DPOSRES_FC_LIPID=1000 -DPOSRES_FC_LIG=1000 -DDIHRES -DDIHRES_FC=1000
+cutoff-scheme = Verlet
+nstlist = 20
+rlist = 1.2
+vdwtype = Cut-off
+vdw-modifier = Force-switch
+rvdw_switch = 1.0
+rvdw = 1.2
+coulombtype = PME
+rcoulomb = 1.2
+pbc = xyz
+integrator = steep
+emtol = 1000
+emstep = 0.0001
+nsteps = 10000
+constraints = none
+nstenergy = 100
+nstlog = 100
+constraint_algorithm = LINCS
+lincs_order = 8
+lincs_iter = 4

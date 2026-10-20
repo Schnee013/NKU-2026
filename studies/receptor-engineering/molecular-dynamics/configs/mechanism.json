@@ -1,0 +1,186 @@
+{
+  "stride_frames": 10,
+  "window_ns": [
+    50,
+    100
+  ],
+  "sites": [
+    84,
+    368
+  ],
+  "anchors": [
+    102,
+    186,
+    189,
+    345
+  ],
+  "lid_resids": [
+    164,
+    165,
+    166,
+    167,
+    168,
+    169,
+    170,
+    171,
+    172,
+    173,
+    174,
+    175,
+    176,
+    177,
+    178
+  ],
+  "pocket_radius_A": 6.0,
+  "contact_cutoffs_A": [
+    3.5,
+    4.0,
+    4.5
+  ],
+  "bridge_cutoff_A": 4.5,
+  "minimum_helix_run": 7,
+  "cases": [
+    {
+      "id": "native_wt_ascr18",
+      "label": "WT + ascr18 (native lid)",
+      "genotype": "wt",
+      "ligand": "ascr18",
+      "topology": "data/md/native_wt_ascr18/processed/rep1/solution.tpr",
+      "reference": "data/md/native_wt_ascr18/processed/rep1/protein_ref.pdb",
+      "trajectory": "data/md/native_wt_ascr18/processed/rep1/prod_protein.xtc",
+      "full_topology": "data/md/native_wt_ascr18/initial_full.tpr",
+      "full_trajectory": "data/md/native_wt_ascr18/initial_full.xtc"
+    },
+    {
+      "id": "raw_n84v_ascr18",
+      "label": "N84V + ascr18 (raw lid)",
+      "genotype": "n84v",
+      "ligand": "ascr18",
+      "topology": "data/md/raw_n84v_ascr18/processed/rep1/solution.tpr",
+      "reference": "data/md/raw_n84v_ascr18/processed/rep1/protein_ref.pdb",
+      "trajectory": "data/md/raw_n84v_ascr18/processed/rep1/prod_protein.xtc",
+      "full_topology": "data/md/raw_n84v_ascr18/initial_full.tpr",
+      "full_trajectory": "data/md/raw_n84v_ascr18/initial_full.xtc"
+    },
+    {
+      "id": "raw_n84v_ascr3",
+      "label": "N84V + ascr3 (raw lid)",
+      "genotype": "n84v",
+      "ligand": "ascr3",
+      "topology": "data/md/raw_n84v_ascr3/processed/rep1/solution.tpr",
+      "reference": "data/md/raw_n84v_ascr3/processed/rep1/protein_ref.pdb",
+      "trajectory": "data/md/raw_n84v_ascr3/processed/rep1/prod_protein.xtc",
+      "full_topology": "data/md/raw_n84v_ascr3/initial_full.tpr",
+      "full_trajectory": "data/md/raw_n84v_ascr3/initial_full.xtc"
+    },
+    {
+      "id": "raw_v368r_ascr18",
+      "label": "V368R + ascr18 (raw lid)",
+      "genotype": "v368r",
+      "ligand": "ascr18",
+      "topology": "data/md/raw_v368r_ascr18/processed/rep1/solution.tpr",
+      "reference": "data/md/raw_v368r_ascr18/processed/rep1/protein_ref.pdb",
+      "trajectory": "data/md/raw_v368r_ascr18/processed/rep1/prod_protein.xtc",
+      "full_topology": "data/md/raw_v368r_ascr18/initial_full.tpr",
+      "full_trajectory": "data/md/raw_v368r_ascr18/initial_full.xtc"
+    },
+    {
+      "id": "v368r_ascr3_lid_rebuilt_own_pose_v1",
+      "label": "V368R + ascr3 (rebuilt own lid)",
+      "genotype": "v368r",
+      "ligand": "ascr3",
+      "topology": "data/md/v368r_ascr3_lid_rebuilt_own_pose_v1/processed/rep1/solution.tpr",
+      "reference": "data/md/v368r_ascr3_lid_rebuilt_own_pose_v1/processed/rep1/protein_ref.pdb",
+      "trajectory": "data/md/v368r_ascr3_lid_rebuilt_own_pose_v1/processed/rep1/prod_protein.xtc",
+      "full_topology": "data/md/v368r_ascr3_lid_rebuilt_own_pose_v1/initial_full.tpr",
+      "full_trajectory": "data/md/v368r_ascr3_lid_rebuilt_own_pose_v1/initial_full.xtc"
+    },
+    {
+      "id": "native_wt_ascr3_lid_rebuilt_own_pose_v1",
+      "label": "WT + ascr3 (rebuilt own lid)",
+      "genotype": "wt",
+      "ligand": "ascr3",
+      "topology": "data/md/native_wt_ascr3_lid_rebuilt_own_pose_v1/processed/rep1/solution.tpr",
+      "reference": "data/md/native_wt_ascr3_lid_rebuilt_own_pose_v1/processed/rep1/protein_ref.pdb",
+      "trajectory": "data/md/native_wt_ascr3_lid_rebuilt_own_pose_v1/processed/rep1/prod_protein.xtc",
+      "full_topology": "data/md/native_wt_ascr3_lid_rebuilt_own_pose_v1/initial_full.tpr",
+      "full_trajectory": "data/md/native_wt_ascr3_lid_rebuilt_own_pose_v1/initial_full.xtc"
+    },
+    {
+      "id": "v368r_ascr3_arg368_start",
+      "label": "V368R + ascr3 (Arg368-directed start)",
+      "genotype": "v368r",
+      "ligand": "ascr3",
+      "topology": "data/md/v368r_ascr3_arg368_start/processed/rep1/solution.tpr",
+      "reference": "data/md/v368r_ascr3_arg368_start/processed/rep1/protein_ref.pdb",
+      "trajectory": "data/md/v368r_ascr3_arg368_start/processed/rep1/prod_protein.xtc",
+      "full_topology": "data/md/v368r_ascr3_arg368_start/initial_full.tpr",
+      "full_trajectory": "data/md/v368r_ascr3_arg368_start/initial_full.xtc"
+    },
+    {
+      "id": "v368r_ascr3_arg189_start",
+      "label": "V368R + ascr3 (Arg189-directed start)",
+      "genotype": "v368r",
+      "ligand": "ascr3",
+      "topology": "data/md/v368r_ascr3_arg189_start/processed/rep1/solution.tpr",
+      "reference": "data/md/v368r_ascr3_arg189_start/processed/rep1/protein_ref.pdb",
+      "trajectory": "data/md/v368r_ascr3_arg189_start/processed/rep1/prod_protein.xtc",
+      "full_topology": "data/md/v368r_ascr3_arg189_start/initial_full.tpr",
+      "full_trajectory": "data/md/v368r_ascr3_arg189_start/initial_full.xtc"
+    }
+  ],
+  "receptor_pairs": [
+    [
+      84,
+      25
+    ],
+    [
+      84,
+      28
+    ],
+    [
+      84,
+      80
+    ],
+    [
+      84,
+      90
+    ],
+    [
+      84,
+      171
+    ],
+    [
+      84,
+      186
+    ],
+    [
+      84,
+      189
+    ],
+    [
+      368,
+      38
+    ],
+    [
+      368,
+      70
+    ],
+    [
+      368,
+      77
+    ],
+    [
+      368,
+      364
+    ],
+    [
+      368,
+      345
+    ],
+    [
+      364,
+      345
+    ]
+  ]
+}

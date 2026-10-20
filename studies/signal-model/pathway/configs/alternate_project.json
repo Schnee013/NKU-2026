@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "input": {
+    "u_max_per_second": {
+      "value": 0.002,
+      "status": "assumed_alternate_scenario",
+      "unit": "s^-1",
+      "source": "Alternative endpoint parameter scenario"
+    },
+    "K_L_normalized": {
+      "value": 0.3,
+      "status": "assumed_alternate_scenario",
+      "unit": "normalized ligand",
+      "source": "Alternative endpoint parameter scenario"
+    }
+  },
+  "output": {
+    "b": {
+      "value": 0.01,
+      "status": "assumed_alternate_scenario",
+      "unit": "color a.u. h^-1",
+      "source": "Alternative endpoint parameter scenario"
+    },
+    "a": {
+      "value": 0.15,
+      "status": "assumed_alternate_scenario",
+      "unit": "color a.u. h^-1",
+      "source": "Alternative endpoint parameter scenario"
+    },
+    "K": {
+      "value": 0.4,
+      "status": "assumed_alternate_scenario",
+      "unit": "active Fus3 fraction",
+      "source": "Alternative endpoint parameter scenario"
+    },
+    "n": {
+      "value": 1.5,
+      "status": "assumed_alternate_scenario",
+      "unit": "dimensionless",
+      "source": "Alternative endpoint parameter scenario"
+    },
+    "delta": {
+      "value": 0.0,
+      "status": "assumed_alternate_scenario",
+      "unit": "h^-1",
+      "source": "Alternative endpoint parameter scenario"
+    }
+  },
+  "fixed_assumptions": [
+    "input Hill exponent 1",
+    "zero basal core drive",
+    "constant normalized ligand",
+    "source core rates and initial pools",
+    "fixed output construct",
+    "instantaneous effective transcription response",
+    "arbitrary-unit color"
+  ],
+  "scenario_id": "alternate_endpoint_scenario"
+}

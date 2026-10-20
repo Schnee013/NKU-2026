@@ -1,0 +1,227 @@
+{
+  "force_fields": {
+    "protein": "CHARMM36m (July 2022 CHARMM36 distribution)",
+    "ligand": "CGenFF 4.6",
+    "membrane": "CHARMM36 POPC",
+    "water": "CHARMM TIP3P"
+  },
+  "temperature_groups": {
+    "SOLU": "receptor and ligand",
+    "MEMB": "POPC",
+    "SOLV": "water and ions"
+  },
+  "systems": [
+    {
+      "dataset_id": "native_wt_ascr18",
+      "protein_residues": 406,
+      "protein_molecules": 1,
+      "ligand": "ascr18",
+      "ligand_molecules": 1,
+      "atoms": 145776,
+      "popc_molecules": 180,
+      "water_molecules": 38327,
+      "potassium_ions": 104,
+      "chloride_ions": 117,
+      "heat_mdp": "heat.mdp",
+      "hold_mdp": "hold.mdp",
+      "npt_mdp": [
+        "npt01.mdp",
+        "npt02.mdp",
+        "npt03.mdp",
+        "npt04.mdp",
+        "npt05.mdp"
+      ],
+      "production_mdp": "production.mdp",
+      "minimization_mdp": [
+        "em.mdp"
+      ],
+      "minimization_gromacs_precision": "double"
+    },
+    {
+      "dataset_id": "raw_n84v_ascr18",
+      "protein_residues": 406,
+      "protein_molecules": 1,
+      "ligand": "ascr18",
+      "ligand_molecules": 1,
+      "atoms": 146032,
+      "popc_molecules": 177,
+      "water_molecules": 38545,
+      "potassium_ions": 105,
+      "chloride_ions": 118,
+      "heat_mdp": "heat.mdp",
+      "hold_mdp": "hold.mdp",
+      "npt_mdp": [
+        "npt01.mdp",
+        "npt02.mdp",
+        "npt03.mdp",
+        "npt04.mdp",
+        "npt05.mdp"
+      ],
+      "production_mdp": "production.mdp",
+      "minimization_mdp": [
+        "em-small-step.mdp"
+      ],
+      "minimization_gromacs_precision": "double"
+    },
+    {
+      "dataset_id": "raw_n84v_ascr3",
+      "protein_residues": 406,
+      "protein_molecules": 1,
+      "ligand": "ascr3",
+      "ligand_molecules": 1,
+      "atoms": 146021,
+      "popc_molecules": 177,
+      "water_molecules": 38544,
+      "potassium_ions": 105,
+      "chloride_ions": 118,
+      "heat_mdp": "heat.mdp",
+      "hold_mdp": "hold.mdp",
+      "npt_mdp": [
+        "npt01.mdp",
+        "npt02.mdp",
+        "npt03.mdp",
+        "npt04.mdp",
+        "npt05.mdp"
+      ],
+      "production_mdp": "production.mdp",
+      "minimization_mdp": [
+        "em-ligand-constrained.mdp",
+        "em-small-step.mdp"
+      ],
+      "minimization_ligand_topology": "ascr3-minimization-constrained.itp",
+      "minimization_gromacs_precision": "double"
+    },
+    {
+      "dataset_id": "raw_v368r_ascr18",
+      "protein_residues": 406,
+      "protein_molecules": 1,
+      "ligand": "ascr18",
+      "ligand_molecules": 1,
+      "atoms": 145979,
+      "popc_molecules": 177,
+      "water_molecules": 38525,
+      "potassium_ions": 105,
+      "chloride_ions": 119,
+      "heat_mdp": "heat.mdp",
+      "hold_mdp": "hold.mdp",
+      "npt_mdp": [
+        "npt01.mdp",
+        "npt02.mdp",
+        "npt03.mdp",
+        "npt04.mdp",
+        "npt05.mdp"
+      ],
+      "production_mdp": "production.mdp",
+      "minimization_mdp": [
+        "em-ligand-frozen.mdp",
+        "em-small-step.mdp"
+      ],
+      "minimization_gromacs_precision": "double",
+      "minimization_frozen_index": "em-frozen-ligand.ndx"
+    },
+    {
+      "dataset_id": "v368r_ascr3_lid_rebuilt_own_pose_v1",
+      "protein_residues": 406,
+      "protein_molecules": 1,
+      "ligand": "ascr3",
+      "ligand_molecules": 1,
+      "atoms": 145905,
+      "popc_molecules": 177,
+      "water_molecules": 38503,
+      "potassium_ions": 105,
+      "chloride_ions": 119,
+      "heat_mdp": "heat.mdp",
+      "hold_mdp": "hold.mdp",
+      "npt_mdp": [
+        "npt01.mdp",
+        "npt02.mdp",
+        "npt03.mdp",
+        "npt04.mdp",
+        "npt05.mdp"
+      ],
+      "production_mdp": "production.mdp",
+      "minimization_mdp": [
+        "em.mdp"
+      ],
+      "minimization_gromacs_precision": "mixed"
+    },
+    {
+      "dataset_id": "native_wt_ascr3_lid_rebuilt_own_pose_v1",
+      "protein_residues": 406,
+      "protein_molecules": 1,
+      "ligand": "ascr3",
+      "ligand_molecules": 1,
+      "atoms": 145681,
+      "popc_molecules": 180,
+      "water_molecules": 38298,
+      "potassium_ions": 104,
+      "chloride_ions": 117,
+      "heat_mdp": "heat.mdp",
+      "hold_mdp": "hold.mdp",
+      "npt_mdp": [
+        "npt01.mdp",
+        "npt02.mdp",
+        "npt03.mdp",
+        "npt04.mdp",
+        "npt05.mdp"
+      ],
+      "production_mdp": "production.mdp",
+      "minimization_mdp": [
+        "em.mdp"
+      ],
+      "minimization_gromacs_precision": "mixed"
+    },
+    {
+      "dataset_id": "v368r_ascr3_arg368_start",
+      "protein_residues": 406,
+      "protein_molecules": 1,
+      "ligand": "ascr3",
+      "ligand_molecules": 1,
+      "atoms": 145881,
+      "popc_molecules": 177,
+      "water_molecules": 38495,
+      "potassium_ions": 105,
+      "chloride_ions": 119,
+      "heat_mdp": "polar-starts/v368r_ascr3_arg368_start/heat.mdp",
+      "hold_mdp": "polar-starts/v368r_ascr3_arg368_start/hold.mdp",
+      "npt_mdp": [
+        "polar-starts/v368r_ascr3_arg368_start/npt01.mdp",
+        "polar-starts/v368r_ascr3_arg368_start/npt02.mdp",
+        "polar-starts/v368r_ascr3_arg368_start/npt03.mdp",
+        "polar-starts/v368r_ascr3_arg368_start/npt04.mdp",
+        "polar-starts/v368r_ascr3_arg368_start/npt05.mdp"
+      ],
+      "production_mdp": "polar-starts/v368r_ascr3_arg368_start/production.mdp",
+      "minimization_mdp": [
+        "polar-starts/v368r_ascr3_arg368_start/em.mdp"
+      ],
+      "minimization_gromacs_precision": "mixed"
+    },
+    {
+      "dataset_id": "v368r_ascr3_arg189_start",
+      "protein_residues": 406,
+      "protein_molecules": 1,
+      "ligand": "ascr3",
+      "ligand_molecules": 1,
+      "atoms": 145881,
+      "popc_molecules": 177,
+      "water_molecules": 38495,
+      "potassium_ions": 105,
+      "chloride_ions": 119,
+      "heat_mdp": "polar-starts/v368r_ascr3_arg189_start/heat.mdp",
+      "hold_mdp": "polar-starts/v368r_ascr3_arg189_start/hold.mdp",
+      "npt_mdp": [
+        "polar-starts/v368r_ascr3_arg189_start/npt01.mdp",
+        "polar-starts/v368r_ascr3_arg189_start/npt02.mdp",
+        "polar-starts/v368r_ascr3_arg189_start/npt03.mdp",
+        "polar-starts/v368r_ascr3_arg189_start/npt04.mdp",
+        "polar-starts/v368r_ascr3_arg189_start/npt05.mdp"
+      ],
+      "production_mdp": "polar-starts/v368r_ascr3_arg189_start/production.mdp",
+      "minimization_mdp": [
+        "polar-starts/v368r_ascr3_arg189_start/em.mdp"
+      ],
+      "minimization_gromacs_precision": "mixed"
+    }
+  ]
+}

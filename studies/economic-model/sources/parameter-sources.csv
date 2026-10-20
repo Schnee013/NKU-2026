@@ -1,0 +1,34 @@
+parameter_id,value,unit,evidence_class,source,source_location,limitation
+spain.tolerance_density,15 J2/250 cm^3 -> 6,J2/100 cm^3 soil,literature_converted,https://doi.org/10.3389/fpls.2020.560024,Spring ungrafted-tomato Seinhorst density-yield fit,Not a project-strain field calibration
+spain.minimum_relative_yield,.34,fraction,literature_direct,https://doi.org/10.3389/fpls.2020.560024,Spring ungrafted-tomato Seinhorst density-yield fit,
+spain.seinhorst_z,.95,dimensionless,literature_direct,https://doi.org/10.3389/fpls.2020.560024,Spring ungrafted-tomato Seinhorst density-yield fit,
+spain.maximum_density,2174 J2/250 cm^3 -> 869.6,J2/100 cm^3 soil,literature_converted,https://doi.org/10.3389/fpls.2020.560024,Experimental initial-density range,Higher inputs are rejected
+spain.baseline_yield,113500,kg/ha,literature_direct,https://doi.org/10.3390/plants11202774,Tomato economic inputs: regional average yield,Regional yield proxy; not an uninfested control yield
+spain.tomato_revenue,78320,EUR/ha,literature_direct,https://doi.org/10.3390/plants11202774,Tomato economic inputs: revenue,
+spain.crop_price,.690044053,EUR/kg,literature_derived,https://doi.org/10.3390/plants11202774,Tomato economic inputs: revenue / yield,78320/113500 rounded in the source configuration
+spain.production_cost,51600,EUR/ha,literature_direct,https://doi.org/10.3390/plants11202774,Tomato economic inputs: general production costs,Dedicated nematode control is added separately
+spain.fluopyram_cost,220,EUR/ha,literature_direct,https://doi.org/10.3390/plants11202774,Soil disinfestation treatment costs: fluopyram,
+spain.biosolarization_cost,2700,EUR/ha,literature_direct,https://doi.org/10.3390/plants11202774,Soil disinfestation treatment costs: chicken-manure biosolarization,
+spain.fluopyram_population_reduction,.6370,fraction,literature_direct,https://doi.org/10.3390/plants11202774,Treatment efficacy: fluopyram,Population reduction is not yield loss avoided
+spain.biosolarization_population_reduction,.7213,fraction,literature_direct,https://doi.org/10.3390/plants11202774,Treatment efficacy: chicken-manure biosolarization,Population reduction is not yield loss avoided
+spain.fluopyram_avoided_loss,.586805,fraction,demo_derived,https://doi.org/10.3390/plants11202774,Converted with the packaged Seinhorst equation at d=100,Held fixed across densities; study fields initially above 50 J2/100 cm^3
+spain.biosolarization_avoided_loss,.691234,fraction,demo_derived,https://doi.org/10.3390/plants11202774,Converted with the packaged Seinhorst equation at d=100,Held fixed across densities; study fields initially above 50 J2/100 cm^3
+spain.reference_density,100,J2/100 cm^3 soil,demo_derived,packaged model definition,Fixed-effect conversion point,
+spain.tier_thresholds,10;80,J2/100 cm^3 soil,demo_derived,packaged model definition,Preset density-guided scenario; approximate economic switching densities 6.85 and 77.95 motivate rounded thresholds 10 and 80,Preset thresholds are not re-optimized with costs or effect
+spain.biosolarization_management_support_max,759,J2/100 cm^3 soil,literature_direct_and_demo_derived,https://doi.org/10.3390/plants11202774,Tomato economic-management density range,Report warns above this range; yield-loss curve extends to 869.6
+spain.test_cost,5,EUR/ha,team_pricing_assumption,team assumption,Packaged economics.test_cost_per_ha,"No measured BOM, sampling or labor cost is supplied"
+spain.laboratory_fees,31.55;15.80,EUR/sample,public_fee,https://canalempresa.gencat.cat/en/integraciodepartamentaltramit/tramit/PerTemes/7630_Servei-danalisis-dafeccions-vegetals,First determination per sample: morphology; PCR,Fees are comparator parameters; source snapshot in configuration
+spain.laboratory_pcr_fee,152.14,EUR/sample,public_fee,https://www.ilvodiagnosecentrumvoorplanten.be/en/price-list-for-general-diagnostic-procedures,"PCR / real-time PCR, one analysis excluding tax",Fees are comparator parameters; source snapshot in configuration
+spain.samples_per_ha,1,sample/ha,accounting_assumption,packaged model definition,Detection cost comparison,"Sampling, shipping, tax and additional preparation excluded"
+framework.tomato_yield_curve,Packaged 22-point spring table,% normal yield by spring J2/kg soil,extension,https://ipm.ucanr.edu/agriculture/tomato/root-knot-nematodes/,Damage: spring root-knot nematode population / normal-yield table,San Joaquin Valley sandy-loam context; endpoints clamped
+framework.tomato_yield,30,source ton/acre,extension_example,https://ipm.ucanr.edu/agriculture/tomato/root-knot-nematodes/,Illustrative yield-loss economic calculation,Source ton is not silently converted to metric tonnes
+framework.tomato_price,54,USD/source ton,extension_example,https://ipm.ucanr.edu/agriculture/tomato/root-knot-nematodes/,Illustrative yield-loss economic calculation,"Public example, not current market calibration"
+framework.pcn_loss,2 per 20,t/ha per eggs/g soil,regulatory_datasheet,https://gd.eppo.int/taxon/HETDPA/datasheet,Damage / economic impact,Normalized using assumed 45 t/ha: 2/45=0.0444444444; no local monetary ROI
+framework.scn_density,10000,eggs/100 cc soil,extension,https://extension.umn.edu/soybean-pest-management/soybean-cyst-nematode-management-guide,Management by soil egg count,Threshold-only scenario; no monetary calculation without density-yield function
+framework.intervention_effects,.25;.5;.75,fraction of revenue loss avoided,scenario_assumption,packaged model definition,Illustrative intervention sweep,Combined detection plus intervention effect; no sensor-specific efficacy
+framework.early_costs,50;100;200 / .01;.03;.05,USD/acre / normalized per ha,scenario_assumption,packaged model definition,Tomato / potato scenario cost sweeps,No calibrated project deployment cost
+spain.low_treatment_cost,0,EUR/ha,accounting_assumption,packaged model definition,No dedicated nematode treatment; ordinary cultivation and scouting included in production cost,Test cost is charged separately
+spain.uniform_control,220;0.586805,EUR/ha;fraction,scenario_counterfactual_from_literature,https://doi.org/10.3390/plants11202774,"Uniform fluopyram control at every density, using the same cost and effect as the middle treatment",Assumed no-testing comparator
+spain.known_density,known and accurate,J2/100 cm^3 soil,scope_assumption,packaged model definition,Conditional comparison at the supplied density,"Sampling error, diagnostic error and misclassification are not modelled"
+spain.fluopyram_application,0.375,L/ha of 40% formulation,literature_direct,https://doi.org/10.3390/plants11202774,Fluopyram treatment in the source trial; drip irrigation before planting,Application conditions identify the source scenario
+spain.biosolarization_application,20000;6;20;0.03,kg/ha;weeks;cm;mm,literature_direct,https://doi.org/10.3390/plants11202774,Chicken manure; transparent film duration; incorporation depth; film thickness,Summer treatment irrigated to field capacity

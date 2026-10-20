@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "input": {
+    "u_max_per_second": {
+      "value": 1.206908,
+      "status": "assumed",
+      "unit": "s^-1",
+      "source": "Supady k3 * source initial receptor concentration; demonstration scale only"
+    },
+    "K_L_normalized": {
+      "value": 1067614.33055912,
+      "status": "fitted_synthetic",
+      "unit": "normalized ligand",
+      "source": "Supplied effective ligand scale for the synthetic channel model; normalized ligand units"
+    }
+  },
+  "output": {
+    "b": {
+      "value": 0.09722785337648886,
+      "status": "derived_from_assumed_blank",
+      "unit": "uM pigment equivalent h^-1",
+      "source": "C(0)=0; C(8h)=0.5 uM; fixed delta"
+    },
+    "a": {
+      "value": 0.09992224821565664,
+      "status": "fitted_synthetic",
+      "unit": "uM pigment equivalent h^-1",
+      "source": "Supplied pigment production coefficient for the synthetic channel model"
+    },
+    "K": {
+      "value": 0.12099437854561526,
+      "status": "assumed",
+      "unit": "active Fus3 fraction",
+      "source": "Effective half-response fraction derived from the assumed transcription and color-response mapping"
+    },
+    "n": {
+      "value": 2.0,
+      "status": "assumed",
+      "unit": "dimensionless",
+      "source": "Assumed Hill exponent for the active Fus3 response"
+    },
+    "delta": {
+      "value": 0.12,
+      "status": "assumed",
+      "unit": "h^-1",
+      "source": "Assumed first-order pigment loss rate"
+    }
+  },
+  "fixed_assumptions": [
+    "input Hill exponent 1",
+    "zero basal core drive",
+    "constant normalized ligand",
+    "source core rates and initial pools",
+    "fixed output construct",
+    "instantaneous effective transcription response",
+    "color state interpreted as uM betaxanthin equivalent by calibration adapter"
+  ],
+  "calibration_adapter": {
+    "channel": "18",
+    "S3_weight": 1.25,
+    "S18_weight": 1.0,
+    "ligand_reference_nM": 1.0,
+    "equation": "L=(S3_weight*S3_nM + S18_weight*S18_nM)/1 nM",
+    "weight_status": "fixed synthetic mapping assumption",
+    "initial_pigment_uM": 0,
+    "pigment_state": "color_au state interpreted as uM pigment equivalent in this adapter",
+    "read_time_h": 8,
+    "data_origin": "synthetic_assumption"
+  }
+}

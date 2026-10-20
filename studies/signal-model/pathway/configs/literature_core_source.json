@@ -1,0 +1,157 @@
+{
+  "version": "Supady2009_ModelB_reaction_reconstruction_v1",
+  "source_url": "https://rumo.biologie.hu-berlin.de/tbp/images/Theses/bsc_supady.pdf",
+  "time_unit": "s",
+  "concentration_unit": "uM",
+  "source_references": {
+    "supady": {
+      "citation": "Supady (2009), Model B",
+      "location": "PDF pp48–49, sections 5.1 and 6.1"
+    },
+    "delft": {
+      "citation": "TU Delft iGEM (2012), single-cell model, Tables 4.1–4.3",
+      "url": "https://2012.igem.org/Team:TU-Delft/Modeling/SingleCellModel",
+      "details_url": "https://static.igem.org/mediawiki/2012/0/05/ReducedModelDetails.pdf"
+    }
+  },
+  "parameter_source_note": "The 14 nonzero rates share the Supady Model B and Delft values; basal Fus3 inactivation k9 is supplied separately by Supady.",
+  "evidence_status_default": "source_fitted",
+  "unit_derivation": "Rate units follow each mass-action reaction law with time in seconds and concentration in uM; per-parameter notes record source-unit exceptions.",
+  "parameters": {
+    "k1": {
+      "value": 0.071,
+      "unit": "uM^-1 s^-1",
+      "meaning": "受体活化",
+      "source_pointer": "Supady 2009 PDF p49, Model B; Delft Table4.2 K1",
+      "delft_id": "K1",
+      "reaction": "receptor activation"
+    },
+    "k2": {
+      "value": 2.457,
+      "unit": "s^-1",
+      "meaning": "受体失活",
+      "source_pointer": "Supady 2009 PDF p49, Model B; Delft Table4.2 K2",
+      "delft_id": "K2",
+      "reaction": "receptor inactivation"
+    },
+    "k12": {
+      "value": 1.199,
+      "unit": "s^-1",
+      "meaning": "活化受体损失",
+      "source_pointer": "Supady 2009 PDF p49, Model B; Delft Table4.2 K3",
+      "delft_id": "K3",
+      "reaction": "active receptor loss"
+    },
+    "k3": {
+      "value": 0.724,
+      "unit": "uM^-1 s^-1",
+      "meaning": "G蛋白活化",
+      "source_pointer": "Supady 2009 PDF p49, Model B; Delft Table4.2 K4",
+      "delft_id": "K4",
+      "reaction": "G-protein activation"
+    },
+    "k4": {
+      "value": 1.259,
+      "unit": "s^-1",
+      "meaning": "GTP水解",
+      "source_pointer": "Supady 2009 PDF p49, Model B; Delft Table4.2 K5",
+      "delft_id": "K5",
+      "reaction": "GTP hydrolysis"
+    },
+    "k41": {
+      "value": 1.124,
+      "unit": "uM^-1 s^-1",
+      "meaning": "Sst2活性态促进水解",
+      "source_pointer": "Supady 2009 PDF p49, Model B; Delft Table4.2 K6",
+      "delft_id": "K6",
+      "reaction": "active Sst2-assisted hydrolysis"
+    },
+    "k5": {
+      "value": 0.002,
+      "unit": "uM^-1 s^-1",
+      "meaning": "G蛋白再结合",
+      "source_pointer": "Supady 2009 PDF p49, Model B; Delft Table4.2 K7",
+      "delft_id": "K7",
+      "reaction": "G-protein reassociation"
+    },
+    "k6": {
+      "value": 0.021,
+      "unit": "uM^-1 s^-1",
+      "meaning": "支架装配",
+      "source_pointer": "Supady 2009 PDF p49, Model B; Delft Table4.2 K8",
+      "delft_id": "K8",
+      "reaction": "scaffold assembly"
+    },
+    "k7": {
+      "value": 0.004,
+      "unit": "s^-1",
+      "meaning": "支架解离",
+      "source_pointer": "Supady 2009 PDF p49, Model B; Delft Table4.2 K9",
+      "delft_id": "K9",
+      "reaction": "scaffold disassembly"
+    },
+    "k71": {
+      "value": 0.261,
+      "unit": "uM^-1 s^-1",
+      "meaning": "Sst2活性态促进支架解离",
+      "source_pointer": "Supady 2009 PDF p49, Model B; Delft Table4.2 K10",
+      "delft_id": "K10",
+      "reaction": "active Sst2-assisted scaffold disassembly"
+    },
+    "k8": {
+      "value": 0.818,
+      "unit": "uM^-1 s^-1",
+      "meaning": "Fus3活化",
+      "source_pointer": "Supady 2009 PDF p49, Model B; Delft Table4.2 K11",
+      "delft_id": "K11",
+      "reaction": "Fus3 activation"
+    },
+    "k91": {
+      "value": 0.017,
+      "unit": "uM^-1 s^-1",
+      "meaning": "Sst2依赖Fus3失活",
+      "source_pointer": "Supady 2009 PDF p49, Model B; Delft Table4.2 K12",
+      "delft_id": "K12",
+      "reaction": "Sst2-dependent Fus3 inactivation",
+      "unit_note": "The flux multiplies Sst2 and active Fus3 concentrations; Delft Table 4.2 prints s^-1, while the reaction law gives uM^-1 s^-1."
+    },
+    "k10": {
+      "value": 0.342,
+      "unit": "uM^-1 s^-1",
+      "meaning": "Sst2状态转化",
+      "source_pointer": "Supady 2009 PDF p49, Model B; Delft Table4.2 K13",
+      "delft_id": "K13",
+      "reaction": "Sst2-state conversion"
+    },
+    "k11": {
+      "value": 0.643,
+      "unit": "s^-1",
+      "meaning": "Sst2状态恢复",
+      "source_pointer": "Supady 2009 PDF p49, Model B; Delft Table4.2 K14",
+      "delft_id": "K14",
+      "reaction": "Sst2-state recovery"
+    },
+    "k9": {
+      "value": 0.0,
+      "unit": "s^-1",
+      "meaning": "基础Fus3失活",
+      "source_pointer": "Supady 2009 PDF p49, Model B k9",
+      "evidence_status": "source_fitted_zero",
+      "reaction": "basal Fus3 inactivation"
+    }
+  },
+  "initial_uM": {
+    "G_trimer": 1.667,
+    "Ga_GTP": 0,
+    "Ga_GDP": 0,
+    "Gbg_free": 0,
+    "scaffold_free": 0.036,
+    "scaffold_bound": 0,
+    "Fus3": 0.686,
+    "Fus3_active": 0,
+    "Sst2": 0.505,
+    "Sst2_active": 0
+  },
+  "receptor_initial_uM": 1.667,
+  "initial_source": "Supady PDF p49; Delft Table4.3"
+}

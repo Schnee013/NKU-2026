@@ -1,0 +1,13 @@
+cutoff-scheme = Verlet
+nstlist = 20
+rlist = 1.2
+vdwtype = Cut-off
+vdw-modifier = Force-switch
+rvdw_switch = 1.0
+rvdw = 1.2
+coulombtype = PME
+rcoulomb = 1.2
+pbc = xyz
+integrator = steep
+nsteps = 0
+constraints = none

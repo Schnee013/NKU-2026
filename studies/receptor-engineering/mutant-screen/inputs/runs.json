@@ -1,0 +1,4695 @@
+{
+  "defaults": {
+    "configuration": {
+      "center_x": "20",
+      "center_y": "-20",
+      "center_z": "5",
+      "size_x": "26",
+      "size_y": "26",
+      "size_z": "26",
+      "exhaustiveness": "8",
+      "num_modes": "9",
+      "energy_range": "3",
+      "seed": "1919"
+    },
+    "vina_version": "1.2.5"
+  },
+  "contact_parameters": {
+    "prolif_version": "2.1.0",
+    "interactions": [
+      "Anionic",
+      "CationPi",
+      "Cationic",
+      "HBAcceptor",
+      "HBDonor",
+      "Hydrophobic",
+      "PiCation",
+      "PiStacking",
+      "VdWContact"
+    ],
+    "vicinity_cutoff_A": 6.0
+  },
+  "pose_selection": {
+    "selection_rule": "Minimum reported Vina score; lowest mode number breaks ties",
+    "analyzed_pose_count": 1,
+    "pose_index_in_ifp": 0
+  },
+  "runs": [
+    {
+      "run_id": "01/run-01/N84A_L90A_R345A/af0/seed1919/ascr3",
+      "record_id": "01/run-01/N84A_L90A_R345A/af0/seed1919",
+      "batch": "01",
+      "variant": "N84A_L90A_R345A",
+      "alias": "N84A_L90A_R345A",
+      "af_model": 0,
+      "ligand": "ascr3",
+      "runtime": {
+        "cpu": 16,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "01/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "01/run-01/N84A_L90A_R345A/af0/seed1919/ascr18",
+      "record_id": "01/run-01/N84A_L90A_R345A/af0/seed1919",
+      "batch": "01",
+      "variant": "N84A_L90A_R345A",
+      "alias": "N84A_L90A_R345A",
+      "af_model": 0,
+      "ligand": "ascr18",
+      "runtime": {
+        "cpu": 16,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "01/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "01/run-01/V110A_R181A_W338A_V368A/af0/seed1919/ascr3",
+      "record_id": "01/run-01/V110A_R181A_W338A_V368A/af0/seed1919",
+      "batch": "01",
+      "variant": "V110A_R181A_W338A_V368A",
+      "alias": "V110A_R181A_W338A_V368A",
+      "af_model": 0,
+      "ligand": "ascr3",
+      "runtime": {
+        "cpu": 16,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "01/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "01/run-01/V110A_R181A_W338A_V368A/af0/seed1919/ascr18",
+      "record_id": "01/run-01/V110A_R181A_W338A_V368A/af0/seed1919",
+      "batch": "01",
+      "variant": "V110A_R181A_W338A_V368A",
+      "alias": "V110A_R181A_W338A_V368A",
+      "af_model": 0,
+      "ligand": "ascr18",
+      "runtime": {
+        "cpu": 16,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "01/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "01/run-01/baseline/af0/seed1919/ascr3",
+      "record_id": "01/run-01/baseline/af0/seed1919",
+      "batch": "01",
+      "variant": "baseline",
+      "alias": "baseline",
+      "af_model": 0,
+      "ligand": "ascr3",
+      "runtime": {
+        "cpu": 16,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "01/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "01/run-01/baseline/af0/seed1919/ascr18",
+      "record_id": "01/run-01/baseline/af0/seed1919",
+      "batch": "01",
+      "variant": "baseline",
+      "alias": "baseline",
+      "af_model": 0,
+      "ligand": "ascr18",
+      "runtime": {
+        "cpu": 16,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "01/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "02/run-01/N84A_L90A_R345A/af0/seed1919/ascr3",
+      "record_id": "02/run-01/N84A_L90A_R345A/af0/seed1919",
+      "batch": "02",
+      "variant": "N84A_L90A_R345A",
+      "alias": "N84A_L90A_R345A",
+      "af_model": 0,
+      "ligand": "ascr3",
+      "runtime": {
+        "cpu": 16,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "02/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "02/run-01/N84A_L90A_R345A/af0/seed1919/ascr18",
+      "record_id": "02/run-01/N84A_L90A_R345A/af0/seed1919",
+      "batch": "02",
+      "variant": "N84A_L90A_R345A",
+      "alias": "N84A_L90A_R345A",
+      "af_model": 0,
+      "ligand": "ascr18",
+      "runtime": {
+        "cpu": 16,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "02/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "02/run-01/V110A_R181A_W338A_V368A/af0/seed1919/ascr3",
+      "record_id": "02/run-01/V110A_R181A_W338A_V368A/af0/seed1919",
+      "batch": "02",
+      "variant": "V110A_R181A_W338A_V368A",
+      "alias": "V110A_R181A_W338A_V368A",
+      "af_model": 0,
+      "ligand": "ascr3",
+      "runtime": {
+        "cpu": 16,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "02/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "02/run-01/V110A_R181A_W338A_V368A/af0/seed1919/ascr18",
+      "record_id": "02/run-01/V110A_R181A_W338A_V368A/af0/seed1919",
+      "batch": "02",
+      "variant": "V110A_R181A_W338A_V368A",
+      "alias": "V110A_R181A_W338A_V368A",
+      "af_model": 0,
+      "ligand": "ascr18",
+      "runtime": {
+        "cpu": 16,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "02/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "02/run-01/baseline/af0/seed1919/ascr3",
+      "record_id": "02/run-01/baseline/af0/seed1919",
+      "batch": "02",
+      "variant": "baseline",
+      "alias": "baseline",
+      "af_model": 0,
+      "ligand": "ascr3",
+      "runtime": {
+        "cpu": 16,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "02/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "02/run-01/baseline/af0/seed1919/ascr18",
+      "record_id": "02/run-01/baseline/af0/seed1919",
+      "batch": "02",
+      "variant": "baseline",
+      "alias": "baseline",
+      "af_model": 0,
+      "ligand": "ascr18",
+      "runtime": {
+        "cpu": 16,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "02/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "03/run-01/L90A/af0/seed1919/ascr3",
+      "record_id": "03/run-01/L90A/af0/seed1919",
+      "batch": "03",
+      "variant": "L90A",
+      "alias": "L90A",
+      "af_model": 0,
+      "ligand": "ascr3",
+      "runtime": {
+        "cpu": 16,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "03/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "03/run-01/L90A/af0/seed1919/ascr18",
+      "record_id": "03/run-01/L90A/af0/seed1919",
+      "batch": "03",
+      "variant": "L90A",
+      "alias": "L90A",
+      "af_model": 0,
+      "ligand": "ascr18",
+      "runtime": {
+        "cpu": 16,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "03/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "03/run-01/N84A/af0/seed1919/ascr3",
+      "record_id": "03/run-01/N84A/af0/seed1919",
+      "batch": "03",
+      "variant": "N84A",
+      "alias": "N84A",
+      "af_model": 0,
+      "ligand": "ascr3",
+      "runtime": {
+        "cpu": 16,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "03/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "03/run-01/N84A/af0/seed1919/ascr18",
+      "record_id": "03/run-01/N84A/af0/seed1919",
+      "batch": "03",
+      "variant": "N84A",
+      "alias": "N84A",
+      "af_model": 0,
+      "ligand": "ascr18",
+      "runtime": {
+        "cpu": 16,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "03/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "03/run-01/R181A/af0/seed1919/ascr3",
+      "record_id": "03/run-01/R181A/af0/seed1919",
+      "batch": "03",
+      "variant": "R181A",
+      "alias": "R181A",
+      "af_model": 0,
+      "ligand": "ascr3",
+      "runtime": {
+        "cpu": 16,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "03/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "03/run-01/R181A/af0/seed1919/ascr18",
+      "record_id": "03/run-01/R181A/af0/seed1919",
+      "batch": "03",
+      "variant": "R181A",
+      "alias": "R181A",
+      "af_model": 0,
+      "ligand": "ascr18",
+      "runtime": {
+        "cpu": 16,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "03/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "03/run-01/R345A/af0/seed1919/ascr3",
+      "record_id": "03/run-01/R345A/af0/seed1919",
+      "batch": "03",
+      "variant": "R345A",
+      "alias": "R345A",
+      "af_model": 0,
+      "ligand": "ascr3",
+      "runtime": {
+        "cpu": 16,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "03/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "03/run-01/R345A/af0/seed1919/ascr18",
+      "record_id": "03/run-01/R345A/af0/seed1919",
+      "batch": "03",
+      "variant": "R345A",
+      "alias": "R345A",
+      "af_model": 0,
+      "ligand": "ascr18",
+      "runtime": {
+        "cpu": 16,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "03/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "03/run-01/V110A/af0/seed1919/ascr3",
+      "record_id": "03/run-01/V110A/af0/seed1919",
+      "batch": "03",
+      "variant": "V110A",
+      "alias": "V110A",
+      "af_model": 0,
+      "ligand": "ascr3",
+      "runtime": {
+        "cpu": 16,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "03/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "03/run-01/V110A/af0/seed1919/ascr18",
+      "record_id": "03/run-01/V110A/af0/seed1919",
+      "batch": "03",
+      "variant": "V110A",
+      "alias": "V110A",
+      "af_model": 0,
+      "ligand": "ascr18",
+      "runtime": {
+        "cpu": 16,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "03/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "03/run-01/V368A/af0/seed1919/ascr3",
+      "record_id": "03/run-01/V368A/af0/seed1919",
+      "batch": "03",
+      "variant": "V368A",
+      "alias": "V368A",
+      "af_model": 0,
+      "ligand": "ascr3",
+      "runtime": {
+        "cpu": 16,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "03/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "03/run-01/V368A/af0/seed1919/ascr18",
+      "record_id": "03/run-01/V368A/af0/seed1919",
+      "batch": "03",
+      "variant": "V368A",
+      "alias": "V368A",
+      "af_model": 0,
+      "ligand": "ascr18",
+      "runtime": {
+        "cpu": 16,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "03/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "03/run-01/W338A/af0/seed1919/ascr3",
+      "record_id": "03/run-01/W338A/af0/seed1919",
+      "batch": "03",
+      "variant": "W338A",
+      "alias": "W338A",
+      "af_model": 0,
+      "ligand": "ascr3",
+      "runtime": {
+        "cpu": 16,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "03/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "03/run-01/W338A/af0/seed1919/ascr18",
+      "record_id": "03/run-01/W338A/af0/seed1919",
+      "batch": "03",
+      "variant": "W338A",
+      "alias": "W338A",
+      "af_model": 0,
+      "ligand": "ascr18",
+      "runtime": {
+        "cpu": 16,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "03/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "03/run-01/baseline/af0/seed1919/ascr3",
+      "record_id": "03/run-01/baseline/af0/seed1919",
+      "batch": "03",
+      "variant": "baseline",
+      "alias": "baseline",
+      "af_model": 0,
+      "ligand": "ascr3",
+      "runtime": {
+        "cpu": 16,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "03/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "03/run-01/baseline/af0/seed1919/ascr18",
+      "record_id": "03/run-01/baseline/af0/seed1919",
+      "batch": "03",
+      "variant": "baseline",
+      "alias": "baseline",
+      "af_model": 0,
+      "ligand": "ascr18",
+      "runtime": {
+        "cpu": 16,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "03/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "04/run-01/G103A/af0/seed1919/ascr3",
+      "record_id": "04/run-01/G103A/af0/seed1919",
+      "batch": "04",
+      "variant": "G103A",
+      "alias": "G103A",
+      "af_model": 0,
+      "ligand": "ascr3",
+      "runtime": {
+        "cpu": 16,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "04/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "04/run-01/G103A/af0/seed1919/ascr18",
+      "record_id": "04/run-01/G103A/af0/seed1919",
+      "batch": "04",
+      "variant": "G103A",
+      "alias": "G103A",
+      "af_model": 0,
+      "ligand": "ascr18",
+      "runtime": {
+        "cpu": 16,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "04/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "04/run-01/L27A/af0/seed1919/ascr3",
+      "record_id": "04/run-01/L27A/af0/seed1919",
+      "batch": "04",
+      "variant": "L27A",
+      "alias": "L27A",
+      "af_model": 0,
+      "ligand": "ascr3",
+      "runtime": {
+        "cpu": 16,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "04/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "04/run-01/L27A/af0/seed1919/ascr18",
+      "record_id": "04/run-01/L27A/af0/seed1919",
+      "batch": "04",
+      "variant": "L27A",
+      "alias": "L27A",
+      "af_model": 0,
+      "ligand": "ascr18",
+      "runtime": {
+        "cpu": 16,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "04/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "04/run-01/N102A/af0/seed1919/ascr3",
+      "record_id": "04/run-01/N102A/af0/seed1919",
+      "batch": "04",
+      "variant": "N102A",
+      "alias": "N102A",
+      "af_model": 0,
+      "ligand": "ascr3",
+      "runtime": {
+        "cpu": 16,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "04/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "04/run-01/N102A/af0/seed1919/ascr18",
+      "record_id": "04/run-01/N102A/af0/seed1919",
+      "batch": "04",
+      "variant": "N102A",
+      "alias": "N102A",
+      "af_model": 0,
+      "ligand": "ascr18",
+      "runtime": {
+        "cpu": 16,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "04/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "04/run-01/N28A/af0/seed1919/ascr3",
+      "record_id": "04/run-01/N28A/af0/seed1919",
+      "batch": "04",
+      "variant": "N28A",
+      "alias": "N28A",
+      "af_model": 0,
+      "ligand": "ascr3",
+      "runtime": {
+        "cpu": 16,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "04/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "04/run-01/N28A/af0/seed1919/ascr18",
+      "record_id": "04/run-01/N28A/af0/seed1919",
+      "batch": "04",
+      "variant": "N28A",
+      "alias": "N28A",
+      "af_model": 0,
+      "ligand": "ascr18",
+      "runtime": {
+        "cpu": 16,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "04/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "04/run-01/N84A_V110A_V368A/af0/seed1919/ascr3",
+      "record_id": "04/run-01/N84A_V110A_V368A/af0/seed1919",
+      "batch": "04",
+      "variant": "N84A_V110A_V368A",
+      "alias": "N84A_V110A_V368A",
+      "af_model": 0,
+      "ligand": "ascr3",
+      "runtime": {
+        "cpu": 16,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "04/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "04/run-01/N84A_V110A_V368A/af0/seed1919/ascr18",
+      "record_id": "04/run-01/N84A_V110A_V368A/af0/seed1919",
+      "batch": "04",
+      "variant": "N84A_V110A_V368A",
+      "alias": "N84A_V110A_V368A",
+      "af_model": 0,
+      "ligand": "ascr18",
+      "runtime": {
+        "cpu": 16,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "04/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "04/run-01/N84Q/af0/seed1919/ascr3",
+      "record_id": "04/run-01/N84Q/af0/seed1919",
+      "batch": "04",
+      "variant": "N84Q",
+      "alias": "N84Q",
+      "af_model": 0,
+      "ligand": "ascr3",
+      "runtime": {
+        "cpu": 16,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "04/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "04/run-01/N84Q/af0/seed1919/ascr18",
+      "record_id": "04/run-01/N84Q/af0/seed1919",
+      "batch": "04",
+      "variant": "N84Q",
+      "alias": "N84Q",
+      "af_model": 0,
+      "ligand": "ascr18",
+      "runtime": {
+        "cpu": 16,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "04/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "04/run-01/N84S/af0/seed1919/ascr3",
+      "record_id": "04/run-01/N84S/af0/seed1919",
+      "batch": "04",
+      "variant": "N84S",
+      "alias": "N84S",
+      "af_model": 0,
+      "ligand": "ascr3",
+      "runtime": {
+        "cpu": 16,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "04/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "04/run-01/N84S/af0/seed1919/ascr18",
+      "record_id": "04/run-01/N84S/af0/seed1919",
+      "batch": "04",
+      "variant": "N84S",
+      "alias": "N84S",
+      "af_model": 0,
+      "ligand": "ascr18",
+      "runtime": {
+        "cpu": 16,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "04/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "04/run-01/R181A/af0/seed1919/ascr3",
+      "record_id": "04/run-01/R181A/af0/seed1919",
+      "batch": "04",
+      "variant": "R181A",
+      "alias": "R181A",
+      "af_model": 0,
+      "ligand": "ascr3",
+      "runtime": {
+        "cpu": 16,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "04/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "04/run-01/R181A/af0/seed1919/ascr18",
+      "record_id": "04/run-01/R181A/af0/seed1919",
+      "batch": "04",
+      "variant": "R181A",
+      "alias": "R181A",
+      "af_model": 0,
+      "ligand": "ascr18",
+      "runtime": {
+        "cpu": 16,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "04/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "04/run-01/S80A/af0/seed1919/ascr3",
+      "record_id": "04/run-01/S80A/af0/seed1919",
+      "batch": "04",
+      "variant": "S80A",
+      "alias": "S80A",
+      "af_model": 0,
+      "ligand": "ascr3",
+      "runtime": {
+        "cpu": 16,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "04/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "04/run-01/S80A/af0/seed1919/ascr18",
+      "record_id": "04/run-01/S80A/af0/seed1919",
+      "batch": "04",
+      "variant": "S80A",
+      "alias": "S80A",
+      "af_model": 0,
+      "ligand": "ascr18",
+      "runtime": {
+        "cpu": 16,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "04/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "04/run-01/T106A/af0/seed1919/ascr3",
+      "record_id": "04/run-01/T106A/af0/seed1919",
+      "batch": "04",
+      "variant": "T106A",
+      "alias": "T106A",
+      "af_model": 0,
+      "ligand": "ascr3",
+      "runtime": {
+        "cpu": 16,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "04/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "04/run-01/T106A/af0/seed1919/ascr18",
+      "record_id": "04/run-01/T106A/af0/seed1919",
+      "batch": "04",
+      "variant": "T106A",
+      "alias": "T106A",
+      "af_model": 0,
+      "ligand": "ascr18",
+      "runtime": {
+        "cpu": 16,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "04/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "04/run-01/V110A/af0/seed1919/ascr3",
+      "record_id": "04/run-01/V110A/af0/seed1919",
+      "batch": "04",
+      "variant": "V110A",
+      "alias": "V110A",
+      "af_model": 0,
+      "ligand": "ascr3",
+      "runtime": {
+        "cpu": 16,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "04/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "04/run-01/V110A/af0/seed1919/ascr18",
+      "record_id": "04/run-01/V110A/af0/seed1919",
+      "batch": "04",
+      "variant": "V110A",
+      "alias": "V110A",
+      "af_model": 0,
+      "ligand": "ascr18",
+      "runtime": {
+        "cpu": 16,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "04/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "04/run-01/V110I/af0/seed1919/ascr3",
+      "record_id": "04/run-01/V110I/af0/seed1919",
+      "batch": "04",
+      "variant": "V110I",
+      "alias": "V110I",
+      "af_model": 0,
+      "ligand": "ascr3",
+      "runtime": {
+        "cpu": 16,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "04/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "04/run-01/V110I/af0/seed1919/ascr18",
+      "record_id": "04/run-01/V110I/af0/seed1919",
+      "batch": "04",
+      "variant": "V110I",
+      "alias": "V110I",
+      "af_model": 0,
+      "ligand": "ascr18",
+      "runtime": {
+        "cpu": 16,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "04/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "04/run-01/V110L/af0/seed1919/ascr3",
+      "record_id": "04/run-01/V110L/af0/seed1919",
+      "batch": "04",
+      "variant": "V110L",
+      "alias": "V110L",
+      "af_model": 0,
+      "ligand": "ascr3",
+      "runtime": {
+        "cpu": 16,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "04/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "04/run-01/V110L/af0/seed1919/ascr18",
+      "record_id": "04/run-01/V110L/af0/seed1919",
+      "batch": "04",
+      "variant": "V110L",
+      "alias": "V110L",
+      "af_model": 0,
+      "ligand": "ascr18",
+      "runtime": {
+        "cpu": 16,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "04/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "04/run-01/V110T/af0/seed1919/ascr3",
+      "record_id": "04/run-01/V110T/af0/seed1919",
+      "batch": "04",
+      "variant": "V110T",
+      "alias": "V110T",
+      "af_model": 0,
+      "ligand": "ascr3",
+      "runtime": {
+        "cpu": 16,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "04/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "04/run-01/V110T/af0/seed1919/ascr18",
+      "record_id": "04/run-01/V110T/af0/seed1919",
+      "batch": "04",
+      "variant": "V110T",
+      "alias": "V110T",
+      "af_model": 0,
+      "ligand": "ascr18",
+      "runtime": {
+        "cpu": 16,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "04/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "04/run-01/V368A/af0/seed1919/ascr3",
+      "record_id": "04/run-01/V368A/af0/seed1919",
+      "batch": "04",
+      "variant": "V368A",
+      "alias": "V368A",
+      "af_model": 0,
+      "ligand": "ascr3",
+      "runtime": {
+        "cpu": 16,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "04/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "04/run-01/V368A/af0/seed1919/ascr18",
+      "record_id": "04/run-01/V368A/af0/seed1919",
+      "batch": "04",
+      "variant": "V368A",
+      "alias": "V368A",
+      "af_model": 0,
+      "ligand": "ascr18",
+      "runtime": {
+        "cpu": 16,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "04/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "04/run-01/V368I/af0/seed1919/ascr3",
+      "record_id": "04/run-01/V368I/af0/seed1919",
+      "batch": "04",
+      "variant": "V368I",
+      "alias": "V368I",
+      "af_model": 0,
+      "ligand": "ascr3",
+      "runtime": {
+        "cpu": 16,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "04/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "04/run-01/V368I/af0/seed1919/ascr18",
+      "record_id": "04/run-01/V368I/af0/seed1919",
+      "batch": "04",
+      "variant": "V368I",
+      "alias": "V368I",
+      "af_model": 0,
+      "ligand": "ascr18",
+      "runtime": {
+        "cpu": 16,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "04/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "04/run-01/V368L/af0/seed1919/ascr3",
+      "record_id": "04/run-01/V368L/af0/seed1919",
+      "batch": "04",
+      "variant": "V368L",
+      "alias": "V368L",
+      "af_model": 0,
+      "ligand": "ascr3",
+      "runtime": {
+        "cpu": 16,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "04/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "04/run-01/V368L/af0/seed1919/ascr18",
+      "record_id": "04/run-01/V368L/af0/seed1919",
+      "batch": "04",
+      "variant": "V368L",
+      "alias": "V368L",
+      "af_model": 0,
+      "ligand": "ascr18",
+      "runtime": {
+        "cpu": 16,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "04/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "04/run-01/W338A/af0/seed1919/ascr3",
+      "record_id": "04/run-01/W338A/af0/seed1919",
+      "batch": "04",
+      "variant": "W338A",
+      "alias": "W338A",
+      "af_model": 0,
+      "ligand": "ascr3",
+      "runtime": {
+        "cpu": 16,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "04/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "04/run-01/W338A/af0/seed1919/ascr18",
+      "record_id": "04/run-01/W338A/af0/seed1919",
+      "batch": "04",
+      "variant": "W338A",
+      "alias": "W338A",
+      "af_model": 0,
+      "ligand": "ascr18",
+      "runtime": {
+        "cpu": 16,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "04/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "04/run-01/baseline/af0/seed1919/ascr3",
+      "record_id": "04/run-01/baseline/af0/seed1919",
+      "batch": "04",
+      "variant": "baseline",
+      "alias": "baseline",
+      "af_model": 0,
+      "ligand": "ascr3",
+      "runtime": {
+        "cpu": 16,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "04/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "04/run-01/baseline/af0/seed1919/ascr18",
+      "record_id": "04/run-01/baseline/af0/seed1919",
+      "batch": "04",
+      "variant": "baseline",
+      "alias": "baseline",
+      "af_model": 0,
+      "ligand": "ascr18",
+      "runtime": {
+        "cpu": 16,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "04/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "05/run-01/baseline/af0/seed1919/ascr3",
+      "record_id": "05/run-01/baseline/af0/seed1919",
+      "batch": "05",
+      "variant": "baseline",
+      "alias": "05_baseline",
+      "af_model": 0,
+      "ligand": "ascr3",
+      "runtime": {
+        "cpu": 4,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0,
+        "scoring_function": "vina"
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "05/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "05/run-01/baseline/af0/seed1919/ascr18",
+      "record_id": "05/run-01/baseline/af0/seed1919",
+      "batch": "05",
+      "variant": "baseline",
+      "alias": "05_baseline",
+      "af_model": 0,
+      "ligand": "ascr18",
+      "runtime": {
+        "cpu": 4,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0,
+        "scoring_function": "vina"
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "05/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "05/run-01/N84A/af0/seed1919/ascr3",
+      "record_id": "05/run-01/N84A/af0/seed1919",
+      "batch": "05",
+      "variant": "N84A",
+      "alias": "05_n84a",
+      "af_model": 0,
+      "ligand": "ascr3",
+      "runtime": {
+        "cpu": 4,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "05/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "05/run-01/N84A/af0/seed1919/ascr18",
+      "record_id": "05/run-01/N84A/af0/seed1919",
+      "batch": "05",
+      "variant": "N84A",
+      "alias": "05_n84a",
+      "af_model": 0,
+      "ligand": "ascr18",
+      "runtime": {
+        "cpu": 4,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "05/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "05/run-01/N84C/af0/seed1919/ascr3",
+      "record_id": "05/run-01/N84C/af0/seed1919",
+      "batch": "05",
+      "variant": "N84C",
+      "alias": "05_n84c",
+      "af_model": 0,
+      "ligand": "ascr3",
+      "runtime": {
+        "cpu": 4,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "05/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "05/run-01/N84C/af0/seed1919/ascr18",
+      "record_id": "05/run-01/N84C/af0/seed1919",
+      "batch": "05",
+      "variant": "N84C",
+      "alias": "05_n84c",
+      "af_model": 0,
+      "ligand": "ascr18",
+      "runtime": {
+        "cpu": 4,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "05/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "05/run-01/N84D/af0/seed1919/ascr3",
+      "record_id": "05/run-01/N84D/af0/seed1919",
+      "batch": "05",
+      "variant": "N84D",
+      "alias": "05_n84d",
+      "af_model": 0,
+      "ligand": "ascr3",
+      "runtime": {
+        "cpu": 4,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "05/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "05/run-01/N84D/af0/seed1919/ascr18",
+      "record_id": "05/run-01/N84D/af0/seed1919",
+      "batch": "05",
+      "variant": "N84D",
+      "alias": "05_n84d",
+      "af_model": 0,
+      "ligand": "ascr18",
+      "runtime": {
+        "cpu": 4,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "05/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "05/run-01/N84E/af0/seed1919/ascr3",
+      "record_id": "05/run-01/N84E/af0/seed1919",
+      "batch": "05",
+      "variant": "N84E",
+      "alias": "05_n84e",
+      "af_model": 0,
+      "ligand": "ascr3",
+      "runtime": {
+        "cpu": 4,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "05/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "05/run-01/N84E/af0/seed1919/ascr18",
+      "record_id": "05/run-01/N84E/af0/seed1919",
+      "batch": "05",
+      "variant": "N84E",
+      "alias": "05_n84e",
+      "af_model": 0,
+      "ligand": "ascr18",
+      "runtime": {
+        "cpu": 4,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "05/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "05/run-01/N84F/af0/seed1919/ascr3",
+      "record_id": "05/run-01/N84F/af0/seed1919",
+      "batch": "05",
+      "variant": "N84F",
+      "alias": "05_n84f",
+      "af_model": 0,
+      "ligand": "ascr3",
+      "runtime": {
+        "cpu": 4,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "05/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "05/run-01/N84F/af0/seed1919/ascr18",
+      "record_id": "05/run-01/N84F/af0/seed1919",
+      "batch": "05",
+      "variant": "N84F",
+      "alias": "05_n84f",
+      "af_model": 0,
+      "ligand": "ascr18",
+      "runtime": {
+        "cpu": 4,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "05/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "05/run-01/N84G/af0/seed1919/ascr3",
+      "record_id": "05/run-01/N84G/af0/seed1919",
+      "batch": "05",
+      "variant": "N84G",
+      "alias": "05_n84g",
+      "af_model": 0,
+      "ligand": "ascr3",
+      "runtime": {
+        "cpu": 4,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "05/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "05/run-01/N84G/af0/seed1919/ascr18",
+      "record_id": "05/run-01/N84G/af0/seed1919",
+      "batch": "05",
+      "variant": "N84G",
+      "alias": "05_n84g",
+      "af_model": 0,
+      "ligand": "ascr18",
+      "runtime": {
+        "cpu": 4,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "05/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "05/run-01/N84H/af0/seed1919/ascr3",
+      "record_id": "05/run-01/N84H/af0/seed1919",
+      "batch": "05",
+      "variant": "N84H",
+      "alias": "05_n84h",
+      "af_model": 0,
+      "ligand": "ascr3",
+      "runtime": {
+        "cpu": 4,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "05/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "05/run-01/N84H/af0/seed1919/ascr18",
+      "record_id": "05/run-01/N84H/af0/seed1919",
+      "batch": "05",
+      "variant": "N84H",
+      "alias": "05_n84h",
+      "af_model": 0,
+      "ligand": "ascr18",
+      "runtime": {
+        "cpu": 4,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "05/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "05/run-01/N84I/af0/seed1919/ascr3",
+      "record_id": "05/run-01/N84I/af0/seed1919",
+      "batch": "05",
+      "variant": "N84I",
+      "alias": "05_n84i",
+      "af_model": 0,
+      "ligand": "ascr3",
+      "runtime": {
+        "cpu": 4,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "05/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "05/run-01/N84I/af0/seed1919/ascr18",
+      "record_id": "05/run-01/N84I/af0/seed1919",
+      "batch": "05",
+      "variant": "N84I",
+      "alias": "05_n84i",
+      "af_model": 0,
+      "ligand": "ascr18",
+      "runtime": {
+        "cpu": 4,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "05/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "05/run-01/N84K/af0/seed1919/ascr3",
+      "record_id": "05/run-01/N84K/af0/seed1919",
+      "batch": "05",
+      "variant": "N84K",
+      "alias": "05_n84k",
+      "af_model": 0,
+      "ligand": "ascr3",
+      "runtime": {
+        "cpu": 4,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "05/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "05/run-01/N84K/af0/seed1919/ascr18",
+      "record_id": "05/run-01/N84K/af0/seed1919",
+      "batch": "05",
+      "variant": "N84K",
+      "alias": "05_n84k",
+      "af_model": 0,
+      "ligand": "ascr18",
+      "runtime": {
+        "cpu": 4,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "05/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "05/run-01/N84L/af0/seed1919/ascr3",
+      "record_id": "05/run-01/N84L/af0/seed1919",
+      "batch": "05",
+      "variant": "N84L",
+      "alias": "05_n84l",
+      "af_model": 0,
+      "ligand": "ascr3",
+      "runtime": {
+        "cpu": 4,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0,
+        "scoring_function": "vina"
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "05/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "05/run-01/N84L/af0/seed1919/ascr18",
+      "record_id": "05/run-01/N84L/af0/seed1919",
+      "batch": "05",
+      "variant": "N84L",
+      "alias": "05_n84l",
+      "af_model": 0,
+      "ligand": "ascr18",
+      "runtime": {
+        "cpu": 4,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0,
+        "scoring_function": "vina"
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "05/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "05/run-01/N84M/af0/seed1919/ascr3",
+      "record_id": "05/run-01/N84M/af0/seed1919",
+      "batch": "05",
+      "variant": "N84M",
+      "alias": "05_n84m",
+      "af_model": 0,
+      "ligand": "ascr3",
+      "runtime": {
+        "cpu": 4,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "05/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "05/run-01/N84M/af0/seed1919/ascr18",
+      "record_id": "05/run-01/N84M/af0/seed1919",
+      "batch": "05",
+      "variant": "N84M",
+      "alias": "05_n84m",
+      "af_model": 0,
+      "ligand": "ascr18",
+      "runtime": {
+        "cpu": 4,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "05/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "05/run-01/N84P/af0/seed1919/ascr3",
+      "record_id": "05/run-01/N84P/af0/seed1919",
+      "batch": "05",
+      "variant": "N84P",
+      "alias": "05_n84p",
+      "af_model": 0,
+      "ligand": "ascr3",
+      "runtime": {
+        "cpu": 4,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "05/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "05/run-01/N84P/af0/seed1919/ascr18",
+      "record_id": "05/run-01/N84P/af0/seed1919",
+      "batch": "05",
+      "variant": "N84P",
+      "alias": "05_n84p",
+      "af_model": 0,
+      "ligand": "ascr18",
+      "runtime": {
+        "cpu": 4,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "05/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "05/run-01/N84Q/af0/seed1919/ascr3",
+      "record_id": "05/run-01/N84Q/af0/seed1919",
+      "batch": "05",
+      "variant": "N84Q",
+      "alias": "05_n84q",
+      "af_model": 0,
+      "ligand": "ascr3",
+      "runtime": {
+        "cpu": 4,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "05/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "05/run-01/N84Q/af0/seed1919/ascr18",
+      "record_id": "05/run-01/N84Q/af0/seed1919",
+      "batch": "05",
+      "variant": "N84Q",
+      "alias": "05_n84q",
+      "af_model": 0,
+      "ligand": "ascr18",
+      "runtime": {
+        "cpu": 4,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "05/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "05/run-01/N84R/af0/seed1919/ascr3",
+      "record_id": "05/run-01/N84R/af0/seed1919",
+      "batch": "05",
+      "variant": "N84R",
+      "alias": "05_n84r",
+      "af_model": 0,
+      "ligand": "ascr3",
+      "runtime": {
+        "cpu": 4,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "05/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "05/run-01/N84R/af0/seed1919/ascr18",
+      "record_id": "05/run-01/N84R/af0/seed1919",
+      "batch": "05",
+      "variant": "N84R",
+      "alias": "05_n84r",
+      "af_model": 0,
+      "ligand": "ascr18",
+      "runtime": {
+        "cpu": 4,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "05/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "05/run-01/N84S/af0/seed1919/ascr3",
+      "record_id": "05/run-01/N84S/af0/seed1919",
+      "batch": "05",
+      "variant": "N84S",
+      "alias": "05_n84s",
+      "af_model": 0,
+      "ligand": "ascr3",
+      "runtime": {
+        "cpu": 4,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "05/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "05/run-01/N84S/af0/seed1919/ascr18",
+      "record_id": "05/run-01/N84S/af0/seed1919",
+      "batch": "05",
+      "variant": "N84S",
+      "alias": "05_n84s",
+      "af_model": 0,
+      "ligand": "ascr18",
+      "runtime": {
+        "cpu": 4,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "05/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "05/run-01/N84T/af0/seed1919/ascr3",
+      "record_id": "05/run-01/N84T/af0/seed1919",
+      "batch": "05",
+      "variant": "N84T",
+      "alias": "05_n84t",
+      "af_model": 0,
+      "ligand": "ascr3",
+      "runtime": {
+        "cpu": 4,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0,
+        "scoring_function": "vina"
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "05/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "05/run-01/N84T/af0/seed1919/ascr18",
+      "record_id": "05/run-01/N84T/af0/seed1919",
+      "batch": "05",
+      "variant": "N84T",
+      "alias": "05_n84t",
+      "af_model": 0,
+      "ligand": "ascr18",
+      "runtime": {
+        "cpu": 4,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0,
+        "scoring_function": "vina"
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "05/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "05/run-01/N84V/af0/seed1919/ascr3",
+      "record_id": "05/run-01/N84V/af0/seed1919",
+      "batch": "05",
+      "variant": "N84V",
+      "alias": "05_n84v",
+      "af_model": 0,
+      "ligand": "ascr3",
+      "runtime": {
+        "cpu": 4,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0,
+        "scoring_function": "vina"
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "05/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "05/run-01/N84V/af0/seed1919/ascr18",
+      "record_id": "05/run-01/N84V/af0/seed1919",
+      "batch": "05",
+      "variant": "N84V",
+      "alias": "05_n84v",
+      "af_model": 0,
+      "ligand": "ascr18",
+      "runtime": {
+        "cpu": 4,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0,
+        "scoring_function": "vina"
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "05/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "05/run-01/N84W/af0/seed1919/ascr3",
+      "record_id": "05/run-01/N84W/af0/seed1919",
+      "batch": "05",
+      "variant": "N84W",
+      "alias": "05_n84w",
+      "af_model": 0,
+      "ligand": "ascr3",
+      "runtime": {
+        "cpu": 4,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "05/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "05/run-01/N84W/af0/seed1919/ascr18",
+      "record_id": "05/run-01/N84W/af0/seed1919",
+      "batch": "05",
+      "variant": "N84W",
+      "alias": "05_n84w",
+      "af_model": 0,
+      "ligand": "ascr18",
+      "runtime": {
+        "cpu": 4,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "05/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "05/run-01/N84Y/af0/seed1919/ascr3",
+      "record_id": "05/run-01/N84Y/af0/seed1919",
+      "batch": "05",
+      "variant": "N84Y",
+      "alias": "05_n84y",
+      "af_model": 0,
+      "ligand": "ascr3",
+      "runtime": {
+        "cpu": 4,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0,
+        "scoring_function": "vina"
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "05/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "05/run-01/N84Y/af0/seed1919/ascr18",
+      "record_id": "05/run-01/N84Y/af0/seed1919",
+      "batch": "05",
+      "variant": "N84Y",
+      "alias": "05_n84y",
+      "af_model": 0,
+      "ligand": "ascr18",
+      "runtime": {
+        "cpu": 4,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0,
+        "scoring_function": "vina"
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "05/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "05/run-01/V110A/af0/seed1919/ascr3",
+      "record_id": "05/run-01/V110A/af0/seed1919",
+      "batch": "05",
+      "variant": "V110A",
+      "alias": "05_v110a",
+      "af_model": 0,
+      "ligand": "ascr3",
+      "runtime": {
+        "cpu": 4,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "05/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "05/run-01/V110A/af0/seed1919/ascr18",
+      "record_id": "05/run-01/V110A/af0/seed1919",
+      "batch": "05",
+      "variant": "V110A",
+      "alias": "05_v110a",
+      "af_model": 0,
+      "ligand": "ascr18",
+      "runtime": {
+        "cpu": 4,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "05/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "05/run-01/V110C/af0/seed1919/ascr3",
+      "record_id": "05/run-01/V110C/af0/seed1919",
+      "batch": "05",
+      "variant": "V110C",
+      "alias": "05_v110c",
+      "af_model": 0,
+      "ligand": "ascr3",
+      "runtime": {
+        "cpu": 4,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0,
+        "scoring_function": "vina"
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "05/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "05/run-01/V110C/af0/seed1919/ascr18",
+      "record_id": "05/run-01/V110C/af0/seed1919",
+      "batch": "05",
+      "variant": "V110C",
+      "alias": "05_v110c",
+      "af_model": 0,
+      "ligand": "ascr18",
+      "runtime": {
+        "cpu": 4,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0,
+        "scoring_function": "vina"
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "05/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "05/run-01/V110D/af0/seed1919/ascr3",
+      "record_id": "05/run-01/V110D/af0/seed1919",
+      "batch": "05",
+      "variant": "V110D",
+      "alias": "05_v110d",
+      "af_model": 0,
+      "ligand": "ascr3",
+      "runtime": {
+        "cpu": 4,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "05/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "05/run-01/V110D/af0/seed1919/ascr18",
+      "record_id": "05/run-01/V110D/af0/seed1919",
+      "batch": "05",
+      "variant": "V110D",
+      "alias": "05_v110d",
+      "af_model": 0,
+      "ligand": "ascr18",
+      "runtime": {
+        "cpu": 4,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "05/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "05/run-01/V110E/af0/seed1919/ascr3",
+      "record_id": "05/run-01/V110E/af0/seed1919",
+      "batch": "05",
+      "variant": "V110E",
+      "alias": "05_v110e",
+      "af_model": 0,
+      "ligand": "ascr3",
+      "runtime": {
+        "cpu": 4,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "05/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "05/run-01/V110E/af0/seed1919/ascr18",
+      "record_id": "05/run-01/V110E/af0/seed1919",
+      "batch": "05",
+      "variant": "V110E",
+      "alias": "05_v110e",
+      "af_model": 0,
+      "ligand": "ascr18",
+      "runtime": {
+        "cpu": 4,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "05/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "05/run-01/V110F/af0/seed1919/ascr3",
+      "record_id": "05/run-01/V110F/af0/seed1919",
+      "batch": "05",
+      "variant": "V110F",
+      "alias": "05_v110f",
+      "af_model": 0,
+      "ligand": "ascr3",
+      "runtime": {
+        "cpu": 4,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "05/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "05/run-01/V110F/af0/seed1919/ascr18",
+      "record_id": "05/run-01/V110F/af0/seed1919",
+      "batch": "05",
+      "variant": "V110F",
+      "alias": "05_v110f",
+      "af_model": 0,
+      "ligand": "ascr18",
+      "runtime": {
+        "cpu": 4,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "05/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "05/run-01/V110G/af0/seed1919/ascr3",
+      "record_id": "05/run-01/V110G/af0/seed1919",
+      "batch": "05",
+      "variant": "V110G",
+      "alias": "05_v110g",
+      "af_model": 0,
+      "ligand": "ascr3",
+      "runtime": {
+        "cpu": 4,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "05/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "05/run-01/V110G/af0/seed1919/ascr18",
+      "record_id": "05/run-01/V110G/af0/seed1919",
+      "batch": "05",
+      "variant": "V110G",
+      "alias": "05_v110g",
+      "af_model": 0,
+      "ligand": "ascr18",
+      "runtime": {
+        "cpu": 4,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "05/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "05/run-01/V110H/af0/seed1919/ascr3",
+      "record_id": "05/run-01/V110H/af0/seed1919",
+      "batch": "05",
+      "variant": "V110H",
+      "alias": "05_v110h",
+      "af_model": 0,
+      "ligand": "ascr3",
+      "runtime": {
+        "cpu": 4,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "05/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "05/run-01/V110H/af0/seed1919/ascr18",
+      "record_id": "05/run-01/V110H/af0/seed1919",
+      "batch": "05",
+      "variant": "V110H",
+      "alias": "05_v110h",
+      "af_model": 0,
+      "ligand": "ascr18",
+      "runtime": {
+        "cpu": 4,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "05/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "05/run-01/V110I/af0/seed1919/ascr3",
+      "record_id": "05/run-01/V110I/af0/seed1919",
+      "batch": "05",
+      "variant": "V110I",
+      "alias": "05_v110i",
+      "af_model": 0,
+      "ligand": "ascr3",
+      "runtime": {
+        "cpu": 4,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "05/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "05/run-01/V110I/af0/seed1919/ascr18",
+      "record_id": "05/run-01/V110I/af0/seed1919",
+      "batch": "05",
+      "variant": "V110I",
+      "alias": "05_v110i",
+      "af_model": 0,
+      "ligand": "ascr18",
+      "runtime": {
+        "cpu": 4,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "05/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "05/run-01/V110K/af0/seed1919/ascr3",
+      "record_id": "05/run-01/V110K/af0/seed1919",
+      "batch": "05",
+      "variant": "V110K",
+      "alias": "05_v110k",
+      "af_model": 0,
+      "ligand": "ascr3",
+      "runtime": {
+        "cpu": 4,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "05/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "05/run-01/V110K/af0/seed1919/ascr18",
+      "record_id": "05/run-01/V110K/af0/seed1919",
+      "batch": "05",
+      "variant": "V110K",
+      "alias": "05_v110k",
+      "af_model": 0,
+      "ligand": "ascr18",
+      "runtime": {
+        "cpu": 4,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "05/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "05/run-01/V110L/af0/seed1919/ascr3",
+      "record_id": "05/run-01/V110L/af0/seed1919",
+      "batch": "05",
+      "variant": "V110L",
+      "alias": "05_v110l",
+      "af_model": 0,
+      "ligand": "ascr3",
+      "runtime": {
+        "cpu": 4,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "05/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "05/run-01/V110L/af0/seed1919/ascr18",
+      "record_id": "05/run-01/V110L/af0/seed1919",
+      "batch": "05",
+      "variant": "V110L",
+      "alias": "05_v110l",
+      "af_model": 0,
+      "ligand": "ascr18",
+      "runtime": {
+        "cpu": 4,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "05/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "05/run-01/V110M/af0/seed1919/ascr3",
+      "record_id": "05/run-01/V110M/af0/seed1919",
+      "batch": "05",
+      "variant": "V110M",
+      "alias": "05_v110m",
+      "af_model": 0,
+      "ligand": "ascr3",
+      "runtime": {
+        "cpu": 4,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0,
+        "scoring_function": "vina"
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "05/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "05/run-01/V110M/af0/seed1919/ascr18",
+      "record_id": "05/run-01/V110M/af0/seed1919",
+      "batch": "05",
+      "variant": "V110M",
+      "alias": "05_v110m",
+      "af_model": 0,
+      "ligand": "ascr18",
+      "runtime": {
+        "cpu": 4,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0,
+        "scoring_function": "vina"
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "05/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "05/run-01/V110N/af0/seed1919/ascr3",
+      "record_id": "05/run-01/V110N/af0/seed1919",
+      "batch": "05",
+      "variant": "V110N",
+      "alias": "05_v110n",
+      "af_model": 0,
+      "ligand": "ascr3",
+      "runtime": {
+        "cpu": 4,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "05/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "05/run-01/V110N/af0/seed1919/ascr18",
+      "record_id": "05/run-01/V110N/af0/seed1919",
+      "batch": "05",
+      "variant": "V110N",
+      "alias": "05_v110n",
+      "af_model": 0,
+      "ligand": "ascr18",
+      "runtime": {
+        "cpu": 4,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "05/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "05/run-01/V110P/af0/seed1919/ascr3",
+      "record_id": "05/run-01/V110P/af0/seed1919",
+      "batch": "05",
+      "variant": "V110P",
+      "alias": "05_v110p",
+      "af_model": 0,
+      "ligand": "ascr3",
+      "runtime": {
+        "cpu": 4,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "05/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "05/run-01/V110P/af0/seed1919/ascr18",
+      "record_id": "05/run-01/V110P/af0/seed1919",
+      "batch": "05",
+      "variant": "V110P",
+      "alias": "05_v110p",
+      "af_model": 0,
+      "ligand": "ascr18",
+      "runtime": {
+        "cpu": 4,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "05/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "05/run-01/V110Q/af0/seed1919/ascr3",
+      "record_id": "05/run-01/V110Q/af0/seed1919",
+      "batch": "05",
+      "variant": "V110Q",
+      "alias": "05_v110q",
+      "af_model": 0,
+      "ligand": "ascr3",
+      "runtime": {
+        "cpu": 4,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "05/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "05/run-01/V110Q/af0/seed1919/ascr18",
+      "record_id": "05/run-01/V110Q/af0/seed1919",
+      "batch": "05",
+      "variant": "V110Q",
+      "alias": "05_v110q",
+      "af_model": 0,
+      "ligand": "ascr18",
+      "runtime": {
+        "cpu": 4,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "05/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "05/run-01/V110R/af0/seed1919/ascr3",
+      "record_id": "05/run-01/V110R/af0/seed1919",
+      "batch": "05",
+      "variant": "V110R",
+      "alias": "05_v110r",
+      "af_model": 0,
+      "ligand": "ascr3",
+      "runtime": {
+        "cpu": 4,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "05/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "05/run-01/V110R/af0/seed1919/ascr18",
+      "record_id": "05/run-01/V110R/af0/seed1919",
+      "batch": "05",
+      "variant": "V110R",
+      "alias": "05_v110r",
+      "af_model": 0,
+      "ligand": "ascr18",
+      "runtime": {
+        "cpu": 4,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "05/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "05/run-01/V110S/af0/seed1919/ascr3",
+      "record_id": "05/run-01/V110S/af0/seed1919",
+      "batch": "05",
+      "variant": "V110S",
+      "alias": "05_v110s",
+      "af_model": 0,
+      "ligand": "ascr3",
+      "runtime": {
+        "cpu": 4,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0,
+        "scoring_function": "vina"
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "05/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "05/run-01/V110S/af0/seed1919/ascr18",
+      "record_id": "05/run-01/V110S/af0/seed1919",
+      "batch": "05",
+      "variant": "V110S",
+      "alias": "05_v110s",
+      "af_model": 0,
+      "ligand": "ascr18",
+      "runtime": {
+        "cpu": 4,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0,
+        "scoring_function": "vina"
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "05/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "05/run-01/V110T/af0/seed1919/ascr3",
+      "record_id": "05/run-01/V110T/af0/seed1919",
+      "batch": "05",
+      "variant": "V110T",
+      "alias": "05_v110t",
+      "af_model": 0,
+      "ligand": "ascr3",
+      "runtime": {
+        "cpu": 4,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "05/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "05/run-01/V110T/af0/seed1919/ascr18",
+      "record_id": "05/run-01/V110T/af0/seed1919",
+      "batch": "05",
+      "variant": "V110T",
+      "alias": "05_v110t",
+      "af_model": 0,
+      "ligand": "ascr18",
+      "runtime": {
+        "cpu": 4,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "05/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "05/run-01/V110W/af0/seed1919/ascr3",
+      "record_id": "05/run-01/V110W/af0/seed1919",
+      "batch": "05",
+      "variant": "V110W",
+      "alias": "05_v110w",
+      "af_model": 0,
+      "ligand": "ascr3",
+      "runtime": {
+        "cpu": 4,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "05/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "05/run-01/V110W/af0/seed1919/ascr18",
+      "record_id": "05/run-01/V110W/af0/seed1919",
+      "batch": "05",
+      "variant": "V110W",
+      "alias": "05_v110w",
+      "af_model": 0,
+      "ligand": "ascr18",
+      "runtime": {
+        "cpu": 4,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "05/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "05/run-01/V110Y/af0/seed1919/ascr3",
+      "record_id": "05/run-01/V110Y/af0/seed1919",
+      "batch": "05",
+      "variant": "V110Y",
+      "alias": "05_v110y",
+      "af_model": 0,
+      "ligand": "ascr3",
+      "runtime": {
+        "cpu": 4,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "05/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "05/run-01/V110Y/af0/seed1919/ascr18",
+      "record_id": "05/run-01/V110Y/af0/seed1919",
+      "batch": "05",
+      "variant": "V110Y",
+      "alias": "05_v110y",
+      "af_model": 0,
+      "ligand": "ascr18",
+      "runtime": {
+        "cpu": 4,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "05/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "05/run-01/V368A/af0/seed1919/ascr3",
+      "record_id": "05/run-01/V368A/af0/seed1919",
+      "batch": "05",
+      "variant": "V368A",
+      "alias": "05_v368a",
+      "af_model": 0,
+      "ligand": "ascr3",
+      "runtime": {
+        "cpu": 4,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "05/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "05/run-01/V368A/af0/seed1919/ascr18",
+      "record_id": "05/run-01/V368A/af0/seed1919",
+      "batch": "05",
+      "variant": "V368A",
+      "alias": "05_v368a",
+      "af_model": 0,
+      "ligand": "ascr18",
+      "runtime": {
+        "cpu": 4,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "05/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "05/run-01/V368C/af0/seed1919/ascr3",
+      "record_id": "05/run-01/V368C/af0/seed1919",
+      "batch": "05",
+      "variant": "V368C",
+      "alias": "05_v368c",
+      "af_model": 0,
+      "ligand": "ascr3",
+      "runtime": {
+        "cpu": 4,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "05/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "05/run-01/V368C/af0/seed1919/ascr18",
+      "record_id": "05/run-01/V368C/af0/seed1919",
+      "batch": "05",
+      "variant": "V368C",
+      "alias": "05_v368c",
+      "af_model": 0,
+      "ligand": "ascr18",
+      "runtime": {
+        "cpu": 4,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "05/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "05/run-01/V368D/af0/seed1919/ascr3",
+      "record_id": "05/run-01/V368D/af0/seed1919",
+      "batch": "05",
+      "variant": "V368D",
+      "alias": "05_v368d",
+      "af_model": 0,
+      "ligand": "ascr3",
+      "runtime": {
+        "cpu": 4,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "05/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "05/run-01/V368D/af0/seed1919/ascr18",
+      "record_id": "05/run-01/V368D/af0/seed1919",
+      "batch": "05",
+      "variant": "V368D",
+      "alias": "05_v368d",
+      "af_model": 0,
+      "ligand": "ascr18",
+      "runtime": {
+        "cpu": 4,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "05/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "05/run-01/V368E/af0/seed1919/ascr3",
+      "record_id": "05/run-01/V368E/af0/seed1919",
+      "batch": "05",
+      "variant": "V368E",
+      "alias": "05_v368e",
+      "af_model": 0,
+      "ligand": "ascr3",
+      "runtime": {
+        "cpu": 4,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "05/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "05/run-01/V368E/af0/seed1919/ascr18",
+      "record_id": "05/run-01/V368E/af0/seed1919",
+      "batch": "05",
+      "variant": "V368E",
+      "alias": "05_v368e",
+      "af_model": 0,
+      "ligand": "ascr18",
+      "runtime": {
+        "cpu": 4,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "05/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "05/run-01/V368F/af0/seed1919/ascr3",
+      "record_id": "05/run-01/V368F/af0/seed1919",
+      "batch": "05",
+      "variant": "V368F",
+      "alias": "05_v368f",
+      "af_model": 0,
+      "ligand": "ascr3",
+      "runtime": {
+        "cpu": 4,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "05/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "05/run-01/V368F/af0/seed1919/ascr18",
+      "record_id": "05/run-01/V368F/af0/seed1919",
+      "batch": "05",
+      "variant": "V368F",
+      "alias": "05_v368f",
+      "af_model": 0,
+      "ligand": "ascr18",
+      "runtime": {
+        "cpu": 4,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "05/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "05/run-01/V368G/af0/seed1919/ascr3",
+      "record_id": "05/run-01/V368G/af0/seed1919",
+      "batch": "05",
+      "variant": "V368G",
+      "alias": "05_v368g",
+      "af_model": 0,
+      "ligand": "ascr3",
+      "runtime": {
+        "cpu": 4,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "05/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "05/run-01/V368G/af0/seed1919/ascr18",
+      "record_id": "05/run-01/V368G/af0/seed1919",
+      "batch": "05",
+      "variant": "V368G",
+      "alias": "05_v368g",
+      "af_model": 0,
+      "ligand": "ascr18",
+      "runtime": {
+        "cpu": 4,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "05/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "05/run-01/V368H/af0/seed1919/ascr3",
+      "record_id": "05/run-01/V368H/af0/seed1919",
+      "batch": "05",
+      "variant": "V368H",
+      "alias": "05_v368h",
+      "af_model": 0,
+      "ligand": "ascr3",
+      "runtime": {
+        "cpu": 4,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "05/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "05/run-01/V368H/af0/seed1919/ascr18",
+      "record_id": "05/run-01/V368H/af0/seed1919",
+      "batch": "05",
+      "variant": "V368H",
+      "alias": "05_v368h",
+      "af_model": 0,
+      "ligand": "ascr18",
+      "runtime": {
+        "cpu": 4,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "05/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "05/run-01/V368I/af0/seed1919/ascr3",
+      "record_id": "05/run-01/V368I/af0/seed1919",
+      "batch": "05",
+      "variant": "V368I",
+      "alias": "05_v368i",
+      "af_model": 0,
+      "ligand": "ascr3",
+      "runtime": {
+        "cpu": 4,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "05/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "05/run-01/V368I/af0/seed1919/ascr18",
+      "record_id": "05/run-01/V368I/af0/seed1919",
+      "batch": "05",
+      "variant": "V368I",
+      "alias": "05_v368i",
+      "af_model": 0,
+      "ligand": "ascr18",
+      "runtime": {
+        "cpu": 4,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "05/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "05/run-01/V368K/af0/seed1919/ascr3",
+      "record_id": "05/run-01/V368K/af0/seed1919",
+      "batch": "05",
+      "variant": "V368K",
+      "alias": "05_v368k",
+      "af_model": 0,
+      "ligand": "ascr3",
+      "runtime": {
+        "cpu": 4,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "05/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "05/run-01/V368K/af0/seed1919/ascr18",
+      "record_id": "05/run-01/V368K/af0/seed1919",
+      "batch": "05",
+      "variant": "V368K",
+      "alias": "05_v368k",
+      "af_model": 0,
+      "ligand": "ascr18",
+      "runtime": {
+        "cpu": 4,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "05/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "05/run-01/V368L/af0/seed1919/ascr3",
+      "record_id": "05/run-01/V368L/af0/seed1919",
+      "batch": "05",
+      "variant": "V368L",
+      "alias": "05_v368l",
+      "af_model": 0,
+      "ligand": "ascr3",
+      "runtime": {
+        "cpu": 4,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "05/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "05/run-01/V368L/af0/seed1919/ascr18",
+      "record_id": "05/run-01/V368L/af0/seed1919",
+      "batch": "05",
+      "variant": "V368L",
+      "alias": "05_v368l",
+      "af_model": 0,
+      "ligand": "ascr18",
+      "runtime": {
+        "cpu": 4,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "05/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "05/run-01/V368M/af0/seed1919/ascr3",
+      "record_id": "05/run-01/V368M/af0/seed1919",
+      "batch": "05",
+      "variant": "V368M",
+      "alias": "05_v368m",
+      "af_model": 0,
+      "ligand": "ascr3",
+      "runtime": {
+        "cpu": 4,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "05/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "05/run-01/V368M/af0/seed1919/ascr18",
+      "record_id": "05/run-01/V368M/af0/seed1919",
+      "batch": "05",
+      "variant": "V368M",
+      "alias": "05_v368m",
+      "af_model": 0,
+      "ligand": "ascr18",
+      "runtime": {
+        "cpu": 4,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "05/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "05/run-01/V368N/af0/seed1919/ascr3",
+      "record_id": "05/run-01/V368N/af0/seed1919",
+      "batch": "05",
+      "variant": "V368N",
+      "alias": "05_v368n",
+      "af_model": 0,
+      "ligand": "ascr3",
+      "runtime": {
+        "cpu": 4,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0,
+        "scoring_function": "vina"
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "05/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "05/run-01/V368N/af0/seed1919/ascr18",
+      "record_id": "05/run-01/V368N/af0/seed1919",
+      "batch": "05",
+      "variant": "V368N",
+      "alias": "05_v368n",
+      "af_model": 0,
+      "ligand": "ascr18",
+      "runtime": {
+        "cpu": 4,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0,
+        "scoring_function": "vina"
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "05/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "05/run-01/V368P/af0/seed1919/ascr3",
+      "record_id": "05/run-01/V368P/af0/seed1919",
+      "batch": "05",
+      "variant": "V368P",
+      "alias": "05_v368p",
+      "af_model": 0,
+      "ligand": "ascr3",
+      "runtime": {
+        "cpu": 4,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "05/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "05/run-01/V368P/af0/seed1919/ascr18",
+      "record_id": "05/run-01/V368P/af0/seed1919",
+      "batch": "05",
+      "variant": "V368P",
+      "alias": "05_v368p",
+      "af_model": 0,
+      "ligand": "ascr18",
+      "runtime": {
+        "cpu": 4,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "05/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "05/run-01/V368Q/af0/seed1919/ascr3",
+      "record_id": "05/run-01/V368Q/af0/seed1919",
+      "batch": "05",
+      "variant": "V368Q",
+      "alias": "05_v368q",
+      "af_model": 0,
+      "ligand": "ascr3",
+      "runtime": {
+        "cpu": 4,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0,
+        "scoring_function": "vina"
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "05/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "05/run-01/V368Q/af0/seed1919/ascr18",
+      "record_id": "05/run-01/V368Q/af0/seed1919",
+      "batch": "05",
+      "variant": "V368Q",
+      "alias": "05_v368q",
+      "af_model": 0,
+      "ligand": "ascr18",
+      "runtime": {
+        "cpu": 4,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0,
+        "scoring_function": "vina"
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "05/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "05/run-01/V368R/af0/seed1919/ascr3",
+      "record_id": "05/run-01/V368R/af0/seed1919",
+      "batch": "05",
+      "variant": "V368R",
+      "alias": "05_v368r",
+      "af_model": 0,
+      "ligand": "ascr3",
+      "runtime": {
+        "cpu": 4,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0,
+        "scoring_function": "vina"
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "05/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "05/run-01/V368R/af0/seed1919/ascr18",
+      "record_id": "05/run-01/V368R/af0/seed1919",
+      "batch": "05",
+      "variant": "V368R",
+      "alias": "05_v368r",
+      "af_model": 0,
+      "ligand": "ascr18",
+      "runtime": {
+        "cpu": 4,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0,
+        "scoring_function": "vina"
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "05/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "05/run-01/V368S/af0/seed1919/ascr3",
+      "record_id": "05/run-01/V368S/af0/seed1919",
+      "batch": "05",
+      "variant": "V368S",
+      "alias": "05_v368s",
+      "af_model": 0,
+      "ligand": "ascr3",
+      "runtime": {
+        "cpu": 4,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "05/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "05/run-01/V368S/af0/seed1919/ascr18",
+      "record_id": "05/run-01/V368S/af0/seed1919",
+      "batch": "05",
+      "variant": "V368S",
+      "alias": "05_v368s",
+      "af_model": 0,
+      "ligand": "ascr18",
+      "runtime": {
+        "cpu": 4,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "05/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "05/run-01/V368T/af0/seed1919/ascr3",
+      "record_id": "05/run-01/V368T/af0/seed1919",
+      "batch": "05",
+      "variant": "V368T",
+      "alias": "05_v368t",
+      "af_model": 0,
+      "ligand": "ascr3",
+      "runtime": {
+        "cpu": 4,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "05/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "05/run-01/V368T/af0/seed1919/ascr18",
+      "record_id": "05/run-01/V368T/af0/seed1919",
+      "batch": "05",
+      "variant": "V368T",
+      "alias": "05_v368t",
+      "af_model": 0,
+      "ligand": "ascr18",
+      "runtime": {
+        "cpu": 4,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "05/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "05/run-01/V368W/af0/seed1919/ascr3",
+      "record_id": "05/run-01/V368W/af0/seed1919",
+      "batch": "05",
+      "variant": "V368W",
+      "alias": "05_v368w",
+      "af_model": 0,
+      "ligand": "ascr3",
+      "runtime": {
+        "cpu": 4,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "05/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "05/run-01/V368W/af0/seed1919/ascr18",
+      "record_id": "05/run-01/V368W/af0/seed1919",
+      "batch": "05",
+      "variant": "V368W",
+      "alias": "05_v368w",
+      "af_model": 0,
+      "ligand": "ascr18",
+      "runtime": {
+        "cpu": 4,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "05/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "05/run-01/V368Y/af0/seed1919/ascr3",
+      "record_id": "05/run-01/V368Y/af0/seed1919",
+      "batch": "05",
+      "variant": "V368Y",
+      "alias": "05_v368y",
+      "af_model": 0,
+      "ligand": "ascr3",
+      "runtime": {
+        "cpu": 4,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "05/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "05/run-01/V368Y/af0/seed1919/ascr18",
+      "record_id": "05/run-01/V368Y/af0/seed1919",
+      "batch": "05",
+      "variant": "V368Y",
+      "alias": "05_v368y",
+      "af_model": 0,
+      "ligand": "ascr18",
+      "runtime": {
+        "cpu": 4,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "05/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "06/run-01/baseline/af0/seed1919/ascr3",
+      "record_id": "06/run-01/baseline/af0/seed1919",
+      "batch": "06",
+      "variant": "baseline",
+      "alias": "06_baseline",
+      "af_model": 0,
+      "ligand": "ascr3",
+      "runtime": {
+        "cpu": 4,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "06/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "06/run-01/baseline/af0/seed1919/ascr18",
+      "record_id": "06/run-01/baseline/af0/seed1919",
+      "batch": "06",
+      "variant": "baseline",
+      "alias": "06_baseline",
+      "af_model": 0,
+      "ligand": "ascr18",
+      "runtime": {
+        "cpu": 4,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "06/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "06/run-01/R181K/af0/seed1919/ascr3",
+      "record_id": "06/run-01/R181K/af0/seed1919",
+      "batch": "06",
+      "variant": "R181K",
+      "alias": "06_r181k",
+      "af_model": 0,
+      "ligand": "ascr3",
+      "runtime": {
+        "cpu": 4,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "06/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "06/run-01/R181K/af0/seed1919/ascr18",
+      "record_id": "06/run-01/R181K/af0/seed1919",
+      "batch": "06",
+      "variant": "R181K",
+      "alias": "06_r181k",
+      "af_model": 0,
+      "ligand": "ascr18",
+      "runtime": {
+        "cpu": 4,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "06/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "06/run-01/R181Q/af0/seed1919/ascr3",
+      "record_id": "06/run-01/R181Q/af0/seed1919",
+      "batch": "06",
+      "variant": "R181Q",
+      "alias": "06_r181q",
+      "af_model": 0,
+      "ligand": "ascr3",
+      "runtime": {
+        "cpu": 4,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "06/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "06/run-01/R181Q/af0/seed1919/ascr18",
+      "record_id": "06/run-01/R181Q/af0/seed1919",
+      "batch": "06",
+      "variant": "R181Q",
+      "alias": "06_r181q",
+      "af_model": 0,
+      "ligand": "ascr18",
+      "runtime": {
+        "cpu": 4,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "06/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "06/run-01/T106S/af0/seed1919/ascr3",
+      "record_id": "06/run-01/T106S/af0/seed1919",
+      "batch": "06",
+      "variant": "T106S",
+      "alias": "06_t106s",
+      "af_model": 0,
+      "ligand": "ascr3",
+      "runtime": {
+        "cpu": 4,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "06/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "06/run-01/T106S/af0/seed1919/ascr18",
+      "record_id": "06/run-01/T106S/af0/seed1919",
+      "batch": "06",
+      "variant": "T106S",
+      "alias": "06_t106s",
+      "af_model": 0,
+      "ligand": "ascr18",
+      "runtime": {
+        "cpu": 4,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "06/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "06/run-01/T106V/af0/seed1919/ascr3",
+      "record_id": "06/run-01/T106V/af0/seed1919",
+      "batch": "06",
+      "variant": "T106V",
+      "alias": "06_t106v",
+      "af_model": 0,
+      "ligand": "ascr3",
+      "runtime": {
+        "cpu": 4,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "06/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "06/run-01/T106V/af0/seed1919/ascr18",
+      "record_id": "06/run-01/T106V/af0/seed1919",
+      "batch": "06",
+      "variant": "T106V",
+      "alias": "06_t106v",
+      "af_model": 0,
+      "ligand": "ascr18",
+      "runtime": {
+        "cpu": 4,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "06/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "06/run-01/W338F/af0/seed1919/ascr3",
+      "record_id": "06/run-01/W338F/af0/seed1919",
+      "batch": "06",
+      "variant": "W338F",
+      "alias": "06_w338f",
+      "af_model": 0,
+      "ligand": "ascr3",
+      "runtime": {
+        "cpu": 4,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "06/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "06/run-01/W338F/af0/seed1919/ascr18",
+      "record_id": "06/run-01/W338F/af0/seed1919",
+      "batch": "06",
+      "variant": "W338F",
+      "alias": "06_w338f",
+      "af_model": 0,
+      "ligand": "ascr18",
+      "runtime": {
+        "cpu": 4,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "06/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "06/run-01/W338L/af0/seed1919/ascr3",
+      "record_id": "06/run-01/W338L/af0/seed1919",
+      "batch": "06",
+      "variant": "W338L",
+      "alias": "06_w338l",
+      "af_model": 0,
+      "ligand": "ascr3",
+      "runtime": {
+        "cpu": 4,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "06/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "06/run-01/W338L/af0/seed1919/ascr18",
+      "record_id": "06/run-01/W338L/af0/seed1919",
+      "batch": "06",
+      "variant": "W338L",
+      "alias": "06_w338l",
+      "af_model": 0,
+      "ligand": "ascr18",
+      "runtime": {
+        "cpu": 4,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "06/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "07/run-01/baseline/af0/seed1919/ascr3",
+      "record_id": "07/run-01/baseline/af0/seed1919",
+      "batch": "07",
+      "variant": "baseline",
+      "alias": "07_baseline",
+      "af_model": 0,
+      "ligand": "ascr3",
+      "runtime": {
+        "cpu": 4,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0,
+        "scoring_function": "vina"
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "07/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "07/run-01/baseline/af0/seed1919/ascr18",
+      "record_id": "07/run-01/baseline/af0/seed1919",
+      "batch": "07",
+      "variant": "baseline",
+      "alias": "07_baseline",
+      "af_model": 0,
+      "ligand": "ascr18",
+      "runtime": {
+        "cpu": 4,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0,
+        "scoring_function": "vina"
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "07/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "07/run-01/W338A/af0/seed1919/ascr3",
+      "record_id": "07/run-01/W338A/af0/seed1919",
+      "batch": "07",
+      "variant": "W338A",
+      "alias": "07_w338a",
+      "af_model": 0,
+      "ligand": "ascr3",
+      "runtime": {
+        "cpu": 4,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "07/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "07/run-01/W338A/af0/seed1919/ascr18",
+      "record_id": "07/run-01/W338A/af0/seed1919",
+      "batch": "07",
+      "variant": "W338A",
+      "alias": "07_w338a",
+      "af_model": 0,
+      "ligand": "ascr18",
+      "runtime": {
+        "cpu": 4,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "07/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "07/run-01/W338C/af1/seed1919/ascr3",
+      "record_id": "07/run-01/W338C/af1/seed1919",
+      "batch": "07",
+      "variant": "W338C",
+      "alias": "07_w338c",
+      "af_model": 1,
+      "ligand": "ascr3",
+      "runtime": {
+        "cpu": 4,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "07/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "07/run-01/W338C/af1/seed1919/ascr18",
+      "record_id": "07/run-01/W338C/af1/seed1919",
+      "batch": "07",
+      "variant": "W338C",
+      "alias": "07_w338c",
+      "af_model": 1,
+      "ligand": "ascr18",
+      "runtime": {
+        "cpu": 4,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "07/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "07/run-01/W338D/af0/seed1919/ascr3",
+      "record_id": "07/run-01/W338D/af0/seed1919",
+      "batch": "07",
+      "variant": "W338D",
+      "alias": "07_w338d",
+      "af_model": 0,
+      "ligand": "ascr3",
+      "runtime": {
+        "cpu": 4,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "07/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "07/run-01/W338D/af0/seed1919/ascr18",
+      "record_id": "07/run-01/W338D/af0/seed1919",
+      "batch": "07",
+      "variant": "W338D",
+      "alias": "07_w338d",
+      "af_model": 0,
+      "ligand": "ascr18",
+      "runtime": {
+        "cpu": 4,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "07/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "07/run-01/W338E/af0/seed1919/ascr3",
+      "record_id": "07/run-01/W338E/af0/seed1919",
+      "batch": "07",
+      "variant": "W338E",
+      "alias": "07_w338e",
+      "af_model": 0,
+      "ligand": "ascr3",
+      "runtime": {
+        "cpu": 4,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "07/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "07/run-01/W338E/af0/seed1919/ascr18",
+      "record_id": "07/run-01/W338E/af0/seed1919",
+      "batch": "07",
+      "variant": "W338E",
+      "alias": "07_w338e",
+      "af_model": 0,
+      "ligand": "ascr18",
+      "runtime": {
+        "cpu": 4,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "07/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "07/run-01/W338F/af0/seed1919/ascr3",
+      "record_id": "07/run-01/W338F/af0/seed1919",
+      "batch": "07",
+      "variant": "W338F",
+      "alias": "07_w338f",
+      "af_model": 0,
+      "ligand": "ascr3",
+      "runtime": {
+        "cpu": 4,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0,
+        "scoring_function": "vina"
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "07/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "07/run-01/W338F/af0/seed1919/ascr18",
+      "record_id": "07/run-01/W338F/af0/seed1919",
+      "batch": "07",
+      "variant": "W338F",
+      "alias": "07_w338f",
+      "af_model": 0,
+      "ligand": "ascr18",
+      "runtime": {
+        "cpu": 4,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0,
+        "scoring_function": "vina"
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "07/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "07/run-01/W338G/af0/seed1919/ascr3",
+      "record_id": "07/run-01/W338G/af0/seed1919",
+      "batch": "07",
+      "variant": "W338G",
+      "alias": "07_w338g",
+      "af_model": 0,
+      "ligand": "ascr3",
+      "runtime": {
+        "cpu": 4,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "07/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "07/run-01/W338G/af0/seed1919/ascr18",
+      "record_id": "07/run-01/W338G/af0/seed1919",
+      "batch": "07",
+      "variant": "W338G",
+      "alias": "07_w338g",
+      "af_model": 0,
+      "ligand": "ascr18",
+      "runtime": {
+        "cpu": 4,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "07/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "07/run-01/W338H/af0/seed1919/ascr3",
+      "record_id": "07/run-01/W338H/af0/seed1919",
+      "batch": "07",
+      "variant": "W338H",
+      "alias": "07_w338h",
+      "af_model": 0,
+      "ligand": "ascr3",
+      "runtime": {
+        "cpu": 4,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0,
+        "scoring_function": "vina"
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "07/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "07/run-01/W338H/af0/seed1919/ascr18",
+      "record_id": "07/run-01/W338H/af0/seed1919",
+      "batch": "07",
+      "variant": "W338H",
+      "alias": "07_w338h",
+      "af_model": 0,
+      "ligand": "ascr18",
+      "runtime": {
+        "cpu": 4,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0,
+        "scoring_function": "vina"
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "07/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "07/run-01/W338I/af0/seed1919/ascr3",
+      "record_id": "07/run-01/W338I/af0/seed1919",
+      "batch": "07",
+      "variant": "W338I",
+      "alias": "07_w338i",
+      "af_model": 0,
+      "ligand": "ascr3",
+      "runtime": {
+        "cpu": 4,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "07/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "07/run-01/W338I/af0/seed1919/ascr18",
+      "record_id": "07/run-01/W338I/af0/seed1919",
+      "batch": "07",
+      "variant": "W338I",
+      "alias": "07_w338i",
+      "af_model": 0,
+      "ligand": "ascr18",
+      "runtime": {
+        "cpu": 4,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "07/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "07/run-01/W338K/af0/seed1919/ascr3",
+      "record_id": "07/run-01/W338K/af0/seed1919",
+      "batch": "07",
+      "variant": "W338K",
+      "alias": "07_w338k",
+      "af_model": 0,
+      "ligand": "ascr3",
+      "runtime": {
+        "cpu": 4,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "07/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "07/run-01/W338K/af0/seed1919/ascr18",
+      "record_id": "07/run-01/W338K/af0/seed1919",
+      "batch": "07",
+      "variant": "W338K",
+      "alias": "07_w338k",
+      "af_model": 0,
+      "ligand": "ascr18",
+      "runtime": {
+        "cpu": 4,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "07/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "07/run-01/W338L/af0/seed1919/ascr3",
+      "record_id": "07/run-01/W338L/af0/seed1919",
+      "batch": "07",
+      "variant": "W338L",
+      "alias": "07_w338l",
+      "af_model": 0,
+      "ligand": "ascr3",
+      "runtime": {
+        "cpu": 4,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0,
+        "scoring_function": "vina"
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "07/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "07/run-01/W338L/af0/seed1919/ascr18",
+      "record_id": "07/run-01/W338L/af0/seed1919",
+      "batch": "07",
+      "variant": "W338L",
+      "alias": "07_w338l",
+      "af_model": 0,
+      "ligand": "ascr18",
+      "runtime": {
+        "cpu": 4,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0,
+        "scoring_function": "vina"
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "07/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "07/run-01/W338M/af0/seed1919/ascr3",
+      "record_id": "07/run-01/W338M/af0/seed1919",
+      "batch": "07",
+      "variant": "W338M",
+      "alias": "07_w338m",
+      "af_model": 0,
+      "ligand": "ascr3",
+      "runtime": {
+        "cpu": 4,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "07/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "07/run-01/W338M/af0/seed1919/ascr18",
+      "record_id": "07/run-01/W338M/af0/seed1919",
+      "batch": "07",
+      "variant": "W338M",
+      "alias": "07_w338m",
+      "af_model": 0,
+      "ligand": "ascr18",
+      "runtime": {
+        "cpu": 4,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "07/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "07/run-01/W338N/af0/seed1919/ascr3",
+      "record_id": "07/run-01/W338N/af0/seed1919",
+      "batch": "07",
+      "variant": "W338N",
+      "alias": "07_w338n",
+      "af_model": 0,
+      "ligand": "ascr3",
+      "runtime": {
+        "cpu": 4,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "07/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "07/run-01/W338N/af0/seed1919/ascr18",
+      "record_id": "07/run-01/W338N/af0/seed1919",
+      "batch": "07",
+      "variant": "W338N",
+      "alias": "07_w338n",
+      "af_model": 0,
+      "ligand": "ascr18",
+      "runtime": {
+        "cpu": 4,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "07/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "07/run-01/W338P/af0/seed1919/ascr3",
+      "record_id": "07/run-01/W338P/af0/seed1919",
+      "batch": "07",
+      "variant": "W338P",
+      "alias": "07_w338p",
+      "af_model": 0,
+      "ligand": "ascr3",
+      "runtime": {
+        "cpu": 4,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "07/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "07/run-01/W338P/af0/seed1919/ascr18",
+      "record_id": "07/run-01/W338P/af0/seed1919",
+      "batch": "07",
+      "variant": "W338P",
+      "alias": "07_w338p",
+      "af_model": 0,
+      "ligand": "ascr18",
+      "runtime": {
+        "cpu": 4,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "07/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "07/run-01/W338Q/af0/seed1919/ascr3",
+      "record_id": "07/run-01/W338Q/af0/seed1919",
+      "batch": "07",
+      "variant": "W338Q",
+      "alias": "07_w338q",
+      "af_model": 0,
+      "ligand": "ascr3",
+      "runtime": {
+        "cpu": 4,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0,
+        "scoring_function": "vina"
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "07/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "07/run-01/W338Q/af0/seed1919/ascr18",
+      "record_id": "07/run-01/W338Q/af0/seed1919",
+      "batch": "07",
+      "variant": "W338Q",
+      "alias": "07_w338q",
+      "af_model": 0,
+      "ligand": "ascr18",
+      "runtime": {
+        "cpu": 4,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0,
+        "scoring_function": "vina"
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "07/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "07/run-01/W338R/af0/seed1919/ascr3",
+      "record_id": "07/run-01/W338R/af0/seed1919",
+      "batch": "07",
+      "variant": "W338R",
+      "alias": "07_w338r",
+      "af_model": 0,
+      "ligand": "ascr3",
+      "runtime": {
+        "cpu": 4,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "07/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "07/run-01/W338R/af0/seed1919/ascr18",
+      "record_id": "07/run-01/W338R/af0/seed1919",
+      "batch": "07",
+      "variant": "W338R",
+      "alias": "07_w338r",
+      "af_model": 0,
+      "ligand": "ascr18",
+      "runtime": {
+        "cpu": 4,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "07/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "07/run-01/W338S/af0/seed1919/ascr3",
+      "record_id": "07/run-01/W338S/af0/seed1919",
+      "batch": "07",
+      "variant": "W338S",
+      "alias": "07_w338s",
+      "af_model": 0,
+      "ligand": "ascr3",
+      "runtime": {
+        "cpu": 4,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "07/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "07/run-01/W338S/af0/seed1919/ascr18",
+      "record_id": "07/run-01/W338S/af0/seed1919",
+      "batch": "07",
+      "variant": "W338S",
+      "alias": "07_w338s",
+      "af_model": 0,
+      "ligand": "ascr18",
+      "runtime": {
+        "cpu": 4,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "07/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "07/run-01/W338T/af0/seed1919/ascr3",
+      "record_id": "07/run-01/W338T/af0/seed1919",
+      "batch": "07",
+      "variant": "W338T",
+      "alias": "07_w338t",
+      "af_model": 0,
+      "ligand": "ascr3",
+      "runtime": {
+        "cpu": 4,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "07/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "07/run-01/W338T/af0/seed1919/ascr18",
+      "record_id": "07/run-01/W338T/af0/seed1919",
+      "batch": "07",
+      "variant": "W338T",
+      "alias": "07_w338t",
+      "af_model": 0,
+      "ligand": "ascr18",
+      "runtime": {
+        "cpu": 4,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "07/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "07/run-01/W338V/af0/seed1919/ascr3",
+      "record_id": "07/run-01/W338V/af0/seed1919",
+      "batch": "07",
+      "variant": "W338V",
+      "alias": "07_w338v",
+      "af_model": 0,
+      "ligand": "ascr3",
+      "runtime": {
+        "cpu": 4,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "07/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "07/run-01/W338V/af0/seed1919/ascr18",
+      "record_id": "07/run-01/W338V/af0/seed1919",
+      "batch": "07",
+      "variant": "W338V",
+      "alias": "07_w338v",
+      "af_model": 0,
+      "ligand": "ascr18",
+      "runtime": {
+        "cpu": 4,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "07/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "07/run-01/W338Y/af0/seed1919/ascr3",
+      "record_id": "07/run-01/W338Y/af0/seed1919",
+      "batch": "07",
+      "variant": "W338Y",
+      "alias": "07_w338y",
+      "af_model": 0,
+      "ligand": "ascr3",
+      "runtime": {
+        "cpu": 4,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "07/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "07/run-01/W338Y/af0/seed1919/ascr18",
+      "record_id": "07/run-01/W338Y/af0/seed1919",
+      "batch": "07",
+      "variant": "W338Y",
+      "alias": "07_w338y",
+      "af_model": 0,
+      "ligand": "ascr18",
+      "runtime": {
+        "cpu": 4,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "07/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "08/run-01/N84L_V110M/af0/seed1919/ascr3",
+      "record_id": "08/run-01/N84L_V110M/af0/seed1919",
+      "batch": "08",
+      "variant": "N84L_V110M",
+      "alias": "08_n84l_v110m",
+      "af_model": 0,
+      "ligand": "ascr3",
+      "runtime": {
+        "cpu": 4,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "05/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "08/run-01/N84L_V110M/af0/seed1919/ascr18",
+      "record_id": "08/run-01/N84L_V110M/af0/seed1919",
+      "batch": "08",
+      "variant": "N84L_V110M",
+      "alias": "08_n84l_v110m",
+      "af_model": 0,
+      "ligand": "ascr18",
+      "runtime": {
+        "cpu": 4,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "05/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "08/run-01/N84L_V368Q/af0/seed1919/ascr3",
+      "record_id": "08/run-01/N84L_V368Q/af0/seed1919",
+      "batch": "08",
+      "variant": "N84L_V368Q",
+      "alias": "08_n84l_v368q",
+      "af_model": 0,
+      "ligand": "ascr3",
+      "runtime": {
+        "cpu": 4,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "05/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "08/run-01/N84L_V368Q/af0/seed1919/ascr18",
+      "record_id": "08/run-01/N84L_V368Q/af0/seed1919",
+      "batch": "08",
+      "variant": "N84L_V368Q",
+      "alias": "08_n84l_v368q",
+      "af_model": 0,
+      "ligand": "ascr18",
+      "runtime": {
+        "cpu": 4,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "05/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "08/run-01/N84L_V368R/af0/seed1919/ascr3",
+      "record_id": "08/run-01/N84L_V368R/af0/seed1919",
+      "batch": "08",
+      "variant": "N84L_V368R",
+      "alias": "08_n84l_v368r",
+      "af_model": 0,
+      "ligand": "ascr3",
+      "runtime": {
+        "cpu": 4,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "05/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "08/run-01/N84L_V368R/af0/seed1919/ascr18",
+      "record_id": "08/run-01/N84L_V368R/af0/seed1919",
+      "batch": "08",
+      "variant": "N84L_V368R",
+      "alias": "08_n84l_v368r",
+      "af_model": 0,
+      "ligand": "ascr18",
+      "runtime": {
+        "cpu": 4,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "05/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "08/run-01/N84T_V110C/af0/seed1919/ascr3",
+      "record_id": "08/run-01/N84T_V110C/af0/seed1919",
+      "batch": "08",
+      "variant": "N84T_V110C",
+      "alias": "08_n84t_v110c",
+      "af_model": 0,
+      "ligand": "ascr3",
+      "runtime": {
+        "cpu": 4,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "05/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "08/run-01/N84T_V110C/af0/seed1919/ascr18",
+      "record_id": "08/run-01/N84T_V110C/af0/seed1919",
+      "batch": "08",
+      "variant": "N84T_V110C",
+      "alias": "08_n84t_v110c",
+      "af_model": 0,
+      "ligand": "ascr18",
+      "runtime": {
+        "cpu": 4,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "05/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "08/run-01/N84T_V110S/af0/seed1919/ascr3",
+      "record_id": "08/run-01/N84T_V110S/af0/seed1919",
+      "batch": "08",
+      "variant": "N84T_V110S",
+      "alias": "08_n84t_v110s",
+      "af_model": 0,
+      "ligand": "ascr3",
+      "runtime": {
+        "cpu": 4,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "05/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "08/run-01/N84T_V110S/af0/seed1919/ascr18",
+      "record_id": "08/run-01/N84T_V110S/af0/seed1919",
+      "batch": "08",
+      "variant": "N84T_V110S",
+      "alias": "08_n84t_v110s",
+      "af_model": 0,
+      "ligand": "ascr18",
+      "runtime": {
+        "cpu": 4,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "05/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "08/run-01/N84V_V110C/af0/seed1919/ascr3",
+      "record_id": "08/run-01/N84V_V110C/af0/seed1919",
+      "batch": "08",
+      "variant": "N84V_V110C",
+      "alias": "08_n84v_v110c",
+      "af_model": 0,
+      "ligand": "ascr3",
+      "runtime": {
+        "cpu": 4,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "05/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "08/run-01/N84V_V110C/af0/seed1919/ascr18",
+      "record_id": "08/run-01/N84V_V110C/af0/seed1919",
+      "batch": "08",
+      "variant": "N84V_V110C",
+      "alias": "08_n84v_v110c",
+      "af_model": 0,
+      "ligand": "ascr18",
+      "runtime": {
+        "cpu": 4,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "05/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "08/run-01/N84V_V110S/af0/seed1919/ascr3",
+      "record_id": "08/run-01/N84V_V110S/af0/seed1919",
+      "batch": "08",
+      "variant": "N84V_V110S",
+      "alias": "08_n84v_v110s",
+      "af_model": 0,
+      "ligand": "ascr3",
+      "runtime": {
+        "cpu": 4,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "05/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "08/run-01/N84V_V110S/af0/seed1919/ascr18",
+      "record_id": "08/run-01/N84V_V110S/af0/seed1919",
+      "batch": "08",
+      "variant": "N84V_V110S",
+      "alias": "08_n84v_v110s",
+      "af_model": 0,
+      "ligand": "ascr18",
+      "runtime": {
+        "cpu": 4,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "05/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "08/run-01/N84V_V368N/af0/seed1919/ascr3",
+      "record_id": "08/run-01/N84V_V368N/af0/seed1919",
+      "batch": "08",
+      "variant": "N84V_V368N",
+      "alias": "08_n84v_v368n",
+      "af_model": 0,
+      "ligand": "ascr3",
+      "runtime": {
+        "cpu": 4,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "05/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "08/run-01/N84V_V368N/af0/seed1919/ascr18",
+      "record_id": "08/run-01/N84V_V368N/af0/seed1919",
+      "batch": "08",
+      "variant": "N84V_V368N",
+      "alias": "08_n84v_v368n",
+      "af_model": 0,
+      "ligand": "ascr18",
+      "runtime": {
+        "cpu": 4,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "05/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "08/run-01/N84Y_V368N/af0/seed1919/ascr3",
+      "record_id": "08/run-01/N84Y_V368N/af0/seed1919",
+      "batch": "08",
+      "variant": "N84Y_V368N",
+      "alias": "08_n84y_v368n",
+      "af_model": 0,
+      "ligand": "ascr3",
+      "runtime": {
+        "cpu": 4,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "05/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "08/run-01/N84Y_V368N/af0/seed1919/ascr18",
+      "record_id": "08/run-01/N84Y_V368N/af0/seed1919",
+      "batch": "08",
+      "variant": "N84Y_V368N",
+      "alias": "08_n84y_v368n",
+      "af_model": 0,
+      "ligand": "ascr18",
+      "runtime": {
+        "cpu": 4,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "05/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "08/run-01/N84Y_V368Q/af0/seed1919/ascr3",
+      "record_id": "08/run-01/N84Y_V368Q/af0/seed1919",
+      "batch": "08",
+      "variant": "N84Y_V368Q",
+      "alias": "08_n84y_v368q",
+      "af_model": 0,
+      "ligand": "ascr3",
+      "runtime": {
+        "cpu": 4,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "05/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "08/run-01/N84Y_V368Q/af0/seed1919/ascr18",
+      "record_id": "08/run-01/N84Y_V368Q/af0/seed1919",
+      "batch": "08",
+      "variant": "N84Y_V368Q",
+      "alias": "08_n84y_v368q",
+      "af_model": 0,
+      "ligand": "ascr18",
+      "runtime": {
+        "cpu": 4,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "05/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "08/run-01/N84Y_V368R/af0/seed1919/ascr3",
+      "record_id": "08/run-01/N84Y_V368R/af0/seed1919",
+      "batch": "08",
+      "variant": "N84Y_V368R",
+      "alias": "08_n84y_v368r",
+      "af_model": 0,
+      "ligand": "ascr3",
+      "runtime": {
+        "cpu": 4,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "05/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "08/run-01/N84Y_V368R/af0/seed1919/ascr18",
+      "record_id": "08/run-01/N84Y_V368R/af0/seed1919",
+      "batch": "08",
+      "variant": "N84Y_V368R",
+      "alias": "08_n84y_v368r",
+      "af_model": 0,
+      "ligand": "ascr18",
+      "runtime": {
+        "cpu": 4,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "05/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "08/run-01/V110C_W338F/af0/seed1919/ascr3",
+      "record_id": "08/run-01/V110C_W338F/af0/seed1919",
+      "batch": "08",
+      "variant": "V110C_W338F",
+      "alias": "08_v110c_w338f",
+      "af_model": 0,
+      "ligand": "ascr3",
+      "runtime": {
+        "cpu": 4,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "05/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "08/run-01/V110C_W338F/af0/seed1919/ascr18",
+      "record_id": "08/run-01/V110C_W338F/af0/seed1919",
+      "batch": "08",
+      "variant": "V110C_W338F",
+      "alias": "08_v110c_w338f",
+      "af_model": 0,
+      "ligand": "ascr18",
+      "runtime": {
+        "cpu": 4,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "05/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "08/run-01/V110C_W338H/af0/seed1919/ascr3",
+      "record_id": "08/run-01/V110C_W338H/af0/seed1919",
+      "batch": "08",
+      "variant": "V110C_W338H",
+      "alias": "08_v110c_w338h",
+      "af_model": 0,
+      "ligand": "ascr3",
+      "runtime": {
+        "cpu": 4,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "05/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "08/run-01/V110C_W338H/af0/seed1919/ascr18",
+      "record_id": "08/run-01/V110C_W338H/af0/seed1919",
+      "batch": "08",
+      "variant": "V110C_W338H",
+      "alias": "08_v110c_w338h",
+      "af_model": 0,
+      "ligand": "ascr18",
+      "runtime": {
+        "cpu": 4,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "05/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "08/run-01/V110C_W338L/af0/seed1919/ascr3",
+      "record_id": "08/run-01/V110C_W338L/af0/seed1919",
+      "batch": "08",
+      "variant": "V110C_W338L",
+      "alias": "08_v110c_w338l",
+      "af_model": 0,
+      "ligand": "ascr3",
+      "runtime": {
+        "cpu": 4,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "05/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "08/run-01/V110C_W338L/af0/seed1919/ascr18",
+      "record_id": "08/run-01/V110C_W338L/af0/seed1919",
+      "batch": "08",
+      "variant": "V110C_W338L",
+      "alias": "08_v110c_w338l",
+      "af_model": 0,
+      "ligand": "ascr18",
+      "runtime": {
+        "cpu": 4,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "05/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "08/run-01/V110M_W338Q/af0/seed1919/ascr3",
+      "record_id": "08/run-01/V110M_W338Q/af0/seed1919",
+      "batch": "08",
+      "variant": "V110M_W338Q",
+      "alias": "08_v110m_w338q",
+      "af_model": 0,
+      "ligand": "ascr3",
+      "runtime": {
+        "cpu": 4,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "05/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "08/run-01/V110M_W338Q/af0/seed1919/ascr18",
+      "record_id": "08/run-01/V110M_W338Q/af0/seed1919",
+      "batch": "08",
+      "variant": "V110M_W338Q",
+      "alias": "08_v110m_w338q",
+      "af_model": 0,
+      "ligand": "ascr18",
+      "runtime": {
+        "cpu": 4,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "05/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "08/run-01/V110S_W338F/af0/seed1919/ascr3",
+      "record_id": "08/run-01/V110S_W338F/af0/seed1919",
+      "batch": "08",
+      "variant": "V110S_W338F",
+      "alias": "08_v110s_w338f",
+      "af_model": 0,
+      "ligand": "ascr3",
+      "runtime": {
+        "cpu": 4,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "05/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "08/run-01/V110S_W338F/af0/seed1919/ascr18",
+      "record_id": "08/run-01/V110S_W338F/af0/seed1919",
+      "batch": "08",
+      "variant": "V110S_W338F",
+      "alias": "08_v110s_w338f",
+      "af_model": 0,
+      "ligand": "ascr18",
+      "runtime": {
+        "cpu": 4,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "05/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "08/run-01/V110S_W338H/af0/seed1919/ascr3",
+      "record_id": "08/run-01/V110S_W338H/af0/seed1919",
+      "batch": "08",
+      "variant": "V110S_W338H",
+      "alias": "08_v110s_w338h",
+      "af_model": 0,
+      "ligand": "ascr3",
+      "runtime": {
+        "cpu": 4,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "05/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "08/run-01/V110S_W338H/af0/seed1919/ascr18",
+      "record_id": "08/run-01/V110S_W338H/af0/seed1919",
+      "batch": "08",
+      "variant": "V110S_W338H",
+      "alias": "08_v110s_w338h",
+      "af_model": 0,
+      "ligand": "ascr18",
+      "runtime": {
+        "cpu": 4,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "05/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "08/run-01/V110S_W338L/af0/seed1919/ascr3",
+      "record_id": "08/run-01/V110S_W338L/af0/seed1919",
+      "batch": "08",
+      "variant": "V110S_W338L",
+      "alias": "08_v110s_w338l",
+      "af_model": 0,
+      "ligand": "ascr3",
+      "runtime": {
+        "cpu": 4,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "05/run-01/baseline/af0/seed1919"
+    },
+    {
+      "run_id": "08/run-01/V110S_W338L/af0/seed1919/ascr18",
+      "record_id": "08/run-01/V110S_W338L/af0/seed1919",
+      "batch": "08",
+      "variant": "V110S_W338L",
+      "alias": "08_v110s_w338l",
+      "af_model": 0,
+      "ligand": "ascr18",
+      "runtime": {
+        "cpu": 4,
+        "spacing": 0.375,
+        "min_rmsd": 1.0,
+        "max_evals": 0
+      },
+      "contact_parameters": {},
+      "baseline_record_id": "05/run-01/baseline/af0/seed1919"
+    }
+  ]
+}

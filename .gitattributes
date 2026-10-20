@@ -1,0 +1,11 @@
+*.py text eol=lf
+*.md text eol=lf
+*.json -text
+*.csv -text
+*.tsv -text
+*.png binary
+*.tar.gz binary
+*.zip binary
+
+# Preserve chemical input serialization.
+studies/receptor-engineering/molecular-dynamics/configs/*.sdf -text whitespace=-blank-at-eol

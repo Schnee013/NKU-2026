@@ -1,0 +1,40 @@
+{
+  "purpose": "Exploratory search for persistent direct polar patterns beyond shared Arg345, without new MD",
+  "primary_window_ns": [
+    50,
+    100
+  ],
+  "exploratory_window_ns": 20,
+  "exploratory_stride_ns": 10,
+  "target_min": 0.7,
+  "control_max": 0.2,
+  "two_adjacent_10ns_blocks_required": true,
+  "gap_tolerance_ns": 0.05,
+  "hbond": {
+    "primary": {
+      "donor_acceptor_max_A": 3.2,
+      "H_acceptor_max_A": 2.4,
+      "DHA_min_deg": 150
+    },
+    "tight": {
+      "donor_acceptor_max_A": 3.0,
+      "H_acceptor_max_A": 2.4,
+      "DHA_min_deg": 150
+    },
+    "relaxed": {
+      "donor_acceptor_max_A": 3.5,
+      "H_acceptor_max_A": 2.6,
+      "DHA_min_deg": 135
+    }
+  },
+  "salt_cutoffs_A": {
+    "primary": 4.0,
+    "tight": 3.5,
+    "relaxed": 4.5
+  },
+  "scope": "All 406 receptor residues, all ligand N/O donor/acceptor groups, both hydrogen-bond directions; ARG/LYS/charged HIS and protonated N-terminal cations versus ligand carboxylate.",
+  "combinations": "Simultaneous AND across distinct receptor residues, all orders reaching frequency threshold. Multiple atom pairs form a union within a residue/ligand-group/direction/sidechain-or-backbone feature.",
+  "water_scope": "Direct protein-ligand contacts only. Processed inputs exclude solvent; no water-mediated or energetic-strength claim.",
+  "interpretation": "Passing patterns are single-trajectory candidate anchoring states, not mutant causality or affinity rankings. Full and prespecified sliding windows and all failures retained.",
+  "frozen_at_utc": "2026-10-16T08:32:58.271752+00:00"
+}
